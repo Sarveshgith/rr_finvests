@@ -1,0 +1,60 @@
+/* src/components/FirmPage.css */
+
+.firm-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;     
+  padding: 20px;
+  text-align: center;
+  min-height: 20vh;       
+}
+
+.firm-page h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.horizontal-line {
+  width: 50%;              /* Adjust line width */
+  border: none;
+  border-top: 1px solid #333; /* Black line */
+  margin: 10px 0;         /* Space between lines */
+}
+
+.firm-description {
+  margin: 20px 0;
+  padding: 10px;
+  max-width: 600px;       /* Limit max width for description */
+}
+
+.firm-description p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #666;
+}
+
+.firm-stats {
+  display: flex;
+  justify-content: space-around; /* Even space between stats */
+  width: 100%;
+  max-width: 800px;  /* Limit width of stats section */
+  margin-top: 30px;
+}
+
+.firm-stat {
+  text-align: center;
+}
+
+.firm-stat h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.firm-stat p {
+  font-size: 1.2rem;
+  color: #666;
+  margin: 0;
+}

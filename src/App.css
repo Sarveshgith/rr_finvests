@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+body {
+  font-family: 'Roboto', sans-serif;
+}
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +38,68 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.investment-page, .firm-page {
+  margin: 20px;
+  padding: 20px;
+}
+
+.investment-info, .firm-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-section, .image-section, .firm-stats {
+  width: 48%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* GetQuote.css */
+.container {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.quote-card {
+  background-color: #f0f0f0;
+  padding: 20px;
+  width: 600px;
+  margin: 20px auto;
+  border-radius: 15px;
+}
+
+.image-placeholder {
+  background-color: #ccc;
+  width: 550px;
+  height: 150px;
+  margin: 0 auto 15px;
+  border-radius: 10px;
+}
+
+.input-section {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #aaa;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
 }

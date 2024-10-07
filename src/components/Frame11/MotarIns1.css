@@ -1,0 +1,18 @@
+.motar-ins1-content1{
+    height: 400px;
+    width: 300px;
+    background-color: gainsboro;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    border-radius: 60px;
+}
+
+.motar-ins1-content2{
+    margin-top: 15%;
+}
+.btn{
+    border-radius: 70px;
+    background-color: gainsboro;
+    color: white;
+    
+}

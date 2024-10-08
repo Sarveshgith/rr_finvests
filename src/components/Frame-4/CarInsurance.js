@@ -1,4 +1,4 @@
-// CarInsurance.js
+
 import React from 'react';
 import './CarInsurance.css';
 

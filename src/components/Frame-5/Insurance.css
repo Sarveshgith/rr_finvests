@@ -1,0 +1,65 @@
+.insurance-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #888888;
+}
+
+.title {
+  font-family: 'Arial', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.insurance-content {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1200px;
+  flex-wrap: wrap;
+}
+
+.insurance-card {
+  background-color: #888888;
+  border-radius: 100px;
+  padding: 20px;
+  margin: 10px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.insurance-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.insurance-details {
+  margin-top: 15px;
+  text-align: left;
+  font-family: 'Arial', sans-serif;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .insurance-card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .insurance-card {
+    padding: 15px;
+  }
+
+  .insurance-details {
+    font-size: 0.8rem;
+  }
+}

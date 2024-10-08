@@ -1,7 +1,6 @@
-// src/components/FirmPage.js
 import React from 'react';
 import CountUp from 'react-countup';
-import './FirmPage.css'; // Ensure to import the CSS file
+import './FirmPage.css'; 
 
 const FirmPage = () => {
   return (

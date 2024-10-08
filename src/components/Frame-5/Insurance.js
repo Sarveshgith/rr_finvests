@@ -1,5 +1,5 @@
 import React from 'react';
-import './HealthInsurance.css';
+import './Insurance.css';
 
 const HealthInsurance = () => {
   return (

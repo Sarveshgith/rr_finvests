@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-top: 20px;
+    font-family: "Comic Sans MS", sans-serif;
+    text-align: center;
+    color: #000;
+  }
+  
+  .quote-container {
+    width: 200%;
+    padding: 80px;
+    margin-bottom: 0px;
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #dbdbdb;
+  }
+  
+  .quote-form {
+    background-color: #aaaaaa;
+    border-radius: 50px;
+    width: 800px;
+    max-width: 1000px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px; /* Adds space between the title and the form */
+  }
+  
+  .input-container {
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: center;
+    
+  }
+  
+  input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .quote-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .quote-btn:hover {
+    background-color: #444;
+  }
+  
+  @media (max-width: 768px) {
+    .quote-form {
+      width: 95%;
+      padding: 20px;
+      border-radius: 40px;
+    }
+  
+    input[type="text"], input[type="email"] {
+      font-size: 14px;
+    }
+  }

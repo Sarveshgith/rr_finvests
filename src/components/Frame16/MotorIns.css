@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.insurance-container5 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 40px;
+	font-family: 'Arial', sans-serif;
+	background-color: #a3a3a3;
+}
+
+h1 {
+	font-size: 2.5rem;
+	margin-bottom: 40px;
+	color: #333;
+}
+
+.insurance-cards5 {
+	display: flex;
+	justify-content: space-between;
+	gap: 100px;
+	max-width: 1200px;
+	flex-wrap: wrap;
+}
+
+.card5 {
+	background-color: #a3a3a3;
+	border-radius: 20px;
+	width: 200px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	height: 500px;
+}
+
+.image-placeholder5 {
+	width: 250px;
+	height: 300px;
+	background-color: #4b4b4b;
+	border-radius: 50px;
+	margin-bottom: 20px;
+}
+
+.text-placeholder5 {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.text-placeholder5 p {
+	color: #555;
+	font-size: 0.9rem;
+	margin-bottom: 10px;
+}
+
+.next-button5 {
+	background-color: #bebcbc;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.next-button5:hover {
+	background-color: #b3b3b3;
+}
+
+@media (max-width: 768px) {
+	.insurance-cards5 {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.card5 {
+		width: 100%;
+		max-width: 300px;
+	}
+}

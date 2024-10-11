@@ -1,5 +1,8 @@
 body {
 	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 h1 {
@@ -11,10 +14,9 @@ h1 {
 }
 
 .quote-container {
-	width: 200%;
-	padding: 80px;
+	width: 100%;
+	padding: 40px;
 	margin-bottom: 0px;
-	max-width: 100%;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -26,7 +28,7 @@ h1 {
 .quote-form {
 	background-color: #aaaaaa;
 	border-radius: 50px;
-	width: 800px;
+	width: 80%;
 	max-width: 1000px;
 	padding: 40px;
 	display: flex;
@@ -51,6 +53,7 @@ input[type='email'] {
 	border: 1px solid #ccc;
 	box-sizing: border-box;
 	text-align: center;
+	font-size: 16px;
 }
 
 .quote-btn {
@@ -67,7 +70,17 @@ input[type='email'] {
 	background-color: #444;
 }
 
+@media (max-width: 1200px) {
+	.quote-form {
+		width: 90%;
+	}
+}
+
 @media (max-width: 768px) {
+	h1 {
+		font-size: 24px;
+	}
+
 	.quote-form {
 		width: 95%;
 		padding: 20px;
@@ -76,6 +89,28 @@ input[type='email'] {
 
 	input[type='text'],
 	input[type='email'] {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 480px) {
+	h1 {
+		font-size: 20px;
+	}
+
+	.quote-form {
+		padding: 15px;
+		border-radius: 30px;
+	}
+
+	input[type='text'],
+	input[type='email'] {
+		padding: 8px;
+		font-size: 12px;
+	}
+
+	.quote-btn {
+		padding: 8px 16px;
 		font-size: 14px;
 	}
 }

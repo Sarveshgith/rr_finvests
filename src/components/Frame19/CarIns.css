@@ -1,0 +1,58 @@
+/* CarInsurance.css */
+.container {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffffff;
+  }
+  
+  .large-card {
+    background-color: #fefefe;
+    padding: 20px;
+    width: 90%; /* Use percentage instead of fixed width for responsiveness */
+    max-width: 600px; /* Keep the max width for larger screens */
+    margin: 20px auto;
+   
+  }
+  
+  .image-placeholder {
+    background-color: #ccc;
+    width: 700px; /* Make the image container take full width */
+    height: auto;
+    padding-top: 50%; /* Aspect ratio 16:9 for responsive images */
+    margin: 0 -50px;
+    border-radius: 20px;
+    position: relative; /* Maintain position for responsive scaling */
+  }
+  
+  button {
+    background-color: #aaa;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  /* Media Query for Tablets */
+  @media (max-width: 768px) {
+    .large-card {
+      width: 95%; /* Make card wider to use more space on smaller screens */
+    }
+  
+    button {
+      padding: 8px;
+    }
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media (max-width: 480px) {
+    .large-card {
+      padding: 15px;
+    }
+  
+    button {
+      padding: 6px;
+      font-size: 14px; /* Adjust button font size */
+    }
+  }
+  

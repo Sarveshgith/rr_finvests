@@ -1,7 +1,33 @@
 .header-content1{
     margin-top: 13%;
 }
+
+.header-content3{
+  margin-top: 13%;
+}
 .btn{
   border-color: black !important;
-  margin-left: 50% !important;
+  margin: 0 !important;
+  margin-top: 2% !important;
+  color: black !important;
 }
+@media (max-width:993px) {
+  .header-content1{
+    font-size: 20px;
+  }
+  .header-content2{
+    font-size: 20px;
+  }
+  .header-content3{
+    font-size: 14px;
+  }
+  
+}
+
+@media (max-width:430px) {
+
+  .header-content3{
+    font-size: 12px;
+  }
+}
+

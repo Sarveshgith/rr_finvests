@@ -17,7 +17,7 @@ const Header = () => {
             <Nav.Link href="#">ABOUT</Nav.Link>
             <Nav.Link href="#">TOOLS</Nav.Link>
           </Nav>
-        <Navbar.Brand href="#">RR FINVESTS</Navbar.Brand>
+          <Navbar.Brand href="#">RR FINVESTS</Navbar.Brand>
         <Nav className="ms-auto">
             <Nav.Link href="#">NEWS & INSIGHTS</Nav.Link>
             <Nav.Link href="#">WHAT WE DO</Nav.Link>
@@ -28,10 +28,10 @@ const Header = () => {
     </div>
     <div>
         <h2 className='text-center header-content1'>MAKE INTELLIGENT INVESTMENTS</h2>
-        <h2 className='text-center'>WITH US</h2>
+        <h2 className='text-center header-content2'>WITH US</h2>
     </div>
     <div className='text-center'>
-        <h6 className=' header-content1' >JOIN US TODAY AND LET YOUR MONEY WORK HARD AS YOU DO</h6>
+        <h6 className=' header-content3' >JOIN US TODAY AND LET YOUR MONEY WORK HARD AS YOU DO</h6>
         <Button variant="light" className='btn'>Button</Button>
     </div>
 </>

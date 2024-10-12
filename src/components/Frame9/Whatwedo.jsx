@@ -4,7 +4,11 @@ const Whatwedo = () => {
   return (
     <>
     <div className='whole'>
-    <div className='center'></div>
+      
+    <div className='center text-center'>
+      <h2 >RR</h2>
+      <h2>FINVESTS</h2>
+    </div>
     <div className='top-left'></div>
     <div className='top-middle'></div>
     <div className='top-right'></div>

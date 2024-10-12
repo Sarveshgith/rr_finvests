@@ -43,20 +43,6 @@ const App = () => {
 		</div>
 	);
 };
-  return (
-    <div className='app'>
-      <Header />
-      <Home />
-      <Home1 />
-      <News />
-      <Whatwedo />
-      <Mf />
-      <MotarIns1 />
-      <HealthIns1 />
-      <Ins1 />
-      <Ins2 />
-    </div>
-  )
-}
+  
 
 export default App;

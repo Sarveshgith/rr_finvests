@@ -28,13 +28,13 @@ const App = () => {
 			<Home />
 			<Home1 />
 			<News />
+			<Whatwedo />
 			<Mf />
+			<Insurance />
 			<MotarIns1 />
 			<HealthIns1 />
 			<Ins1 />
 			<Ins2 />
-			<Whatwedo />
-			<Insurance />
 			<MotorInsuranceCard />
 			<HealthInsurance />
 			<InsuranceCard />

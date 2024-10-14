@@ -1,5 +1,5 @@
 import React from 'react'
-import CarInsuranceQuote from './components/Frame20/CarInsQuote';
+import CarInsuranceQuote from '../../components/Frame20/CarInsQuote';
 
 const CarIns1 = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Insurance.css';
-
+import { Link } from 'react-router-dom';
 const HealthInsurance = () => {
 	return (
 		<div className='insurance-container'>
@@ -8,11 +8,11 @@ const HealthInsurance = () => {
 			<div className='insurance-content'>
 				{/* Card 1 */}
 				<div className='insurance-card'>
-					<img
+					<Link to='/vite-project/Insurance'> <img
 						src='https://via.placeholder.com/300x200'
 						alt='Stock Image 1'
 						className='insurance-image'
-					/>
+					/></Link>
 					<div className='insurance-details'>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 						<p>Curabitur et semper nibh. Aenean at risus vel.</p>

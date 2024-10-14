@@ -1,5 +1,5 @@
 import React from 'react'
-import CarInsurance from './components/Frame19/CarIns';
+import CarInsurance from '../../components/Frame19/CarIns';
 const CarIns = () => {
   return (
     <div>

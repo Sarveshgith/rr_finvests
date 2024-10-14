@@ -1,5 +1,5 @@
 import React from 'react'
-import Ins1 from './components/Frame13/Ins1';
+import Ins1 from '../../components/Frame13/Ins1';
 const Insurance1 = () => {
   return (
     <div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import './CarIns.css';
-
+import { Link } from 'react-router-dom';
 const CarInsurance = () => {
 	return (
 		<div className='container'>
@@ -10,7 +10,7 @@ const CarInsurance = () => {
 				<p>Lorem ipsum dolor sit amet.</p>
 				<p>Consectetur adipiscing elit.</p>
 				<p>Sed do eiusmod tempor.</p>
-				<button>Next ➜</button>
+				<Link to='/vite-project/CarIns1'><button>Next ➜</button></Link>
 			</div>
 		</div>
 	);

@@ -6,20 +6,20 @@ import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 const Header = () => {
   return (
-    <>
+    <div className='Header'>
     <div >
       <Navbar expand="lg" className="bg-body-tertiary">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/vite-project/">HOME</Nav.Link>
-            <Nav.Link href="#">ABOUT</Nav.Link>
-            <Nav.Link href="#">TOOLS</Nav.Link>
+            <Nav.Link href="/vite-project/about">ABOUT</Nav.Link>
+            <Nav.Link href="/vite-project/tools">TOOLS</Nav.Link>
           </Nav>
-          <Navbar.Brand href="#">RR FINVESTS</Navbar.Brand>
+          <Navbar.Brand href="#">   RR FINVESTS</Navbar.Brand>
         <Nav className="ms-auto">
-            <Nav.Link href="#">NEWS & INSIGHTS</Nav.Link>
-            <Nav.Link href="#">WHAT WE DO</Nav.Link>
+            <Nav.Link href="/vite-project/news">NEWS & INSIGHTS</Nav.Link>
+            <Nav.Link href="/vite-project/whatwedo">WHAT WE DO</Nav.Link>
           </Nav>
         </Navbar.Collapse>
     </Navbar>
@@ -30,9 +30,9 @@ const Header = () => {
     </div>
     <div className='text-center'>
         <h6 className=' header-content3' >JOIN US TODAY AND LET YOUR MONEY WORK HARD AS YOU DO</h6>
-        <Button variant="light" className='btn'>Button</Button>
+        <Button variant="light" className='btn'>Connect with Us</Button>
     </div>
-</>
+</div>
   )
 }
 

@@ -3,11 +3,17 @@
     margin-left: 23%;
     margin-bottom: 2%;
 }
-
+.heading1{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-style:normal;
+    font-size: 40px;
+}
 .home-content3{
     text-align: center;
     margin-left: 25%;
     margin-right: 25%;
+    font-family: "Caudex", serif;
 
 }
  @media (max-width:1025px) {

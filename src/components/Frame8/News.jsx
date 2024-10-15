@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 const News = () => {
   return (
     <>
-    <h1 className='text-center mt-5 mb-5'>NEWS</h1>
+    <h1 className='text-center mt-5 mb-5 heading2'>NEWS</h1>
     <div>
     <Container>
       <Row>

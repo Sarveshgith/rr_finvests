@@ -4,7 +4,7 @@ import './CarInsQuote.css';
 const CarInsuranceQuote = () => {
 	return (
 		<div className='quote-container'>
-			<h1>Car Insurance - Get Quote</h1>
+			<h1 className='heading2'>CAR INSURANCE-GET QUOTE</h1>
 			<div className='quote-form'>
 				<form>
 					<div className='input-container'>

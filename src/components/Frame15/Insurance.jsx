@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const HealthInsurance = () => {
 	return (
 		<div className='insurance-container'>
-			<h1 className='title'> Insurance</h1>
+			<h1 className='title'> INSURANCES</h1>
 			<div className='insurance-content'>
 				{/* Card 1 */}
 				<div className='insurance-card'>
@@ -14,9 +14,7 @@ const HealthInsurance = () => {
 						className='insurance-image'
 					/></Link>
 					<div className='insurance-details'>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-						<p>Curabitur et semper nibh. Aenean at risus vel.</p>
-						<p>Vestibulum ante ipsum primis in faucibus orci luctus.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero repudiandae architecto eaque? Excepturi, quia! Facilis sapiente necessitatibus quam ipsa unde placeat, eos, molestiae repellendus quo aut perferendis fugit commodi similique.</p>
 					</div>
 				</div>
 				{/* Card 2 */}
@@ -27,9 +25,7 @@ const HealthInsurance = () => {
 						className='insurance-image'
 					/>
 					<div className='insurance-details'>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-						<p>Curabitur et semper nibh. Aenean at risus vel.</p>
-						<p>Vestibulum ante ipsum primis in faucibus orci luctus.</p>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium modi velit in, nemo laudantium et. Veniam minima similique illum, enim fugiat nulla, numquam nostrum unde, ipsum esse blanditiis! Beatae, quod.</p>
 					</div>
 				</div>
 			</div>

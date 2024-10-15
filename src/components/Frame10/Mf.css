@@ -18,15 +18,30 @@
     position: relative;
     margin-top: 35%;
     margin-bottom: 8%;
+    height: 200px;
+}
+.Mf-content2 p{
+    font-family: "Caudex", serif;
+    margin-left: 10%;
 }
 .Mf-content3{
-    margin-top: 10%;
+    margin-top: 5%;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-style:normal;
+    font-size: 40px;
 }
-
+.heading3{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-style:normal;
+    font-size: 30px;
+}
 .input1{
     width: 250px;
     margin-top: 50px;
     border-color: black ;
+    font-family: "Caudex", serif;
 }
 .btn1{
     margin-top: 5% !important;
@@ -34,6 +49,7 @@
     width: 200px !important;
     background-color: black !important;
     color: white !important;
+    font-family: "Caudex", serif;
 }
 
 @media (max-width:1025px) {

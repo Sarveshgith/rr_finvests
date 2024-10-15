@@ -11,12 +11,20 @@ import HealthIns from './pages/HealthInsurance/HealthIns';
 import Insurance1 from './pages/Insurance1/Insurance1';
 import Insurance2 from './pages/Insurance2/Insurance2';
 import MotorInsurance from './pages/MotorInsurance/MotorInsurance';
+import Mutualfunds from './pages/Mutualfunds/Mutualfunds';
+import Main_ins1 from './pages/main_insurance/Main_ins1';
+import Pms from './pages/PMS/Pms';
+import Aif from './pages/AIF/Aif';
+import Money_exch from './pages/Moneyexchange/Money_exch';
+import Loan_s from './pages/Loans/Loan_s';
 
 const App = () => {
 	return (
 		<div className='app'>
 			<Routes >
 				<Route path='/vite-project/' element={<Main />} />
+				<Route path='/vite-project/Mutualfunds' element={<Mutualfunds />} />
+				<Route path='/vite-project/Main_ins1' element={<Main_ins1 />} />
 				<Route path='/vite-project/Insurance' element={<Insurances />} />
 				<Route path='/vite-project/MotorIns' element={<MotorInsurance />} />
 				<Route path='/vite-project/MotorIns1' element={<MotorIns1 />} />
@@ -26,6 +34,10 @@ const App = () => {
 				<Route path='/vite-project/HealthIns1' element={<HealthIns1 />} />
 				<Route path='/vite-project/Ins1' element={<Insurance1 />} />
 				<Route path='/vite-project/Ins2' element={<Insurance2 />} />
+				<Route path='/vite-project/PMS' element={<Pms />} />
+				<Route path='/vite-project/AIF' element={<Aif />} />
+				<Route path='/vite-project/Moneyexc' element={<Money_exch />} />
+				<Route path='/vite-project/Loans' element={<Loan_s />} />
             </Routes>
 		</div>
 	);

@@ -10,7 +10,7 @@ const HealthInsurance = () => {
 				<div className='insurance-card'>
 					<img
 						src='https://via.placeholder.com/300x200'
-						alt='Stock Image 1'
+						alt=''
 						className='insurance-image'
 					/>
 					<div className='insurance-details'>
@@ -24,7 +24,7 @@ const HealthInsurance = () => {
 				<div className='insurance-card'>
 					<img
 						src='https://via.placeholder.com/300x200'
-						alt='Stock Image 2'
+						alt=''
 						className='insurance-image'
 					/>
 					<div className='insurance-details'>

@@ -5,11 +5,17 @@
     margin-top: 10%;
     margin-right: 5%;
 }
-
+.heading2{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-style:normal;
+    font-size: 40px;
+}
 .news-content1{
     margin-left: 10%;
     margin-top: 10px;
     margin-bottom: 30%;
+    font-family: "Caudex", serif;
 }
 
 @media (max-width:993px) {

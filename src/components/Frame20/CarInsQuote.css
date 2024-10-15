@@ -7,20 +7,19 @@ body {
 
 h1 {
 	font-size: 32px;
-	margin-top: 20px;
 	font-family: 'Comic Sans MS', sans-serif;
 	text-align: center;
 	color: #000;
+	margin-top: 5%;
 }
 
 .quote-container {
 	width: 100%;
-	padding: 40px;
+	height: 100vh;
 	margin-bottom: 0px;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
 	background-color: #dbdbdb;
 }
@@ -35,7 +34,7 @@ h1 {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin-top: 40px; /* Adds space between the title and the form */
+	margin-top: 5%; /* Adds space between the title and the form */
 }
 
 .input-container {
@@ -54,6 +53,7 @@ input[type='email'] {
 	box-sizing: border-box;
 	text-align: center;
 	font-size: 16px;
+	font-family: "Caudex", serif;
 }
 
 .quote-btn {

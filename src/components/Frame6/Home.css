@@ -5,7 +5,11 @@
     height: 500px;
 }
 .home-content1{
-    margin-top: 40%; 
+    margin-top: 15%; 
+    font-size: 18px;
+    line-height: 2.5;
+    letter-spacing: 1px;
+    font-family: "Caudex", serif;
 }
 .home-content2{
     margin-left: 65%;

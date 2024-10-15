@@ -15,7 +15,7 @@ const Home = () => {
         </Col>
         <Col lg={6} >
         <div className='home-content1'>
-        <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur modi maxime error voluptates ab praesentium quibusdam, voluptas officiis suscipit excepturi expedita libero, non officia, facere ut quidem? Sequi modi culpa architecto nesciunt corrupti autem adipisci atque, inventore, aliquam porro a incidunt optio similique, nemo expedita eveniet ea? Hic possimus tenetur placeat optio sint dignissimos numquam ipsa corporis debitis animi labore exercitationem voluptates molestiae sunt voluptatem provident in, ea cupiditate delectus. Quae minima maiores ullam hic velit reiciendis deserunt ipsum odit nostrum similique possimus molestiae quo illo expedita tempore perspiciatis veniam, laborum doloribus quibusdam tempora. Rem consequatur libero ducimus possimus ratione.</p>
+        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum amet ea voluptate ratione blanditiis cupiditate, deleniti dignissimos doloremque fugiat, veniam repellat eveniet nam tenetur. Quisquam, libero iure illo odit temporibus impedit repellendus. Debitis nisi modi laboriosam quae, assumenda tempora, amet adipisci perspiciatis odio placeat esse molestiae! Suscipit pariatur aut aliquam sint beatae. Cumque beatae aliquam laborum. Veritatis iusto doloribus nam voluptate beatae, aut eos voluptatibus voluptates veniam dicta omnis. Tempore!,aut eos voluptatibus voluptates veniam dicta omnis. Tempore!</p>
         <div className='home-content2' >
             <p>Rakesh Jayaprakash</p>
             <p>Founder & CEO</p>

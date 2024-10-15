@@ -10,7 +10,7 @@
 	align-items: center;
 	padding: 10px;
 	font-family: 'Arial', sans-serif;
-	background-color: #c8c3c3;
+	height: 100vh;
 }
 
 h1 {
@@ -22,13 +22,12 @@ h1 {
 .insurance-cards4 {
 	display: flex;
 	justify-content: space-between;
-	gap: 100px;
+	gap: 120px;
 	max-width: 1200px;
 	flex-wrap: wrap;
 }
 
 .card4 {
-	background-color: #c8c3c3;
 	border-radius: 20px;
 	width: 200px;
 	padding: 20px;
@@ -51,6 +50,7 @@ h1 {
 	width: 100%;
 	text-align: center;
 	margin-bottom: 20px;
+	font-family: "Caudex", serif;
 }
 
 .text-placeholder4 p {
@@ -60,16 +60,19 @@ h1 {
 }
 
 .next-button4 {
-	background-color: #888686;
+	background-color: black;
+    color: white;
 	border: none;
 	padding: 10px 20px;
 	border-radius: 20px;
 	cursor: pointer;
 	transition: background-color 0.3s;
+	font-family: "Caudex", serif;
 }
 
 .next-button4:hover {
-	background-color: #b3b3b3;
+	background-color: gainsboro;
+	color: black;
 }
 
 @media (max-width: 768px) {

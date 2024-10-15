@@ -4,7 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 const Home1 = () => {
   return (
     <>
-    <div><h2 className='text-center mt-5'>Portfolio Spotlight</h2></div>
+    <div><h1 className='text-center mt-5 heading1'>Portfolio Spotlight</h1></div>
     <div className='home-img2'>
       <Carousel data-bs-theme="dark">
       <Carousel.Item>

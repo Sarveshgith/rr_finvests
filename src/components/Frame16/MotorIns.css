@@ -10,7 +10,6 @@
 	align-items: center;
 	padding: 40px;
 	font-family: 'Arial', sans-serif;
-	background-color: #a3a3a3;
 }
 
 h1 {
@@ -22,13 +21,12 @@ h1 {
 .insurance-cards5 {
 	display: flex;
 	justify-content: space-between;
-	gap: 100px;
+	gap: 130px;
 	max-width: 1200px;
 	flex-wrap: wrap;
 }
 
 .card5 {
-	background-color: #a3a3a3;
 	border-radius: 20px;
 	width: 200px;
 	padding: 20px;
@@ -45,6 +43,7 @@ h1 {
 	background-color: #4b4b4b;
 	border-radius: 50px;
 	margin-bottom: 20px;
+	
 }
 
 .text-placeholder5 {
@@ -57,10 +56,12 @@ h1 {
 	color: #555;
 	font-size: 0.9rem;
 	margin-bottom: 10px;
+	font-family: "Caudex", serif;
 }
 
 .next-button5 {
-	background-color: #bebcbc;
+	background-color: black;
+    color: white;
 	border: none;
 	padding: 10px 20px;
 	border-radius: 20px;
@@ -69,7 +70,8 @@ h1 {
 }
 
 .next-button5:hover {
-	background-color: #b3b3b3;
+	background-color: gainsboro;
+    color: black;
 }
 
 @media (max-width: 768px) {

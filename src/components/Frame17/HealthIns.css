@@ -3,7 +3,6 @@
 	flex-direction: column;
 	align-items: center;
 	padding: 20px;
-	background-color: #888888;
 }
 
 .title {
@@ -21,7 +20,7 @@
 }
 
 .insurance-card {
-	background-color: #888888;
+	background-color: white !important;
 	border-radius: 10px;
 	padding: 20px;
 	margin: 10px;
@@ -49,13 +48,13 @@
 	font-size: 1rem;
 	border: none;
 	border-radius: 50px;
-	background-color: #787878;
-	color: rgb(255, 255, 255);
+	background-color: black;
+    color: white;
 	cursor: pointer;
 }
 
 .next-button:hover {
-	background-color: #716f6f;
+	
 }
 
 @media (max-width: 768px) {

@@ -16,3 +16,11 @@
     margin-top: 3%;
     font-family: "Caudex", serif;
 }
+
+@media (max-width:480px) {
+    .frame21-img1{
+        width: 300px;
+        height: 200px;
+        margin-left: 15%;
+    }
+}

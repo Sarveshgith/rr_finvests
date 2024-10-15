@@ -8,6 +8,9 @@ const Header = () => {
     <div className='Header'>
     <div >
       <Navbar expand="lg" className="bg-body-tertiary">
+        <Nav>
+        <Navbar.Brand className='hide1'>   RR FINVESTS</Navbar.Brand>
+        </Nav>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -15,10 +18,10 @@ const Header = () => {
             <Nav.Link href="/vite-project/about">ABOUT</Nav.Link>
             <Nav.Link href="/vite-project/tools">TOOLS</Nav.Link>
           </Nav>
-          <Navbar.Brand href="#">   RR FINVESTS</Navbar.Brand>
+          <Navbar.Brand href="#" className='hide2'>   RR FINVESTS</Navbar.Brand>
         <Nav className="ms-auto">
             <Nav.Link href="/vite-project/news">NEWS & INSIGHTS</Nav.Link>
-            <Nav.Link href="/vite-project/whatwedo">WHAT WE DO</Nav.Link>
+            <Nav.Link href="/vite-project/#Whatwedo">WHAT WE DO</Nav.Link>
           </Nav>
         </Navbar.Collapse>
     </Navbar>

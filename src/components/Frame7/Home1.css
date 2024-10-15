@@ -3,11 +3,11 @@
     margin-left: 23%;
     margin-bottom: 2%;
 }
-.heading1{
+.heading5{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-style:normal;
-    font-size: 40px;
+    font-size: 30px;
 }
 .home-content3{
     text-align: center;
@@ -63,15 +63,18 @@
     }
  }
 
- @media (max-width:450px) {
+ @media (max-width:480px) {
     .home-img2{
         width: 350px;
         margin-left: 10%;
     }
     .home-content3{
-        font-size: 12px;
-        margin-left: 15%;
-        margin-right: 15%;
+        font-size: 18px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .heading5{
+        margin-top: 70% !important;
     }
  }
  

@@ -5,7 +5,7 @@ import './About.css';
 function App() {
 	return (
 		<div className='container1'>
-			<h1 className='heading1'>How Investments Are Intelligent With Us</h1>
+			<h1 className='heading1'>HOW INVESTMENTS ARE INTELLIGENT WITH US</h1>
 			<div className='content1'>
 				<div className='text1'>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.

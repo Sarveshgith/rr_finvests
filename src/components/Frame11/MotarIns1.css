@@ -75,19 +75,20 @@
     }
     
 }
-@media (max-width:430px) {
+@media (max-width:480px) {
     .motar-ins1-content1{
         height: 250px !important;
         width: 300px !important;
     }
     .motar-ins1-content2{
-        font-size: 12px;
-        margin-left: 10% !important;
+        font-size: 16px;
+        margin-left: 5% !important;
         width: 350px !important;
-        height: 280px !important;
+        height: 470px !important;
     }
     .btn2{
-        margin-left: 20% !important;
+        margin-left: 5% !important;
+        margin-bottom: 5% !important;
     }
     
 }

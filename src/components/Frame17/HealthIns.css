@@ -65,13 +65,16 @@
 
 @media (max-width: 480px) {
 	.title {
-		font-size: 1.5rem;
+		font-size: 30px !important;
+		font-weight: 500;
 	}
 
 	.insurance-card {
 		padding: 15px;
 	}
-
+    .insurance-details p{
+		font-size: 16px;
+	}
 	.next-button {
 		padding: 8px 16px;
 		font-size: 0.9rem;

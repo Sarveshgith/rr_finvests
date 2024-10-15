@@ -61,13 +61,18 @@
     .home-img1{
         width: 300px;
         height: 250px;
-        margin-left: 16%;
+        margin-left: 13%;
     }
     .home-content1{
         height: 270px;
     }
     .home-content1 p{
-        font-size: 11px;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 1px;
+    }
+    .home-content2{
+        margin-left: 40%;
     }
     
 }

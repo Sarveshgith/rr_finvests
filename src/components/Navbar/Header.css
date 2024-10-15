@@ -25,7 +25,12 @@
   margin-right: 15px;
   margin-left:30px;
 }
-
+.hide1{
+  display: none;
+}
+.hide2{
+  font-family: "Noto",serif;
+}
 
 .raleway .ms-auto a {
   font-family: "Raleway", sans-serif;
@@ -96,6 +101,14 @@ a.navbar-brand{
   .header-content3{
     font-size: 18px;
   }
+  .navbar-toggler.collapsed{
+    margin-left: 8%;
+    margin-top: 1%;
+  }
+  .navbar-toggler{
+    margin-left: 8%;
+    margin-bottom: 0 !important;
+  }
   .btn{
     border-color: black !important;
     margin: 0 !important;
@@ -104,6 +117,17 @@ a.navbar-brand{
     width:100px;
     height:30px;  
     font-size:10px;
+  }
+  .hide1{
+    display: block;
+    font-family:"Noto",serif ;
+    margin-left: 10%;
+  }
+  .hide2{
+    display: none;
+  }
+  a.nav-link{
+    margin-left: 40px;
   }
 }
 

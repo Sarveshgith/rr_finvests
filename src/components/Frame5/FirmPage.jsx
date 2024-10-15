@@ -5,7 +5,7 @@ import './FirmPage.css';
 const FirmPage = () => {
   return (
     <div className="firm-page">
-      <h1>The Firm</h1>
+      <h1 className='heading2'>THE FIRM</h1>
     
       
       {/* Lorem Ipsum text */}

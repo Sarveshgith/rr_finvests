@@ -1,6 +1,7 @@
 .whole{
     height: 120vh;
     position: relative;
+    
 }
 .center{
     width: 200px;
@@ -160,49 +161,61 @@
 }
 
 @media (max-width:480px) {
+    .whole{
+        height: 90vh;
+        position: relative;
+        
+    }
     .bottom-left{
         width: 120px;
         height: 120px;
         left: 5%;
         top: 57%;
+        border-radius: 10px;
     }
     .top-left{
         width: 120px;
         height: 120px;
+        border-radius: 10px;
         left: 5%;
         top: 31%;
     }
     .bottom-right{
         width: 120px;
         height: 120px;
-        left: 74%;
+        left: 71%;
         top: 57%;
+        border-radius: 10px;
 
     }
     .top-right{
         width: 120px;
         height: 120px;
-        left: 74%;
+        left: 71%;
         top: 31%;
+        border-radius: 10px;
     }
     .bottom-middle{
         width: 120px;
         height: 120px;
-        left: 40%;
-        top: 68%;
+        left: 38%;
+        top: 57%;
+        border-radius: 10px;
         
     }
     .top-middle{
         width: 120px;
         height: 120px;
-        left: 40%;
-        top: 19%; 
+        left: 38%;
+        top: 31%; 
+        border-radius: 10px;
     }
     .center{
         width: 150px;
-        height: 150px;
+        height: 100px;
+        border-radius: 10px;
         left: 36%;
-        top: 42%;
+        top: 9%;
     }
     
 }

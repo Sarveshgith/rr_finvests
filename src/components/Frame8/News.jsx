@@ -8,7 +8,6 @@ const News = () => {
     <>
     <h1 className='text-center mt-5 mb-5 heading2'>NEWS</h1>
     <div>
-    <Container>
       <Row>
         <Col lg="4" sm="12">
         <div className='news-img'>
@@ -25,7 +24,6 @@ const News = () => {
         <p className='news-content1 text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ipsum voluptate ipsam aut earum officia consequuntur dolorem quas magni fugit!</p>
         </div></Col>
       </Row>
-    </Container>
     </div>
     </>
   )

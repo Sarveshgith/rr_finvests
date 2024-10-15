@@ -30,17 +30,16 @@
   }
   
   .firm-description p {
-    font-size: 1rem;
+    font-size: 18px;
     line-height: 1.5;
     color: #666;
+    font-family: "Caudex", serif;
   }
   
   .firm-stats {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
     width: 100%;
-    max-width: 800px;
+    max-width: 1200px;
     margin-top: 30px;
   }
   
@@ -48,6 +47,7 @@
     text-align: center;
     flex-basis: 30%;
     margin-bottom: 20px;
+    width: 200px;
   }
   
   .firm-stat h2 {
@@ -61,6 +61,7 @@
     font-size: 1.2rem;
     color: #666;
     margin: 0;
+    font-family:"Caudex", serif ;
   }
   
   @media (max-width: 768px) {
@@ -95,7 +96,8 @@
   
   @media (max-width: 480px) {
     .firm-page h1 {
-      font-size: 1.5rem;
+      font-size: 30px;
+      font-weight: 500;
     }
   
     .horizontal-line {
@@ -103,20 +105,16 @@
     }
   
     .firm-description p {
-      font-size: 0.85rem;
+     font-size: 18px;
     }
   
-    .firm-stats {
-      flex-direction: column;
-      align-items: center;
-    }
   
     .firm-stat {
-      flex-basis: 100%;
+      flex-basis: 50%;
     }
   
     .firm-stat h2 {
-      font-size: 2rem;
+      font-size: 25px;
     }
   
     .firm-stat p {

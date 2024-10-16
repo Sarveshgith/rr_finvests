@@ -6,7 +6,7 @@ const PMS = () => {
       <div className="frame21-content1">
         <h1>PORTFOLIO MANAGEMENT SERVICE</h1>
         <img src="pic1.jpg" alt="" className='frame21-img1' />
-        <p className='text-center frame21-content2'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam neque repellat nesciunt animi repellendus doloremque excepturi voluptas quaerat totam? Quia quidem assumenda sunt sint eaque esse? Iusto voluptate maxime ipsum!</p>
+        <p className='text-center frame21-content2'>Portfolio Management Service (PMS) is a professional financial service where skilled portfolio managers and stock market professionals manage your equity portfolio with the assistance of a research team. Many investors have equity portfolios in their Demat Account but managing them can be a challenge. PMS is a systematic approach to maximise returns while minimising the risk factor on your investments. It enables you to make sound decisions that are supported by extensive research and factual data without lifting a finger. Additionally, it better prepares you to deal with market adversity.</p>
       </div>
     </div>
   )

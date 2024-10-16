@@ -22,7 +22,7 @@ const Mf = () => {
     </div>
     <div className='Mf-content2'>
       <Row className='justify-content-md-center'>
-        <Col lg="5" md="6"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit illum ullam ipsam a dolorem? Natus nostrum incidunt temporibus. Libero quaerat necessitatibus porro dolorem aliquid. Neque iusto nihil ut harum recusandae voluptate similique necessitatibus consectetur, rem accusamus dolores quam expedita doloribus autem vel exercitationem quaerat corrupti at. Eveniet eum ut accusamus!</p></Col>
+        <Col lg="5" md="6"><p>A Mutual Fund is a company that pools money from many investors and invests the money in securities such as stocks, bonds, and short-term debt. The combined holdings of the mutual fund are known as its portfolio. Investors buy shares in mutual funds. Each share represents an investor's part ownership in the fund and the income it generates.</p></Col>
         <Col lg="5" md="6"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt suscipit repellat nemo molestias rerum quam nulla, hic est fugit sapiente quibusdam ipsum, aliquam iure id, alias accusamus. Cupiditate, est sed officiis vel nisi voluptatum, sapiente sit non quos nesciunt distinctio enim accusantium blanditiis sunt. Recusandae explicabo placeat quis facilis voluptatum.</p></Col>
       </Row>
     </div>

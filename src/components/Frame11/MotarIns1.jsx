@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 const MotarIns1 = () => {
   return (
     <>
-    <h1 className='text-center motar-ins1-content3'>MOTAR INSURANCE</h1>
+    <h1 className='text-center motar-ins1-content3'>MOTOR INSURANCE</h1>
     <Container>
       <Row>
         <Col sm="12" md="4" lg="4"><div className='motar-ins1-content1'></div></Col>

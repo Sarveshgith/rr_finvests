@@ -14,8 +14,8 @@ const Mf = () => {
         <div className='Mf-content1' >
             <h1 className='text-center heading3'>Customer login</h1>
         <Row className='justify-content-md-center'>
-        <Col lg="3" sm="12" md="4"><Form.Control type="text" placeholder="PAN (not optional)" className='input1' /></Col>
-        <Col lg="3" sm="12" md="4"><Form.Control type="text" placeholder="Mobile Number(Not required)" className='input1' /></Col>
+        <Col lg="3" sm="12" md="4"><Form.Control type="text" placeholder="PAN (required)" className='input1' /></Col>
+        <Col lg="3" sm="12" md="4"><Form.Control type="text" placeholder="Mobile Number (required)" className='input1' /></Col>
         </Row>
             <Button variant="dark" className='btn1'> Login</Button>
         </div>

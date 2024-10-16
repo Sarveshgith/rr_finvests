@@ -21,7 +21,7 @@ const Header = () => {
           <Navbar.Brand href="#" className='hide2'>   RR FINVESTS</Navbar.Brand>
         <Nav className="ms-auto">
             <Nav.Link href="/vite-project/news">NEWS & INSIGHTS</Nav.Link>
-            <Nav.Link href="/vite-project/#Whatwedo">WHAT WE DO</Nav.Link>
+            <Nav.Link href="/vite-project/Whatwedo">WHAT WE DO</Nav.Link>
           </Nav>
         </Navbar.Collapse>
     </Navbar>

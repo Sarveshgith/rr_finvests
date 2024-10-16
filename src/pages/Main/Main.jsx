@@ -6,7 +6,6 @@ import Home from '../../components/Frame6/Home';
 import Home1 from '../../components/Frame7/Home1';
 
 import News from '../../components/Frame8/News';
-import Whatwedo from '../../components/Frame9/Whatwedo';
 const Main = () => {
   return (
     <div>
@@ -16,7 +15,6 @@ const Main = () => {
 			<Home />
 			<Home1 />
 			<News />
-			<Whatwedo />
     </div>
   )
 }

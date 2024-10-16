@@ -17,12 +17,14 @@ import Pms from './pages/PMS/Pms';
 import Aif from './pages/AIF/Aif';
 import Money_exch from './pages/Moneyexchange/Money_exch';
 import Loan_s from './pages/Loans/Loan_s';
+import WhatWeDo from './pages/WhatWeDo/WhatWeDo';
 
 const App = () => {
 	return (
 		<div className='app'>
 			<Routes >
 				<Route path='/vite-project/' element={<Main />} />
+				<Route path='/vite-project/Whatwedo' element={<WhatWeDo />} />
 				<Route path='/vite-project/Mutualfunds' element={<Mutualfunds />} />
 				<Route path='/vite-project/Main_ins1' element={<Main_ins1 />} />
 				<Route path='/vite-project/Insurance' element={<Insurances />} />

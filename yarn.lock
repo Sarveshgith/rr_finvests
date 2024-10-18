@@ -326,10 +326,10 @@
   dependencies:
     "@swc/helpers" "^0.5.0"
 
-"@remix-run/router@1.19.2":
-  "integrity" "sha512-baiMx18+IMuD1yyvOGaHM9QrVUPGGG0jC+z+IPHnRJWUAUvaKuWKyE8gjDj2rzv3sz9zOGoRSPgeBVHRhZnBlA=="
-  "resolved" "https://registry.npmjs.org/@remix-run/router/-/router-1.19.2.tgz"
-  "version" "1.19.2"
+"@remix-run/router@1.20.0":
+  "integrity" "sha512-mUnk8rPJBI9loFDZ+YzPGdeniYK+FTmRD1TMCz7ev2SNIozyKKpnGgsxO34u6Z4z/t0ITuu7voi/AshfsGsgFg=="
+  "resolved" "https://registry.npmjs.org/@remix-run/router/-/router-1.20.0.tgz"
+  "version" "1.20.0"
 
 "@restart/hooks@^0.4.9":
   "integrity" "sha512-f7aCv7c+nU/3mF7NWLtVVr0Ra80RqsO89hO72r+Y/nvQr5+q0UFGkocElTH6MJApvReVh6JHUFYn2cw1WdHF3w=="
@@ -2002,20 +2002,20 @@
   "resolved" "https://registry.npmjs.org/react-refresh/-/react-refresh-0.14.2.tgz"
   "version" "0.14.2"
 
-"react-router-dom@^6.26.2":
-  "integrity" "sha512-z7YkaEW0Dy35T3/QKPYB1LjMK2R1fxnHO8kWpUMTBdfVzZrWOiY9a7CtN8HqdWtDUWd5FY6Dl8HFsqVwH4uOtQ=="
-  "resolved" "https://registry.npmjs.org/react-router-dom/-/react-router-dom-6.26.2.tgz"
-  "version" "6.26.2"
+"react-router-dom@^6.27.0":
+  "integrity" "sha512-+bvtFWMC0DgAFrfKXKG9Fc+BcXWRUO1aJIihbB79xaeq0v5UzfvnM5houGUm1Y461WVRcgAQ+Clh5rdb1eCx4g=="
+  "resolved" "https://registry.npmjs.org/react-router-dom/-/react-router-dom-6.27.0.tgz"
+  "version" "6.27.0"
   dependencies:
-    "@remix-run/router" "1.19.2"
-    "react-router" "6.26.2"
+    "@remix-run/router" "1.20.0"
+    "react-router" "6.27.0"
 
-"react-router@6.26.2":
-  "integrity" "sha512-tvN1iuT03kHgOFnLPfLJ8V95eijteveqdOSk+srqfePtQvqCExB8eHOYnlilbOcyJyKnYkr1vJvf7YqotAJu1A=="
-  "resolved" "https://registry.npmjs.org/react-router/-/react-router-6.26.2.tgz"
-  "version" "6.26.2"
+"react-router@6.27.0":
+  "integrity" "sha512-YA+HGZXz4jaAkVoYBE98VQl+nVzI+cVI2Oj/06F5ZM+0u3TgedN9Y9kmMRo2mnkSK2nCpNQn0DVob4HCsY/WLw=="
+  "resolved" "https://registry.npmjs.org/react-router/-/react-router-6.27.0.tgz"
+  "version" "6.27.0"
   dependencies:
-    "@remix-run/router" "1.19.2"
+    "@remix-run/router" "1.20.0"
 
 "react-transition-group@^4.4.5":
   "integrity" "sha512-pZcd1MCJoiKiBR2NRxeCRg13uCXbydPnmB4EOeRrY7480qNWO8IIgQG6zlDkm6uRMsURXPuKq0GWtiM59a5Q6g=="

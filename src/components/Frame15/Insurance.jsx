@@ -8,7 +8,7 @@ const HealthInsurance = () => {
 			<div className='insurance-content'>
 				{/* Card 1 */}
 				<div className='insurance-card'>
-					<Link to='/vite-project/Insurance'> <img
+					<Link to='/Insurance'> <img
 						src='https://via.placeholder.com/300x200'
 						alt='Stock Image 1'
 						className='insurance-image'

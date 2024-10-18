@@ -15,7 +15,7 @@ const MotorInsuranceCard = () => {
 					<div className='text-placeholder5'>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 					</div>
-					<Link to='/vite-project/CarIns'><button className='next-button5'>Next →</button></Link>
+					<Link to='/CarIns'><button className='next-button5'>Next →</button></Link>
 				</div>
 
 				<div className='card5'>

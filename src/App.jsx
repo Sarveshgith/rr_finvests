@@ -23,23 +23,23 @@ const App = () => {
 	return (
 		<div className='app'>
 			<Routes >
-				<Route path='/vite-project/' element={<Main />} />
-				<Route path='/vite-project/Whatwedo' element={<WhatWeDo />} />
-				<Route path='/vite-project/Mutualfunds' element={<Mutualfunds />} />
-				<Route path='/vite-project/Main_ins1' element={<Main_ins1 />} />
-				<Route path='/vite-project/Insurance' element={<Insurances />} />
-				<Route path='/vite-project/MotorIns' element={<MotorInsurance />} />
-				<Route path='/vite-project/MotorIns1' element={<MotorIns1 />} />
-				<Route path='/vite-project/CarIns' element={<CarIns />} />
-				<Route path='/vite-project/CarIns1' element={<CarIns1 />} />
-				<Route path='/vite-project/HealthIns' element={<HealthIns />} />
-				<Route path='/vite-project/HealthIns1' element={<HealthIns1 />} />
-				<Route path='/vite-project/Ins1' element={<Insurance1 />} />
-				<Route path='/vite-project/Ins2' element={<Insurance2 />} />
-				<Route path='/vite-project/PMS' element={<Pms />} />
-				<Route path='/vite-project/AIF' element={<Aif />} />
-				<Route path='/vite-project/Moneyexc' element={<Money_exch />} />
-				<Route path='/vite-project/Loans' element={<Loan_s />} />
+				<Route path='/' element={<Main />} />
+				<Route path='/Whatwedo' element={<WhatWeDo />} />
+				<Route path='/Mutualfunds' element={<Mutualfunds />} />
+				<Route path='/Main_ins1' element={<Main_ins1 />} />
+				<Route path='/Insurance' element={<Insurances />} />
+				<Route path='/MotorIns' element={<MotorInsurance />} />
+				<Route path='/MotorIns1' element={<MotorIns1 />} />
+				<Route path='/CarIns' element={<CarIns />} />
+				<Route path='/CarIns1' element={<CarIns1 />} />
+				<Route path='/HealthIns' element={<HealthIns />} />
+				<Route path='/HealthIns1' element={<HealthIns1 />} />
+				<Route path='/Ins1' element={<Insurance1 />} />
+				<Route path='/Ins2' element={<Insurance2 />} />
+				<Route path='/PMS' element={<Pms />} />
+				<Route path='/AIF' element={<Aif />} />
+				<Route path='/Moneyexc' element={<Money_exch />} />
+				<Route path='/Loans' element={<Loan_s />} />
             </Routes>
 		</div>
 	);

@@ -15,7 +15,7 @@ const InsuranceCard = () => {
 					<div className='text-placeholder4'>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 					</div>
-					<Link to='/vite-project/MotorIns'><button className='next-button4'>Next →</button></Link>
+					<Link to='/MotorIns'><button className='next-button4'>Next →</button></Link>
 				</div>
 
 				<div className='card4'>
@@ -27,7 +27,7 @@ const InsuranceCard = () => {
 					<div className='text-placeholder4'>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 					</div>
-					<Link to='/vite-project/HealthIns'><button className='next-button4'>Next →</button></Link>
+					<Link to='/HealthIns'><button className='next-button4'>Next →</button></Link>
 				</div>
 
 				<div className='card4'>
@@ -39,7 +39,7 @@ const InsuranceCard = () => {
 					<div className='text-placeholder4'>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 					</div>
-					<Link to='/vite-project/Ins1'><button className='next-button4'>Next →</button></Link>
+					<Link to='/Ins1'><button className='next-button4'>Next →</button></Link>
 				</div>
 
 				<div className='card4'>
@@ -51,7 +51,7 @@ const InsuranceCard = () => {
 					<div className='text-placeholder4'>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 					</div>
-					<Link to='/vite-project/Ins2'><button className='next-button4'>Next →</button></Link>
+					<Link to='/Ins2'><button className='next-button4'>Next →</button></Link>
 				</div>
 			</div>
 		</div>

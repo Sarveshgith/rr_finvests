@@ -14,14 +14,14 @@ const Header = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/vite-project/">HOME</Nav.Link>
-            <Nav.Link href="/vite-project/about">ABOUT</Nav.Link>
-            <Nav.Link href="/vite-project/tools">TOOLS</Nav.Link>
+            <Nav.Link href="/">HOME</Nav.Link>
+            <Nav.Link href="/about">ABOUT</Nav.Link>
+            <Nav.Link href="/tools">TOOLS</Nav.Link>
           </Nav>
           <Navbar.Brand href="#" className='hide2'>   RR FINVESTS</Navbar.Brand>
         <Nav className="ms-auto">
-            <Nav.Link href="/vite-project/news">NEWS & INSIGHTS</Nav.Link>
-            <Nav.Link href="/vite-project/Whatwedo">WHAT WE DO</Nav.Link>
+            <Nav.Link href="/news">NEWS & INSIGHTS</Nav.Link>
+            <Nav.Link href="/Whatwedo">WHAT WE DO</Nav.Link>
           </Nav>
         </Navbar.Collapse>
     </Navbar>

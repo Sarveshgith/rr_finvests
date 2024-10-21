@@ -14,7 +14,7 @@ const HealthInsurance = () => {
 						className='insurance-image'
 					/></Link>
 					<div className='insurance-details'>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero repudiandae architecto eaque? Excepturi, quia! Facilis sapiente necessitatibus quam ipsa unde placeat, eos, molestiae repellendus quo aut perferendis fugit commodi similique.</p>
+						<p>Corporate Insurances</p>
 					</div>
 				</div>
 				{/* Card 2 */}
@@ -25,7 +25,7 @@ const HealthInsurance = () => {
 						className='insurance-image'
 					/>
 					<div className='insurance-details'>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium modi velit in, nemo laudantium et. Veniam minima similique illum, enim fugiat nulla, numquam nostrum unde, ipsum esse blanditiis! Beatae, quod.</p>
+						<p>Retail Insurances</p>
 					</div>
 				</div>
 			</div>

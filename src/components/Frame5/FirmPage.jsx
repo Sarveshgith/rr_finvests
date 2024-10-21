@@ -18,7 +18,7 @@ const FirmPage = () => {
       {/* Stats section */}
       <div className="firm-stats">
         <div className="firm-stat">
-          <h2><CountUp end={34} duration={2} />+</h2>
+          <h2><CountUp end={34} duration={2} />+ Cr</h2>
           <p>Assets Under Management</p>
         </div>
 

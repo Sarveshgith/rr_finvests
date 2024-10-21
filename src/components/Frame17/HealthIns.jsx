@@ -14,7 +14,7 @@ const HealthInsurance = () => {
 						className='insurance-image'
 					/>
 					<div className='insurance-details'>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<p>Health Insurance</p>
 						<p>Curabitur et semper nibh. Aenean at risus vel.</p>
 						<p>Vestibulum ante ipsum primis in faucibus orci luctus.</p>
 					</div>
@@ -28,7 +28,7 @@ const HealthInsurance = () => {
 						className='insurance-image'
 					/>
 					<div className='insurance-details'>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<p>Life and Term Insurance</p>
 						<p>Curabitur et semper nibh. Aenean at risus vel.</p>
 						<p>Vestibulum ante ipsum primis in faucibus orci luctus.</p>
 					</div>

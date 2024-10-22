@@ -10,10 +10,11 @@
     min-height: 20vh;
   }
   
-  .firm-page h1 {
-    font-size: 2.5rem;
-    font-weight: 500;
-    margin-bottom: 10px;
+  .heading2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-style:normal;
+    font-size: 40px;
   }
   
   .horizontal-line {

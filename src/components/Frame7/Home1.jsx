@@ -9,21 +9,21 @@ const Home1 = () => {
       <Carousel data-bs-theme="dark">
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="pic1"
           src='pic2.jpg'
           alt="First slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="pic1"
           src='pic3.jpg'
           alt="Second slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="pic1"
           src='pic4.jpg'
           alt="Third slide"
         />

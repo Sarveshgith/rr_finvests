@@ -9,10 +9,10 @@ import Button from 'react-bootstrap/Button';
 const Mf = () => {
   return (
     <>
-    <h1 className='text-center Mf-content3 '>Mutual Funds</h1>
+    <h1 className='text-center Mf-content3 '>MUTUAL FUNDS</h1>
     <div className='Mf-content'>
         <div className='Mf-content1' >
-            <h1 className='text-center heading3'>Customer login</h1>
+            <h1 className='text-center heading3'>CUSTOMER LOGIN</h1>
         <Row className='justify-content-md-center'>
         <Col lg="3" sm="12" md="4"><Form.Control type="text" placeholder="PAN (required)" className='input1' /></Col>
         <Col lg="3" sm="12" md="4"><Form.Control type="text" placeholder="Mobile Number (required)" className='input1' /></Col>

@@ -2,136 +2,126 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-
-
-.header-content1{
-    margin-top: 13%;
+.header-content1 {
+	margin-top: 9%;
 }
 
-.header-content3{
-  margin-top: 13%;
+.header-content3 {
+	margin-top: 9%;
 }
-.me-auto a{
-  font-family: "Noto",serif;
-  margin-left:40px;
+.me-auto a {
+	font-family: 'Noto', serif;
+	margin-left: 40px;
 }
-.ms-auto{
-
-  margin-right:15px;
-  margin:15px;
+.ms-auto {
+	margin-right: 15px;
+	margin: 15px;
 }
-.ms-auto a{
-  font-family: "Noto",serif;
-  margin-right: 15px;
-  margin-left:30px;
+.ms-auto a {
+	font-family: 'Noto', serif;
+	margin-right: 15px;
+	margin-left: 30px;
 }
-.hide1{
-  display: none;
+.hide1 {
+	display: none;
 }
-.hide2{
-  font-family: "Noto",serif;
+.hide2 {
+	font-family: 'Noto', serif;
 }
 
 .raleway .ms-auto a {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
+	font-family: 'Raleway', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 100;
+	font-style: normal;
 }
 
-
-a.navbar-brand{
-  margin-left:30px;
-  font-size:25px;
+a.navbar-brand {
+	margin-left: 30px;
+	font-size: 25px;
 }
 .navbar-brand {
- 
-  padding-top: var(--bs-navbar-brand-padding-y);
+	padding-top: var(--bs-navbar-brand-padding-y);
 
-  font-size: var(--bs-navbar-brand-font-size);
-  color: var(--bs-navbar-brand-color);
-  text-decoration: none;
-  white-space: nowrap;
+	font-size: var(--bs-navbar-brand-font-size);
+	color: var(--bs-navbar-brand-color);
+	text-decoration: none;
+	white-space: nowrap;
 }
 
-.header-content1{
-  color:#cfa601;
-  font-family: var();
-  font-size: 70px;
+.header-content1 {
+	color: #cfa601;
+	font-family: var();
+	font-size: 60px;
 }
-.header-content2{
-  color:#cfa601;
-  font-size: 70px;
+.header-content2 {
+	color: #cfa601;
+	font-size: 60px;
 }
-.header-content3{
-  font-family: 'Caudex',serif;
-  font-size:20px;
-}
-
-
-.btn{
-  background-color: #cfa601;
-  margin: 0 !important;
-  margin-top: 2% !important;
-  color: rgb(255, 255, 255) !important;
-  width:200px;
-  height:50px;  
-  font-family: "Caudex",serif;
-  font-size:20px;
-  border-radius: 25px;
-  text-align: center;
+.header-content3 {
+	font-family: 'Caudex', serif;
+	font-size: 20px;
 }
 
-
-@media (max-width:993px) {
-  .header-content1{
-    font-size: 30px;
-  }
-  .header-content2{
-    font-size: 30px;
-  }
-  .header-content3{
-    font-size: 20px;
-  }
-  
+.btn {
+	background-color: #cfa601;
+	margin: 0 !important;
+	margin-top: 2% !important;
+	color: rgb(255, 255, 255) !important;
+	width: 200px;
+	height: 50px;
+	font-family: 'Caudex', serif;
+	font-size: 20px;
+	border-radius: 25px;
+	text-align: center;
 }
 
-@media (max-width:430px) {
-
-  .header-content3{
-    font-size: 18px;
-  }
-  .navbar-toggler.collapsed{
-    margin-left: 8%;
-    margin-top: 1%;
-  }
-  .navbar-toggler{
-    margin-left: 8%;
-    margin-bottom: 0 !important;
-  }
-  .btn{
-    border-color: black !important;
-    margin: 0 !important;
-    margin-top: 2% !important;
-    color: black !important;
-    width:100px;
-    height:30px;  
-    font-size:10px;
-  }
-  .hide1{
-    display: block;
-    font-family:"Noto",serif ;
-    margin-left: 10%;
-  }
-  .hide2{
-    display: none;
-  }
-  a.nav-link{
-    margin-left: 40px;
-  }
+@media (max-width: 993px) {
+	.header-content1 {
+		font-size: 30px;
+	}
+	.header-content2 {
+		font-size: 30px;
+	}
+	.header-content3 {
+		font-size: 20px;
+	}
 }
 
+@media (max-width: 430px) {
+	.header-content3 {
+		font-size: 18px;
+	}
+	.navbar-toggler.collapsed {
+		margin-left: 8%;
+		margin-top: 1%;
+	}
+	.navbar-toggler {
+		margin-left: 8%;
+		margin-bottom: 0 !important;
+	}
+	.btn {
+		border-color: black !important;
+		margin: 0 !important;
+		margin-top: 2% !important;
+		color: black !important;
+		width: 100px;
+		height: 30px;
+		font-size: 10px;
+	}
+	.hide1 {
+		display: block;
+		font-family: 'Noto', serif;
+		margin-left: 10%;
+	}
+	.hide2 {
+		display: none;
+	}
+	a.nav-link {
+		margin-left: 40px;
+	}
+}
 
-.Header{
-  margin-bottom: 50px;
+.Header {
+	margin-bottom: 50px;
 }

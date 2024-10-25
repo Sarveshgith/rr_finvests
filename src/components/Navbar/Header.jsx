@@ -35,7 +35,7 @@ const Header = () => {
 				<h2 className='text-center header-content2'>WITH US</h2>
 			</div>
 			<div className='text-center'>
-				<h6 className=' header-content3'>
+				<h6 className=' header-content3 text-center'>
 					JOIN US TODAY AND LET YOUR MONEY WORK HARD AS YOU DO
 				</h6>
 				<Button variant='light' className='btn'>

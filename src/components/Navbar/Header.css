@@ -90,9 +90,9 @@ a.navbar-brand {
 	}
 }
 
-@media (max-width: 430px) {
+@media (max-width: 480px) {
 	.header-content3 {
-		font-size: 18px;
+		font-size: 11px;
 	}
 	.navbar-toggler.collapsed {
 		margin-left: 8%;
@@ -107,7 +107,7 @@ a.navbar-brand {
 		margin: 0 !important;
 		margin-top: 2% !important;
 		color: black !important;
-		width: 100px;
+		width: 120px;
 		height: 30px;
 		font-size: 10px;
 	}

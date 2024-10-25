@@ -8,7 +8,7 @@ function App() {
 			<h1 className='heading1'>HOW INVESTMENTS ARE INTELLIGENT WITH US</h1>
 			<div className='content1'>
 				<div className='text1'>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					<p className='text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
 						Nisi ut aliquip ex ea commodo consequat.

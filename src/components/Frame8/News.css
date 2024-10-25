@@ -1,9 +1,8 @@
 .news-img1{
     width: 400px;
     height: 350px;
-    margin-left: 13%;
+    margin-left: 4%;
     margin-top: 10%;
-    margin-right: 5%;
 }
 .heading2{
     font-family: "Raleway", sans-serif;
@@ -12,7 +11,6 @@
     font-size: 40px;
 }
 .news-content1{
-    margin-left: 10%;
     margin-top: 10px;
     margin-bottom: 30%;
     font-family: "Caudex", serif;
@@ -66,7 +64,7 @@
         margin-left: 10%;
         margin-right: 2%;
         width: 350px;
-        font-size: 14px;
+        font-size: 16px;
     }
 
 }

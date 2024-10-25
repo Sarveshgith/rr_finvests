@@ -71,10 +71,15 @@
  @media (max-width:480px) {
     .home-img2{
         width: 350px;
+        height: 300px !important;
         margin-left: 10%;
     }
+    .pic1{
+        height: 250px;
+        width: 350px;
+    }
     .home-content3{
-        font-size: 18px;
+        font-size: 16px;
         margin-left: 10%;
         margin-right: 10%;
     }

@@ -3,7 +3,7 @@ import './Corp_6.css'
 const Corp_6 = () => {
   return (
       <div className='insurance-container'>
-			<h1 className='title'>MARINE INSURANCE</h1>
+			<h1 className='title2'>MARINE INSURANCE</h1>
 			<div className='insurance-content'>
 				{/* Card 1 */}
 				<div className='insurance-card'>

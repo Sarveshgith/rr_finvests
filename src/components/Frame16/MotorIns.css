@@ -34,7 +34,16 @@ h1 {
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
-	height: 500px;
+	height: 550px;
+}
+.title2{
+	font-family:'Raleway',sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	font-style: normal;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 0px;
 }
 
 .image-placeholder5 {
@@ -54,7 +63,7 @@ h1 {
 
 .text-placeholder5 p {
 	color: #555;
-	font-size: 0.9rem;
+	font-size: 18px;
 	margin-bottom: 10px;
 	font-family: "Caudex", serif;
 }

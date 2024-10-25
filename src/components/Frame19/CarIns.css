@@ -20,6 +20,8 @@
   }
   .large-card p{
     font-family: "Caudex", serif;
+    font-size: 18px;
+    margin-top: 10px;
   }
   
   .image-placeholder {

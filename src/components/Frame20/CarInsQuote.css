@@ -56,17 +56,17 @@ input[type='email'] {
 }
 
 .quote-btn {
-	background-color: #000;
+	background-color: black;
 	color: #fff;
 	border: none;
 	padding: 10px 20px;
-	border-radius: 5px;
+	border-radius: 60px;
 	cursor: pointer;
 	transition: background-color 0.3s ease;
 }
 
 .quote-btn:hover {
-	background-color: #444;
+	background-color: gainsboro;
 }
 
 @media (max-width: 1200px) {

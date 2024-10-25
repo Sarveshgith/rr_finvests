@@ -15,10 +15,10 @@
     font-size: 40px;
 }
 .home-content3{
-    text-align: center;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 10%;
+    margin-right: 10%;
     font-family: "Caudex", serif;
+    font-size: 18px;
 
 }
  @media (max-width:1025px) {

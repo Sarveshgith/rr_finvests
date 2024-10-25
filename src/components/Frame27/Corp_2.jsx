@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const Corp_2 = () => {
   return (
     <div className='insurance-container5'>
-    <h1 className='heading2'>FIRE INSURANCE</h1>
+    <h1 className='title2'>FIRE INSURANCE</h1>
     <div className='insurance-cards5'>
         <div className='card5'>
             <img

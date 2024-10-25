@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const InsuranceCard = () => {
 	return (
 		<div className='insurance-container4'>
-			<h1 className='heading2'>INSURANCES</h1>
+			<h1 className='title1'>INSURANCES</h1>
 			<div className='insurance-cards4'>
 				<div className='card4'>
 					<img

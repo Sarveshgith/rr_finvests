@@ -2,7 +2,7 @@
     height: 400px;
     width: 300px;
     background-color: gainsboro;
-    margin-top: 40%;
+    margin-top: 45%;
     margin-bottom: 15%;
     border-radius: 60px;
 }
@@ -14,8 +14,11 @@
     margin-top: 10% !important;
 }
 .motar-ins1-content2{
-    margin-top: 15%;
+    margin-top: 8%;
     font-family: "Caudex", serif;
+    font-size: 18px;
+    line-height: 2.5;
+    letter-spacing: 1px;
 }
 .btn2{
     border-radius: 70px !important ;

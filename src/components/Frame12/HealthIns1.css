@@ -1,3 +1,18 @@
+.health-ins1-content1{
+    height: 400px;
+    width: 300px;
+    background-color: gainsboro;
+    margin-top: 65%;
+    margin-bottom: 15%;
+    border-radius: 60px;
+}
+.health-ins1-content3{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-style:normal;
+    font-size: 40px;
+    margin-top: 85px !important;
+}
 @media (max-width:993px){
     .motar-ins1-content1{
         height: 300px;

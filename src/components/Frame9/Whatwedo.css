@@ -1,70 +1,70 @@
 .whole{
-    height: 120vh;
+    height: 100vh;
     position: relative;
     
 }
 .center{
-    width: 200px;
+    width: 180px;
     height: 150px;
     background-color: gainsboro;
     border-radius: 50px;
     position: absolute;
     left: 44%;
-    top: 48%;
+    top: 39%;
 }
 .top-middle{
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     background-color: gainsboro;
     border-radius: 50px;
     position: absolute;
     left: 44%;
-    top: 14%;
+    top: 5%;
 }
 .bottom-middle{
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     background-color: gainsboro;
     border-radius: 50px;
     position: absolute;
     left: 44%;
-    top: 75%;
+    top: 69%;
 }
 .top-left{
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     background-color: gainsboro;
     border-radius: 50px;
     position: absolute;
-    left: 17%;
-    top: 25%;
+    left: 23%;
+    top: 20%;
 }
 .bottom-left{
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     background-color: gainsboro;
     border-radius: 50px;
     position: absolute;
-    left: 17%;
-    top: 65%;
+    left: 23%;
+    top: 57%;
 }
 .top-right{
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     background-color: gainsboro;
     border-radius: 50px;
     position: absolute;
-    left: 70%;
-    top: 25%;
+    left: 65%;
+    top: 20%;
 }
 .bottom-right{
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     background-color: gainsboro;
     border-radius: 50px;
     position: absolute;
-    left: 70%;
-    top: 65%;
+    left: 65%;
+    top: 57%;
 }
 
 .center h2{
@@ -162,60 +162,63 @@
 
 @media (max-width:480px) {
     .whole{
-        height: 90vh;
+        height: 120vh;
         position: relative;
         
     }
     .bottom-left{
-        width: 120px;
-        height: 120px;
+        width: 180px;
+        height: 150px;
         left: 5%;
-        top: 57%;
+        top: 71%;
         border-radius: 10px;
+        margin-bottom: 10%;
     }
     .top-left{
-        width: 120px;
-        height: 120px;
+        width: 180px;
+        height: 140px;
         border-radius: 10px;
         left: 5%;
-        top: 31%;
+        top: 25%;
     }
     .bottom-right{
-        width: 120px;
-        height: 120px;
-        left: 71%;
-        top: 57%;
+        width: 180px;
+        height: 150px;
+        left: 54%;
+        top: 71%;
         border-radius: 10px;
+        margin-bottom: 10%;
 
     }
     .top-right{
-        width: 120px;
-        height: 120px;
-        left: 71%;
-        top: 31%;
+        width: 180px;
+        height: 140px;
+        left: 54%;
+        top: 25%;
         border-radius: 10px;
+        
     }
     .bottom-middle{
-        width: 120px;
-        height: 120px;
-        left: 38%;
-        top: 57%;
+        width: 180px;
+        height: 140px;
+        left: 54%;
+        top: 48%;
         border-radius: 10px;
         
     }
     .top-middle{
-        width: 120px;
-        height: 120px;
-        left: 38%;
-        top: 31%; 
+        width: 180px;
+        height: 140px;
+        left: 5%;
+        top: 48%; 
         border-radius: 10px;
     }
     .center{
         width: 150px;
         height: 100px;
         border-radius: 10px;
-        left: 36%;
-        top: 9%;
+        left: 34%;
+        top: 5%;
     }
     
 }

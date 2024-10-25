@@ -4,7 +4,7 @@ import './HealthIns.css';
 const HealthInsurance = () => {
 	return (
 		<div className='insurance-container'>
-			<h1 className='title'>HEALTH INSURANCE</h1>
+			<h1 className='title2'>HEALTH INSURANCE</h1>
 			<div className='insurance-content'>
 				{/* Card 1 */}
 				<div className='insurance-card'>

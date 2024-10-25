@@ -5,10 +5,12 @@
 	padding: 20px;
 }
 
-.title {
-	font-family: 'Arial', sans-serif;
-	font-size: 2rem;
-	margin-bottom: 20px;
+.title2{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-style:normal;
+    font-size: 40px;
+    margin-top: 10px !important;
 }
 
 .insurance-content {
@@ -39,9 +41,10 @@
 .insurance-details {
 	margin-top: 15px;
 	text-align: left;
-	font-size: 0.9rem;
 }
-
+.insurance-details p{
+	font-size: 18px;
+}
 .next-button {
 	margin-top: 20px;
 	padding: 10px 20px;

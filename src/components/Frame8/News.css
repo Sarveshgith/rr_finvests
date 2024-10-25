@@ -1,7 +1,7 @@
 .news-img1{
     width: 400px;
     height: 350px;
-    margin-left: 4%;
+    margin-left: 10%;
     margin-top: 10%;
 }
 .heading2{
@@ -14,6 +14,7 @@
     margin-top: 10px;
     margin-bottom: 30%;
     font-family: "Caudex", serif;
+    font-size: 18px;
 }
 
 @media (max-width:993px) {

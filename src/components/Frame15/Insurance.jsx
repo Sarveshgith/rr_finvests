@@ -8,7 +8,7 @@ const HealthInsurance = () => {
 			<div className='insurance-content'>
 				{/* Card 1 */}
 				<div className='insurance-card'>
-					<Link to='/Insurance'> <img
+					<Link to='/Corp_ins'> <img
 						src='https://via.placeholder.com/300x200'
 						alt='Stock Image 1'
 						className='insurance-image'
@@ -19,11 +19,11 @@ const HealthInsurance = () => {
 				</div>
 				{/* Card 2 */}
 				<div className='insurance-card'>
-					<img
+					<Link to='/Insurance'><img
 						src='https://via.placeholder.com/300x200'
 						alt='Stock Image 2'
 						className='insurance-image'
-					/>
+					/></Link>
 					<div className='insurance-details'>
 						<p>Retail Insurances</p>
 					</div>

@@ -15,14 +15,14 @@ const Header = () => {
 					<Navbar.Collapse id='basic-navbar-nav'>
 						<Nav className='me-auto'>
 							<Nav.Link href='/'>HOME</Nav.Link>
-							<Nav.Link href='/about'>ABOUT</Nav.Link>
+							<Nav.Link href='#about'>ABOUT</Nav.Link>
 							<Nav.Link href='/tools'>TOOLS</Nav.Link>
 						</Nav>
 						<Navbar.Brand href='#' className='hide2'>
 							RR FINVESTS
 						</Navbar.Brand>
 						<Nav className='ms-auto'>
-							<Nav.Link href='/news'>NEWS & INSIGHTS</Nav.Link>
+							<Nav.Link href='#news'>NEWS & INSIGHTS</Nav.Link>
 							<Nav.Link href='/Whatwedo'>WHAT WE DO</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>

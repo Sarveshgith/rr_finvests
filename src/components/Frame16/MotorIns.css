@@ -94,3 +94,14 @@ h1 {
 		max-width: 300px;
 	}
 }
+
+@media (max-width: 480px) {
+	.insurance-cards5 {
+		gap: 50px;
+		
+	}
+	.text-placeholder5 p {
+		color: #555;
+		font-size: 16px;
+	}
+}

@@ -14,7 +14,7 @@ const FirmPage = () => {
 	});
 
 	return (
-		<div className='firm-page'>
+		<div className='firm-page' id='about'>
 			<h1 className='heading2'>THE FIRM</h1>
 
 			{/* Lorem Ipsum text */}

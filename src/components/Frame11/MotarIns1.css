@@ -81,18 +81,24 @@
 }
 @media (max-width:480px) {
     .motar-ins1-content1{
-        height: 250px !important;
-        width: 300px !important;
+        position: absolute;
+        top: 20%;
     }
     .motar-ins1-content2{
         font-size: 16px;
-        margin-left: 5% !important;
-        width: 350px !important;
-        height: 470px !important;
-    }
+        position: absolute;
+        top: 80%;
+        line-height: 2;
+        letter-spacing: 1px;
+}
     .btn2{
-        margin-left: 5% !important;
-        margin-bottom: 5% !important;
+        position: absolute;
+        top: 210%;
+       left: 22%;
+    }
+    .motar-ins1-content3{
+        position: absolute;
+        top: 5%;
     }
     
 }

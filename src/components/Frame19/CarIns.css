@@ -31,20 +31,18 @@
     border-radius: 20px;
     position: relative; /* Maintain position for responsive scaling */
   }
-  
-  button {
-    background-color: black;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
+  .btn3{
+    border-radius: 70px !important ;
+    background-color: black !important;
+    color: white !important;
+    width: 200px !important; 
     font-family: "Caudex", serif;
-  }
-  button:hover{
-    background-color: gainsboro;
-    color: black;
-  }
+}
+.btn3:hover{
+    background-color: gainsboro !important;
+    color: black !important;
+}
+
   
   /* Media Query for Tablets */
   @media (max-width: 768px) {
@@ -66,12 +64,17 @@
     .large-card p{
       font-family: "Caudex", serif;
       margin-left: -10%;
+      font-size: 16px;
     }
     button {
       padding: 6px;
       font-size: 14px; /* Adjust button font size */
       margin-left:-10%;
       margin-bottom: 10% !important;
+    }
+    .btn2{
+      position: absolute;
+      top: 70% ;
     }
     .image-placeholder{
       width: 300px;

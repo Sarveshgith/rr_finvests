@@ -1,7 +1,9 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Main from './pages/Main/Main';
-import Insurances from './pages/Insurances/Insurances'
+import About from './components/Frame2/About';
+import News from './components/Frame8/News';
+import Insurances from './pages/Insurances/Insurances';
 import CarIns from './pages/CarIns/CarIns';
 import { Route, Routes } from 'react-router-dom';
 import CarIns1 from './pages/CarIns1/CarIns1';
@@ -27,12 +29,15 @@ import Corp_ins5 from './pages/Corp_ins5/Corp_ins5';
 import Corp_ins6 from './pages/Corp_ins6/Corp_ins6';
 import Corp_ins7 from './pages/Corp_ins7/Corp_ins7';
 import Corp_ins8 from './pages/Corp_ins8/Corp_ins8';
+import Tools from './pages/Tools/Tools';
 
 const App = () => {
 	return (
 		<div className='app'>
 			<Routes >
 				<Route path='/' element={<Main />} />
+				<Route path='/about' element={<About />} />
+				<Route path='/news' element={<News />} />
 				<Route path='/Whatwedo' element={<WhatWeDo />} />
 				<Route path='/Mutualfunds' element={<Mutualfunds />} />
 				<Route path='/Main_ins1' element={<Main_ins1 />} />
@@ -58,6 +63,7 @@ const App = () => {
 				<Route path='/Marine_ins2' element={<Corp_ins6 />} />
 				<Route path='/GMC_ins1' element={<Corp_ins7 />} />
 				<Route path='/Engineering_ins1' element={<Corp_ins8 />} />
+				<Route path='/tools' element={<Tools />}/> 
 
             </Routes>
 		</div>

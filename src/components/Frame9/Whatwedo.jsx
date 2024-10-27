@@ -10,7 +10,7 @@ const Whatwedo = () => {
       <h2 >RR</h2>
       <h2>FINVESTS</h2>
     </div>
-   <Link to='/Main_ins1'>  <div className='top-left'></div></Link>
+    <Link to='/Main_ins1'>  <div className='top-left'></div></Link>
     <Link to='/Mutualfunds'><div className='top-middle'></div></Link>
     <Link to='/PMS'><div className='top-right'></div></Link>
     <Link to='/AIF'><div className='bottom-left'></div></Link>

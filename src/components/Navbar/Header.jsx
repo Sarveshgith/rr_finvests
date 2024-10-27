@@ -3,6 +3,8 @@ import './Header.css';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
+import {Link}from 'react-router-dom';
+
 const Header = () => {
 	return (
 		<div className='Header'>
@@ -14,20 +16,22 @@ const Header = () => {
 					<Navbar.Toggle aria-controls='basic-navbar-nav' />
 					<Navbar.Collapse id='basic-navbar-nav'>
 						<Nav className='me-auto'>
-							<Nav.Link href='/'>HOME</Nav.Link>
-							<Nav.Link href='#about'>ABOUT</Nav.Link>
-							<Nav.Link href='/tools'>TOOLS</Nav.Link>
-						</Nav>
+						<Nav.Link as ={Link} to="/">HOME</Nav.Link>
+            			<Nav.Link as={Link} to='/about'>ABOUT</Nav.Link>
+           				 <Nav.Link as={Link} to='/tools'>TOOLS</Nav.Link>
+          				</Nav>
+						
 						<Navbar.Brand href='#' className='hide2'>
 							RR FINVESTS
 						</Navbar.Brand>
 						<Nav className='ms-auto'>
-							<Nav.Link href='#news'>NEWS & INSIGHTS</Nav.Link>
-							<Nav.Link href='/Whatwedo'>WHAT WE DO</Nav.Link>
+						<Nav.Link as={Link} to='/news'>NEWS & INSIGHTS</Nav.Link>
+						<Nav.Link as={Link}to='/Whatwedo'>WHAT WE DO</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>
 				</Navbar>
 			</div>
+			<div>
 			<div className='header-content5'>
 				<h2 className='text-center header-content1'>
 					MAKE INTELLIGENT INVESTMENTS
@@ -42,6 +46,7 @@ const Header = () => {
 					Connect with Us
 				</Button>
 			</div>
+		</div>
 		</div>
 	);
 };

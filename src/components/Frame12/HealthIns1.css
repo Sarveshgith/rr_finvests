@@ -1,0 +1,65 @@
+.health-ins1-content1{
+    height: 400px;
+    width: 300px;
+    background-color: gainsboro;
+    margin-top: 65%;
+    margin-bottom: 15%;
+    border-radius: 60px;
+}
+.health-ins1-content3{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-style:normal;
+    font-size: 40px;
+    margin-top: 85px !important;
+}
+@media (max-width:993px){
+    .motar-ins1-content1{
+        height: 300px;
+        width: 200px;
+        margin-left: 10%;
+    }
+    .motar-ins1-content2{
+        margin-left: 5%;
+        width: 400px;
+        height: 370px;
+        margin-bottom: 0;
+    }
+    .motar-ins1-content3{
+        margin-top: 50px;
+    }
+    .btn2{
+        margin-left: 25% !important;
+        ma
+    }
+}
+
+@media (max-width:769px) {
+    .motar-ins1-content1{
+        height: 300px;
+        width: 500px;
+        margin-top: 7%;
+        margin-bottom: 10%;
+    }
+    .motar-ins1-content2{
+        margin-top: 0;
+        margin-left: 10%;
+        height: 380px;
+    }
+    .btn2{
+        margin-left: 30% !important;
+        margin-top: 0 !important;
+    }
+    
+}
+
+@media (max-width:577px) {
+    .motar-ins1-content1{
+        height: 300px;
+        width: 350px;
+        margin-top: 7%;
+        margin-bottom: 10%;
+        margin-left: 10%;
+    }
+    
+}

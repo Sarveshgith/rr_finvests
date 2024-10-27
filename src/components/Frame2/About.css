@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+.container1 {
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.heading1 {
+	font-family:'Raleway',sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	font-style: normal;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.content1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.text1 {
+	font-family:'Caudex',serif;
+	font-size: 20px;
+	margin-left:20px;
+	width: 50%;
+	padding-right: 20px;
+	font-size: 18px;
+    line-height: 2.5;
+    letter-spacing: 1px;
+	margin-left: 5%;
+}
+
+.text1 p {
+	margin: 20px 0;
+}
+
+.image-placeholder1 {
+	width: 40%;
+	display: flex;
+	justify-content: center;
+}
+
+.image1 {
+	margin-top:10px;
+	width: 100%;
+	max-width: 500px;
+	height: auto;
+	background-color: #ccc;
+	border-radius: 5px;
+	object-fit: cover;
+}
+
+/* Media Queries */
+
+/* For tablets and smaller screens */
+@media (max-width: 768px) {
+	.text1,
+	.image-placeholder1 {
+		width: 100%;
+		padding: 0;
+	}
+
+	.text1 {
+		margin-bottom: 20px;
+	}
+
+	.content1 {
+		flex-direction: column;
+	}
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+	.heading1 {
+		font-size: 30px !important;
+	}
+	.text1 p {
+		margin: 15px 0;
+		line-height: 1.5;
+		letter-spacing: 1px;
+		font-size: 16px;
+		margin-right: 10%;
+	}
+
+	.image1 {
+		max-width: 100%;
+	}
+}

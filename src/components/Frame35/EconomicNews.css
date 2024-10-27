@@ -1,0 +1,38 @@
+/* src/components/EconomicNews.css */
+
+.news-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .news-item {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.5rem;
+  }
+  
+  .news-item h3 {
+    font-size: 1.2rem;
+  }
+  
+  .news-item p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 600px) {
+    .news-item h3 {
+      font-size: 1rem;
+    }
+  
+    .news-item p {
+      font-size: 0.9rem;
+    }
+  }
+  

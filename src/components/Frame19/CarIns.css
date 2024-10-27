@@ -1,0 +1,84 @@
+/* CarInsurance.css */
+.container {
+    padding: 20px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+    height: 100vh;
+  }
+
+  .container h1{
+    margin-top: 3%;
+  }
+  
+  .large-card {
+    background-color: #fefefe;
+    padding: 20px;
+    width: 900px; /* Use percentage instead of fixed width for responsiveness */
+   margin-left: 13%;
+   height: 350px;
+  }
+  .large-card p{
+    font-family: "Caudex", serif;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .image-placeholder {
+    background-color: #ccc;
+    width: 900px; /* Make the image container take full width */
+    height: 350px !important; /* Aspect ratio 16:9 for responsive images */
+    border-radius: 20px;
+    position: relative; /* Maintain position for responsive scaling */
+  }
+  .btn3{
+    border-radius: 70px !important ;
+    background-color: black !important;
+    color: white !important;
+    width: 200px !important; 
+    font-family: "Caudex", serif;
+}
+.btn3:hover{
+    background-color: gainsboro !important;
+    color: black !important;
+}
+
+  
+  /* Media Query for Tablets */
+  @media (max-width: 768px) {
+    .large-card {
+      width: 95%; /* Make card wider to use more space on smaller screens */
+    }
+  
+    button {
+      padding: 8px;
+    }
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media (max-width: 480px) {
+    .large-card {
+      padding: 15px;
+      margin-left: 8%;
+    }
+    .large-card p{
+      font-family: "Caudex", serif;
+      margin-left: -10%;
+      font-size: 16px;
+    }
+    button {
+      padding: 6px;
+      font-size: 14px; /* Adjust button font size */
+      margin-left:-10%;
+      margin-bottom: 10% !important;
+    }
+    .btn2{
+      position: absolute;
+      top: 70% ;
+    }
+    .image-placeholder{
+      width: 300px;
+      height: 300px !important;
+    }
+  }
+  

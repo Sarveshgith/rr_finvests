@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.insurance-container4 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+	font-family: 'Arial', sans-serif;
+	height: 100vh;
+}
+.title1{
+	font-family:'Raleway',sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	font-style: normal;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+h1 {
+	font-size: 2.5rem;
+	margin-bottom: 40px;
+	color: #333;
+}
+
+.insurance-cards4 {
+	display: flex;
+	justify-content: space-between;
+	gap: 120px;
+	max-width: 1200px;
+	flex-wrap: wrap;
+}
+
+.card4 {
+	border-radius: 20px;
+	width: 200px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	height: 550px;
+}
+
+.image-placeholder4 {
+	width: 250px;
+	height: 300px;
+	background-color: gainsboro;
+	border-radius: 50px;
+	margin-bottom: 20px;
+}
+
+.text-placeholder4 {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+	font-family: "Caudex", serif;
+}
+
+.text-placeholder4 p {
+	color: #555;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.next-button4 {
+	background-color: black;
+    color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+	font-family: "Caudex", serif;
+}
+
+.next-button4:hover {
+	background-color: gainsboro;
+	color: black;
+}
+
+@media (max-width: 768px) {
+	.insurance-cards4 {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.card4 {
+		width: 100%;
+		max-width: 300px;
+	}
+}
+
+@media (max-width:480px) {
+	
+.insurance-cards4 {
+	display: flex;
+	justify-content: space-between;
+	gap: 50px;
+	max-width: 1200px;
+	flex-wrap: wrap;
+}
+}

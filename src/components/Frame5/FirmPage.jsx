@@ -19,12 +19,7 @@ const FirmPage = () => {
 
 			{/* Lorem Ipsum text */}
 			<div className='firm-description'>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-				<p>
-					Vestibulum lacinia arcu eget nulla facilisis, in venenatis risus
-					auctor.
-				</p>
-				<p>Fusce nec massa sit amet enim tempor venenatis.</p>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta dolorum assumenda ab tempora quibusdam eaque adipisci doloremque nostrum dolor, ut odit ad tenetur debitis cum. Corporis, repudiandae ad ea tempora labore perferendis explicabo porro vero. Placeat voluptate iusto suscipit illo tempora labore cupiditate itaque possimus nihil, a unde vel sapiente!</p>
 			</div>
 
 			{/* Stats section */}

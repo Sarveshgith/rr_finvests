@@ -6,6 +6,7 @@ import Home from '../../components/Frame6/Home';
 import Home1 from '../../components/Frame7/Home1';
 
 import News from '../../components/Frame8/News';
+import Contact from '../../components/Frame34/Contact';
 const Main = () => {
   return (
     <div>
@@ -15,6 +16,7 @@ const Main = () => {
 			<Home />
 			<Home1 />
 			<News />
+      <Contact />
     </div>
   )
 }

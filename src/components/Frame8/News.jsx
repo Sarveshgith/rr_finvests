@@ -6,6 +6,7 @@ import Col from 'react-bootstrap/Col';
 const News = () => {
   return (
     <>
+    <div className='news'>
     <h1 className='text-center mt-5 mb-5 heading2' id='news'>NEWS</h1>
     <div>
       <Row>
@@ -24,6 +25,7 @@ const News = () => {
         <p className='news-content1 text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ipsum voluptate ipsam aut earum officia consequuntur dolorem quas magni fugit!</p>
         </div></Col>
       </Row>
+    </div>
     </div>
     </>
   )

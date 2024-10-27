@@ -1,3 +1,6 @@
+.motor{
+    min-height: 100vh;
+}
 .motar-ins1-content1{
     height: 400px;
     width: 300px;
@@ -19,6 +22,9 @@
     font-size: 18px;
     line-height: 2.5;
     letter-spacing: 1px;
+}
+.motar-ins1-content4{
+    display: none;
 }
 .btn2{
     border-radius: 70px !important ;
@@ -80,25 +86,42 @@
     
 }
 @media (max-width:480px) {
-    .motar-ins1-content1{
-        position: absolute;
-        top: 20%;
-    }
-    .motar-ins1-content2{
-        font-size: 16px;
-        position: absolute;
-        top: 80%;
-        line-height: 2;
-        letter-spacing: 1px;
-}
-    .btn2{
-        position: absolute;
-        top: 210%;
-       left: 22%;
+    .motor{
+        min-height: 190vh;
     }
     .motar-ins1-content3{
-        position: absolute;
-        top: 5%;
+        display: none;
+       }
+    .motar-ins1-content4{
+        display: inline;
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-style:normal;
+        font-size: 40px;
+        margin-top: 10% !important;
+       }
+       .motar-ins1-content1{
+        height: 300px !important;
+        width: 350px !important;
+        margin-top: 7%;
+        margin-bottom: 10%;
+        margin-left: 5% !important;
     }
-    
+    .motar-ins1-content2{
+        margin-top: 8%;
+        font-family: "Caudex", serif;
+        font-size: 16px !important;
+        line-height: 2 !important;
+        letter-spacing: 1px;
+        margin: 0;
+        margin-left: 0 !important;
+        height: 580px;
+    }
+    .btn2{
+        position: relative;
+        top: 0%;
+        margin-left: 0% !important;
+        height: 40px;
+        font-size: 14px !important;
+    }
 }

@@ -7,7 +7,7 @@
     align-items: center;
     padding: 20px;
     text-align: center;
-    min-height: 20vh;
+    min-height: 100vh;
   }
   
   .heading2 {
@@ -28,6 +28,7 @@
     margin: 20px 0;
     padding: 10px;
     max-width: 600px;
+    margin-top: 5%;
   }
   
   .firm-description p {
@@ -41,7 +42,7 @@
     display: flex;
     width: 100%;
     max-width: 1200px;
-    margin-top: 30px;
+    margin-top: 5%;
   }
   
   .firm-stat {
@@ -104,12 +105,16 @@
     .horizontal-line {
       width: 80%;
     }
-  
+    .firm-description{
+        margin-top: 10%;
+    }
     .firm-description p {
      font-size: 16px;
     }
   
-  
+    .firm-stats {
+      margin-top: 5%;
+    }
     .firm-stat {
       flex-basis: 50%;
     }

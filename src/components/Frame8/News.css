@@ -1,3 +1,6 @@
+.news{
+    min-height: 100vh;
+}
 .news-img1{
     width: 400px;
     height: 350px;
@@ -9,10 +12,11 @@
     font-weight: 700;
     font-style:normal;
     font-size: 40px;
+    margin-top: 0 !important;
 }
 .news-content1{
     margin-top: 10px;
-    margin-bottom: 30%;
+    margin-bottom: 10%;
     font-family: "Caudex", serif;
     font-size: 18px;
 }

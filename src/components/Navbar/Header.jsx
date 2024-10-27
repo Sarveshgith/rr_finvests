@@ -28,13 +28,13 @@ const Header = () => {
 					</Navbar.Collapse>
 				</Navbar>
 			</div>
-			<div>
+			<div className='header-content5'>
 				<h2 className='text-center header-content1'>
 					MAKE INTELLIGENT INVESTMENTS
 				</h2>
 				<h2 className='text-center header-content2'>WITH US</h2>
 			</div>
-			<div className='text-center'>
+			<div className='text-center header-content4'>
 				<h6 className=' header-content3 text-center'>
 					JOIN US TODAY AND LET YOUR MONEY WORK HARD AS YOU DO
 				</h6>

@@ -1,3 +1,6 @@
+.home1{
+    min-height: 100vh;
+}
 .home-img2{
     width: 85%;
     height: 80%;
@@ -13,6 +16,7 @@
     font-weight: 700;
     font-style:normal;
     font-size: 40px;
+    margin-top: 0 !important;
 }
 .home-content3{
     margin-left: 10%;
@@ -82,9 +86,6 @@
         font-size: 16px;
         margin-left: 10%;
         margin-right: 10%;
-    }
-    .heading5{
-        margin-top: 70% !important;
     }
  }
  

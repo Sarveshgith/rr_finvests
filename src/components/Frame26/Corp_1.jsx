@@ -7,9 +7,11 @@ import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 const Corp_1 = () => {
   return (
-    <div>
-       <Container>
+    <>
+    <div className='motor'>
+       <Container> 
       <Row>
+      <h1 className='text-center motar-ins1-content4'>MOTOR INSURANCE</h1>
         <Col sm="12" md="4" lg="4"><div className='motar-ins1-content1'></div></Col>
         <Col sm="12" md="7" lg="8">
         <h1 className='text-center motar-ins1-content3'>FIRE INSURANCE</h1>
@@ -22,6 +24,7 @@ const Corp_1 = () => {
     </Container>
     
     </div>
+    </>
   )
 }
 

@@ -16,13 +16,13 @@ const FirmPage = () => {
 	return (
 		<div className='firm-page' id='about'>
 			<h1 className='heading2'>THE FIRM</h1>
-
-			{/* Lorem Ipsum text */}
+	
 			<div className='firm-description'>
-			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta dolorum assumenda ab tempora quibusdam eaque adipisci doloremque nostrum dolor, ut odit ad tenetur debitis cum. Corporis, repudiandae ad ea tempora labore perferendis explicabo porro vero. Placeat voluptate iusto suscipit illo tempora labore cupiditate itaque possimus nihil, a unde vel sapiente!</p>
+			<p>We elevate wealth management to an art, offering discerning investors an exclusive, tailored experience. From elite investment solutions to bespoke insurance and portfolio management, we bring a level of service that matches your ambition and honors your vision.
+
+With a full spectrum of services—from PMS and AIFs to high-end insurance and strategic loans—our approach is as precise as it is personal, designed for those who seek sophistication and results. Welcome to RR Finvests, where your financial future is managed with discretion, expertise, and a commitment to excellence.</p>
 			</div>
 
-			{/* Stats section */}
 			<div className='firm-stats' ref={statsRef}>
 				<div className='firm-stat'>
 					<h2>{startAnimation && <CountUp end={34} duration={2} />}Cr +</h2>

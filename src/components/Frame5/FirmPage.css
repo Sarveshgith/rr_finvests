@@ -1,5 +1,3 @@
-/* src/components/FirmPage.css */
-/* src/components/FirmPage.css */
 
 .firm-page {
     display: flex;
@@ -7,14 +5,13 @@
     align-items: center;
     padding: 20px;
     text-align: center;
-    min-height: 100vh;
+    min-height: 20vh;
   }
   
-  .heading2 {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-style:normal;
-    font-size: 40px;
+  .firm-page h1 {
+    font-size: 2.5rem;
+    font-weight: 1500;
+    margin-bottom: 10px;
   }
   
   .horizontal-line {
@@ -27,13 +24,12 @@
   .firm-description {
     margin: 20px 0;
     padding: 10px;
-    max-width: 600px;
-    margin-top: 5%;
+    max-width: 900px;
   }
   
   .firm-description p {
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 2.0;
     color: #666;
     font-family: "Caudex", serif;
   }
@@ -42,7 +38,7 @@
     display: flex;
     width: 100%;
     max-width: 1200px;
-    margin-top: 5%;
+    margin-top: 30px;
   }
   
   .firm-stat {
@@ -105,16 +101,12 @@
     .horizontal-line {
       width: 80%;
     }
-    .firm-description{
-        margin-top: 10%;
-    }
+  
     .firm-description p {
-     font-size: 16px;
+     font-size: 18px;
     }
   
-    .firm-stats {
-      margin-top: 5%;
-    }
+  
     .firm-stat {
       flex-basis: 50%;
     }

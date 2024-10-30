@@ -20,7 +20,9 @@
     border-top: 1px solid #333;
     margin: 10px 0;
   }
-  
+  .heading2{
+    font-weight: 700 !important;
+  }
   .firm-description {
     margin: 20px 0;
     padding: 10px;
@@ -29,7 +31,8 @@
   
   .firm-description p {
     font-size: 18px;
-    line-height: 2.0;
+    line-height: 2.5;
+    letter-spacing: 1px;
     color: #666;
     font-family: "Caudex", serif;
   }
@@ -103,7 +106,8 @@
     }
   
     .firm-description p {
-     font-size: 18px;
+     font-size: 16px;
+     line-height: 2;
     }
   
   

@@ -23,7 +23,7 @@ const Contact = () => {
         <h1 className='contact-heading'>FOR FURTHER QUERIES</h1>
       <Row>
         <Col lg='6'> <div className="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125406.10926603609!2d78.6066256534387!3d10.815833728118813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf50ff2aecdad%3A0x6de02c3bedbbaea6!2sTiruchirappalli%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1729958604852!5m2!1sen!2sin" width="650" height="640" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.595393297874!2d80.25872747463835!3d13.061406687262295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526707ca7b3ea3%3A0xed7f3109bee70e4f!2sSpencer%20Plaza!5e0!3m2!1sen!2sin!4v1730231249818!5m2!1sen!2sin" width="650" height="640"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </Col>
         <Col lg='6'> <div className="contact-form">

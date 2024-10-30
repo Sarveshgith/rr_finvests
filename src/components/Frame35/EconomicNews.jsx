@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import "./EconomicNews.css"; // Ensure to create this CSS file for styling
+import "./EconomicNews.css";
 
 const EconomicNews = () => {
   const [news, setNews] = useState([]);
@@ -25,7 +25,7 @@ const EconomicNews = () => {
   }, []);
 
   return (
-    <div className="news-container">
+    <div className="news-container " id="news">
       <h2>Top Economic News</h2>
       {error ? (
         <p>{error}</p>

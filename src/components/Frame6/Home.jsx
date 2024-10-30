@@ -15,8 +15,9 @@ const Home = () => {
         </Col>
         <Col lg={6} >
         <div className='home-content1'>
-        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum amet ea voluptate ratione blanditiis cupiditate, deleniti dignissimos doloremque fugiat, veniam repellat eveniet nam tenetur. Quisquam, libero iure illo odit temporibus impedit repellendus. Debitis nisi modi laboriosam quae, assumenda tempora, amet adipisci perspiciatis odio placeat esse molestiae! Suscipit pariatur aut aliquam sint beatae. Cumque beatae aliquam laborum. Veritatis iusto doloribus nam voluptate beatae, aut eos voluptatibus voluptates veniam dicta omnis. Tempore!,aut eos voluptatibus voluptates veniam dicta omnis. Tempore!</p>
+        <p >When RR Finvests was established, my vision was to create something different—a place where financial solutions are genuinely tailored, offering clients not only choices but also real value. I believe that financial management should empower you, making complex decisions simpler and your goals more achievable. Our commitment is to be more than just advisors; we're here to be partners in your journey, anticipating your needs and providing solutions that make a real difference. Thank you for letting us be a part of your story. Together, we'll make your financial aspirations a reality.</p>
         <div className='home-content2' >
+            <p>Warm Regards,</p>
             <p>Rakesh Jayaprakash</p>
             <p>Founder & CEO</p>
         </div>

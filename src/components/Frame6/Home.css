@@ -1,3 +1,6 @@
+.home{
+    min-height: 100vh;
+}
 .home-img1{
     margin-top: 15%;
     margin-bottom: 15%;
@@ -58,6 +61,9 @@
 }
 
 @media (max-width:480px) {
+    .home{
+        min-height: 140vh;
+    }
     .home-img1{
         width: 300px;
         height: 250px;

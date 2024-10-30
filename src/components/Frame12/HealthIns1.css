@@ -30,7 +30,6 @@
     }
     .btn2{
         margin-left: 25% !important;
-        ma
     }
 }
 
@@ -60,6 +59,17 @@
         margin-top: 7%;
         margin-bottom: 10%;
         margin-left: 10%;
+    }
+    
+}
+
+@media (max-width:480px) {
+    .health-ins1-content1{
+        height: 300px !important;
+        width: 350px !important;
+        margin-top: 7%;
+        margin-bottom: 10%;
+        margin-left: 5% !important;
     }
     
 }

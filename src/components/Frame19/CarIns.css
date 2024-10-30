@@ -37,6 +37,7 @@
     color: white !important;
     width: 200px !important; 
     font-family: "Caudex", serif;
+    height: 40px;
 }
 .btn3:hover{
     background-color: gainsboro !important;

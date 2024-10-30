@@ -7,8 +7,10 @@ import Button from 'react-bootstrap/Button';
 const Ins1 = () => {
   return (
     <>
+     <div className='motor'>
     <Container>
       <Row>
+      <h1 className='text-center motar-ins1-content4'>INSURANCES</h1>
         <Col sm="12" md="4" lg="4"><div className='motar-ins1-content1'></div></Col>
         <Col sm="12" md="7" lg="8">
         <h1 className='text-center motar-ins1-content3'>INSURANCES</h1>
@@ -17,7 +19,7 @@ const Ins1 = () => {
         </Col>
          </Row>
     </Container>
-    
+    </div>
     </>
   )
 }

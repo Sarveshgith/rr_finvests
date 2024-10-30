@@ -1,0 +1,89 @@
+.contact{
+    min-height: 110vh;
+}
+.map{
+    width: 650px;
+    height: 640px;
+    margin-left: 5%;
+    margin-top: 3%;
+    overflow: hidden;
+}
+.contact-heading{
+    font-family:'Raleway',sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	font-style: normal;
+	text-align: center;
+	margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.contact-heading1{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-style:normal;
+    font-size: 30px;
+}
+.contact-form{
+    margin-top: 3%;
+    background-color: gainsboro;
+    width: 700px;
+    height: 640px;
+    font-family: "Caudex", serif;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form{
+    margin-left: 20px;
+}
+.form1{
+    width: 650px !important;
+}
+.form1::placeholder{
+    text-align: start !important;
+}
+.form1{
+    text-align: start !important;
+}
+
+.btn4{
+    border-radius: 70px !important ;
+    background-color: black !important;
+    color: white !important;
+    width: 200px !important; 
+    font-family: "Caudex", serif;
+    height: 40px;
+    margin-left: 65% !important;
+}
+.btn4:hover{
+    background-color: gainsboro !important;
+    color: black !important;
+}
+
+@media (max-width:480px) {
+ .map{
+    width: 400px;
+    height: 300px;
+ }
+ .map iframe{
+    width: 390px;
+    height: 300px;
+ }
+ .contact-form{
+    width: 400px;
+    height: 600px;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+ }
+ .form1{
+    width: 350px !important;
+} 
+.btn4{
+    margin-left: 20% !important;
+}
+.contact-heading1{
+    text-align: center;
+}
+}

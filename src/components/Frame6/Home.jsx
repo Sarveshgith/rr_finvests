@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 
 const Home = () => {
   return (
-    <div>
+    <div className='home'>
       <Container fluid="md">
       <Row>
         <Col lg={6} >

@@ -10,11 +10,15 @@ const Corp_8 = () => {
       <Container>
       <Row>
         <Col sm="12" md="7" lg="9">
-        <h1 className='text-center health-ins1-content3'>INSURANCES</h1>
-        <p className='motar-ins1-content2'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit inventore illum consequatur nulla ea ullam possimus odio voluptatum quibusdam nobis quidem eligendi pariatur quisquam dignissimos illo, numquam libero. Maxime delectus rerum veniam quae est aliquam magnam eligendi incidunt dolore! Adipisci saepe reiciendis aut neque quaerat. Quisquam repellat nemo voluptatem ex veritatis minus similique est fugiat iusto commodi, eligendi aspernatur blanditiis atque repellendus, aperiam impedit perferendis quo consectetur minima enim esse! Aspernatur reiciendis est impedit necessitatibus nihil eligendi, quo quasi? Animi id, explicabo repellendus quas autem ab quam expedita quasi minima obcaecati numquam provident aspernatur nobis, eligendi, et corrupti voluptatum cupiditate.</p>
-        <Button className='btn2'>next→</Button>
+        <h1 className='text-center health-ins1-content3'>ENGINEERING INSURANCES</h1>
+        <p className='motar-ins1-content2'>Engineering insurance is a specialized type of coverage designed to protect businesses and professionals in the engineering sector against various risks associated with construction and engineering projects. This insurance typically encompasses several policies, including contractor's all-risk insurance, professional indemnity insurance, and machinery breakdown insurance.
+
+Contractor's all-risk insurance covers physical loss or damage to construction works, materials, and equipment during the project, providing financial protection against unforeseen events like accidents, theft, or natural disasters.</p>
+        
+        
+        {/*<Button className='btn2'>Explore →</Button>*/}
         </Col>
-        <Col sm="12" md="5" lg="3"><div className='health-ins1-content1'></div></Col>
+        <Col sm="12" md="5" lg="3"><div className='health-ins1-content1'><img src="engineeringinsurance.png"/> </div></Col>
          </Row>
     </Container>
     </div>

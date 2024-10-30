@@ -4,54 +4,54 @@ import { Link } from 'react-router-dom';
 const Corp_Insurance = () => {
   return (
       <div className='insurance-container4'>
-			<h1 className='title1'>INSURANCES</h1>
+			<h1 className='title1'>CORPORATE INSURANCES</h1>
 			<div className='insurance-cards4'>
 				<div className='card4'>
 					<img
-						src='https://source.unsplash.com/300x200/?health,insurance'
+						src='fireinsurance.png'
 						alt=''
 						className='image-placeholder4'
 					/>
 					<div className='text-placeholder4'>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<p>Fire Insurance</p>
 					</div>
-					<Link to='/Fire_ins1'><button className='next-button4'>Next →</button></Link>
+					<Link to='/Fire_ins1'><button className='next-button4'>Know more →</button></Link>
 				</div>
 
 				<div className='card4'>
 					<img
-						src='https://source.unsplash.com/300x200/?life,insurance'
+						src='marineins.jpg'
 						alt=''
 						className='image-placeholder4'
 					/>
 					<div className='text-placeholder4'>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<p>Marine Insurance</p>
 					</div>
-					<Link to='/Marine_ins1'><button className='next-button4'>Next →</button></Link>
+					<Link to='/Marine_ins1'><button className='next-button4'>Know more →</button></Link>
 				</div>
 
 				<div className='card4'>
 					<img
-						src='https://source.unsplash.com/300x200/?car,insurance'
+						src='generalins.png'
 						alt=''
 						className='image-placeholder4'
 					/>
 					<div className='text-placeholder4'>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<p>General Insurance</p>
 					</div>
-					<Link to='/GMC_ins1'><button className='next-button4'>Next →</button></Link>
+					<Link to='/GMC_ins1'><button className='next-button4'>Know more →</button></Link>
 				</div>
 
 				<div className='card4'>
 					<img
-						src='https://source.unsplash.com/300x200/?travel,insurance'
+						src='engineeringins.png'
 						alt=''
 						className='image-placeholder4'
 					/>
 					<div className='text-placeholder4'>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<p>Engineering Insurance</p>
 					</div>
-					<Link to='/Engineering_ins1'><button className='next-button4'>Next →</button></Link>
+					<Link to='/Engineering_ins1'><button className='next-button4'>Know more →</button></Link>
 				</div>
 			</div>
 		</div>

@@ -8,7 +8,6 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 10px;
 	font-family: 'Arial', sans-serif;
 	height: 100vh;
 }
@@ -30,7 +29,7 @@ h1 {
 .insurance-cards4 {
 	display: flex;
 	justify-content: space-between;
-	gap: 120px;
+	gap:50px;
 	max-width: 1200px;
 	flex-wrap: wrap;
 }
@@ -49,7 +48,6 @@ h1 {
 .image-placeholder4 {
 	width: 250px;
 	height: 300px;
-	background-color: gainsboro;
 	border-radius: 50px;
 	margin-bottom: 20px;
 }

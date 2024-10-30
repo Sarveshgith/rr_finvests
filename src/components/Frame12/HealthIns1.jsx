@@ -13,10 +13,10 @@ const HealthIns1 = () => {
       <Row>
         <Col sm="12" md="7" lg="9">
         <h1 className='text-center health-ins1-content3'>HEALTH INSURANCE</h1>
-        <p className='motar-ins1-content2'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit inventore illum consequatur nulla ea ullam possimus odio voluptatum quibusdam nobis quidem eligendi pariatur quisquam dignissimos illo, numquam libero. Maxime delectus rerum veniam quae est aliquam magnam eligendi incidunt dolore! Adipisci saepe reiciendis aut neque quaerat. Quisquam repellat nemo voluptatem ex veritatis minus similique est fugiat iusto commodi, eligendi aspernatur blanditiis atque repellendus, aperiam impedit perferendis quo consectetur minima enim esse! Aspernatur reiciendis est impedit necessitatibus nihil eligendi, quo quasi? Animi id, explicabo repellendus quas autem ab quam expedita quasi minima obcaecati numquam provident aspernatur nobis, eligendi, et corrupti voluptatum cupiditate.</p>
-        <Link to='/HealthIns1'><Button className='btn2'>next→</Button></Link>
+        <p className='motar-ins1-content2'>Health insurance is a crucial form of coverage that helps individuals manage the cost of medical care. It typically covers a range of services, including hospital visits, surgeries, preventive care, and prescription drugs. By spreading the financial risk among a large group of people, health insurance enables individuals to access necessary healthcare without facing overwhelming expenses. Various plans are available, each with different premium rates, coverage limits, and provider networks, allowing individuals to choose options that best suit their healthcare needs and financial situations.</p>
+        <Link to='/HealthIns1'><Button className='btn2'>Explore</Button></Link>
         </Col>
-        <Col sm="12" md="5" lg="3"><div className='health-ins1-content1'></div></Col>
+        <Col sm="12" md="5" lg="3"><div className='health-ins1-content1'><img src ="healthins.jpg"/> </div></Col>
          </Row>
     </Container>
     

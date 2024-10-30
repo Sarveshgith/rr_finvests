@@ -10,11 +10,13 @@ const Ins2 = () => {
     <Container>
       <Row>
         <Col sm="12" md="7" lg="9">
-        <h1 className='text-center health-ins1-content3'>INSURANCES</h1>
-        <p className='motar-ins1-content2'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit inventore illum consequatur nulla ea ullam possimus odio voluptatum quibusdam nobis quidem eligendi pariatur quisquam dignissimos illo, numquam libero. Maxime delectus rerum veniam quae est aliquam magnam eligendi incidunt dolore! Adipisci saepe reiciendis aut neque quaerat. Quisquam repellat nemo voluptatem ex veritatis minus similique est fugiat iusto commodi, eligendi aspernatur blanditiis atque repellendus, aperiam impedit perferendis quo consectetur minima enim esse! Aspernatur reiciendis est impedit necessitatibus nihil eligendi, quo quasi? Animi id, explicabo repellendus quas autem ab quam expedita quasi minima obcaecati numquam provident aspernatur nobis, eligendi, et corrupti voluptatum cupiditate.</p>
-        <Button className='btn2'>next→</Button>
+        <h1 className='text-center health-ins1-content3'>GENERAL LIABILITY INSURANCES</h1>
+        <p className='motar-ins1-content2'>General liability insurance is a type of insurance coverage that protects businesses from claims involving bodily injury, property damage, and personal injury, such as slander or libel. This insurance is essential for businesses of all sizes, as it helps safeguard against potential lawsuits and financial losses resulting from accidents or negligence that may occur during normal operations.
+
+With general liability insurance, businesses can cover legal defense costs, settlements, or judgments awarded to third parties, allowing them to focus on their core activities without the constant worry of unexpected liabilities..</p>
+       {/* <Button className='btn2'>next→</Button>*/}
         </Col>
-        <Col sm="12" md="5" lg="3"><div className='health-ins1-content1'></div></Col>
+        <Col sm="12" md="5" lg="3"><div className='health-ins1-content1'><img src="gli.jpg"/></div></Col>
          </Row>
     </Container>
     

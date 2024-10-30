@@ -7,12 +7,12 @@ const Corp_2 = () => {
     <div className='insurance-cards5'>
         <div className='card5'>
             <img
-                src='https://source.unsplash.com/300x200/?health,insurance'
+                src='motorins.png'
                 alt=''
                 className='image-placeholder5'
             />
             <div className='text-placeholder5'>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Lorem ipsum  sit amet, consectetur adipiscing elit.</p>
             </div>
             <Link to='/Fire_ins3'><button className='next-button5'>Next →</button></Link>
         </div>

@@ -9,12 +9,13 @@ const Corp_7 = () => {
     <div>
       <Container>
       <Row>
-      <h1 className='text-center motar-ins1-content4'> INSURANCES</h1>
-        <Col sm="12" md="4" lg="4"><div className='motar-ins1-content1'></div></Col>
+        <Col sm="12" md="4" lg="4"><div className='motar-ins1-content1'><img src="generalinsurance.png"/></div></Col>
         <Col sm="12" md="7" lg="8">
-        <h1 className='text-center motar-ins1-content3'>INSURANCES</h1>
-        <p className='motar-ins1-content2'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit inventore illum consequatur nulla ea ullam possimus odio voluptatum quibusdam nobis quidem eligendi pariatur quisquam dignissimos illo, numquam libero. Maxime delectus rerum veniam quae est aliquam magnam eligendi incidunt dolore! Adipisci saepe reiciendis aut neque quaerat. Quisquam repellat nemo voluptatem ex veritatis minus similique est fugiat iusto commodi, eligendi aspernatur blanditiis atque repellendus, aperiam impedit perferendis quo consectetur minima enim esse! Aspernatur reiciendis est impedit necessitatibus nihil eligendi, quo quasi? Animi id, explicabo repellendus </p>
-        <Button className='btn2'>next→</Button>
+        <h1 className='text-center motar-ins1-content3'>GENERAL INSURANCES</h1>
+        <p className='motar-ins1-content2'>General insurance is a broad category of insurance coverage that protects individuals and businesses against financial losses from unforeseen events, excluding life insurance. It encompasses various types of policies, including auto insurance, homeowners insurance, travel insurance, and commercial insurance, providing protection against risks such as theft, damage, liability, and accidents.
+
+General insurance policies typically offer coverage for specific events or perils and can be customized based on individual needs. For example, auto insurance covers damages to vehicles and liability for injuries caused in accidents, while homeowners insurance protects against property damage and liability claims related to one's home. </p>
+        {/*<Button className='btn2'>Explore →</Button>*/}
         </Col>
          </Row>
     </Container>

@@ -41,6 +41,7 @@ const FooterEmailForm = () => {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
+          className="form2"
         />
         <textarea
           placeholder="Your message"
@@ -48,7 +49,7 @@ const FooterEmailForm = () => {
           onChange={(e) => setMessage(e.target.value)}
           required
         />
-        <button type="submit">Send</button>
+        <button type="submit" className="next-button4">Send</button>
       </form>
       {status && <p>{status}</p>}
     </div>

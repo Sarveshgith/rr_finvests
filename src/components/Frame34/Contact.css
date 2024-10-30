@@ -65,6 +65,7 @@ form{
  .map{
     width: 400px;
     height: 300px;
+    margin-left: 15px;
  }
  .map iframe{
     width: 390px;
@@ -73,7 +74,7 @@ form{
  .contact-form{
     width: 400px;
     height: 600px;
-    margin-left: 5%;
+    margin-left: 15px;
     margin-top: 5%;
     margin-bottom: 5%;
  }

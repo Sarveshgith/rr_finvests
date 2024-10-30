@@ -6,6 +6,7 @@ body {
     font-size: 18px;
     margin: 0;
     padding: 0;
+    letter-spacing: 1px;
 }
 
 .mdb-footer {
@@ -42,7 +43,9 @@ body {
     flex: 1;
     padding: 10px;
 }
-
+.footer-column h6{
+    font-family:'Raleway',sans-serif;
+}
 .footer-email-form {
     background-color: rgba(255, 255, 255, 0.1); 
     font-family: 'Caudex', serif;
@@ -63,16 +66,11 @@ body {
     border: 1px solid #ccc; 
     font-size: 16px; 
 }
-
-.footer-email-form button {
-    padding: 10px 15px; 
-    background-color: #333; 
-    color: white; 
-    border: none; 
-    cursor: pointer; 
-    border-radius: 10px; 
-    font-size: 16px; 
-    font-family: 'Caudex', serif;
+.form2::placeholder{
+    text-align: start !important;
+}
+.form2{
+    text-align: start !important;
 }
 
 .text-uppercase {

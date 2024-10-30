@@ -19,7 +19,6 @@ const FirmPage = () => {
 	
 			<div className='firm-description'>
 			<p>We elevate wealth management to an art, offering discerning investors an exclusive, tailored experience. From elite investment solutions to bespoke insurance and portfolio management, we bring a level of service that matches your ambition and honors your vision.
-
 With a full spectrum of services—from PMS and AIFs to high-end insurance and strategic loans—our approach is as precise as it is personal, designed for those who seek sophistication and results. Welcome to RR Finvests, where your financial future is managed with discretion, expertise, and a commitment to excellence.</p>
 			</div>
 

@@ -5,14 +5,16 @@
 .container1 {
     width: 90%;
     margin: 20px auto;
-    padding: 5%;
+    padding: 0 !important;
     border-radius: 10px;
+    min-height: 100vh;
+    
 }
 
 .heading1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 2.5em;
+    font-size: 40px !important;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -22,16 +24,17 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 7%;
 }
 
 .text1 {
     font-family: 'Caudex', serif;
-    font-size: 1.1em;
+    font-size: 18px !important;
     margin-left: 5%;
     width: 100%;
     padding-right: 0;
-    line-height: 1.8;
-    letter-spacing: 0.8px;
+    line-height: 3 !important;
+    letter-spacing: 1 px;
 }
 
 .image-placeholder1 {
@@ -42,8 +45,8 @@
 
 .image1 {
     margin-top: 10px;
-    width: 100%;
-    max-width: 600px;
+    width: 430px;
+    height: 430px !important;
     height: auto;
     background-color: #ccc;
     border-radius: 5px;
@@ -76,5 +79,19 @@
     }
     .image1 {
         max-width: 900px;
+    }
+}
+
+@media (max-width:480px) {
+    .heading1{
+        font-size: 30px !important;
+    }
+    .text1 {
+        font-size: 16px !important;
+        line-height: 2 !important;
+    }
+    .image1 {
+        width: 365px;
+        height: 350px !important;
     }
 }

@@ -76,6 +76,7 @@ h1 {
 	border-radius: 20px;
 	cursor: pointer;
 	transition: background-color 0.3s;
+	font-family: 'Caudex', serif;
 }
 
 .next-button5:hover {

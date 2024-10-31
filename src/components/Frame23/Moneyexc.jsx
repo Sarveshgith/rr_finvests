@@ -1,5 +1,6 @@
 import React from 'react'
-import './Moneyexc.css'
+import './Moneyexc.css';
+import '../Frame22/AIF.css';
 const Moneyexc = () => {
   return (
     <div>

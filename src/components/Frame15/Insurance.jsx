@@ -11,7 +11,7 @@ const HealthInsurance = () => {
 					<Link to='/Corp_ins'> <img
 						src='corporateinsurance.png'
 						alt='Stock Image 1'
-						className='insurance-image'
+						className='insurance-image1'
 					/></Link>
 					<div className='insurance-details'>
 						<p>Corporate Insurances</p>
@@ -20,9 +20,9 @@ const HealthInsurance = () => {
 				{/* Card 2 */}
 				<div className='insurance-card'>
 					<Link to='/Insurance'><img
-						src='retailinsurance.png'
+						src='retailin.png'
 						alt='Stock Image 2'
-						className='insurance-image'
+						className='insurance-image2'
 					/></Link>
 					<div className='insurance-details'>
 						<p>Retail Insurances</p>

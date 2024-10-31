@@ -13,7 +13,7 @@ function App() {
 				</div>
 				<div className='image-placeholder1'>
 					<img
-						src='Investment1.jpg'
+						src='inte.png'
 						alt='Investment1'
 						className='image1'
 					/>

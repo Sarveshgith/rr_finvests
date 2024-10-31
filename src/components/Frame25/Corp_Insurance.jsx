@@ -37,7 +37,7 @@ const Corp_Insurance = () => {
 						className='image-placeholder4'
 					/>
 					<div className='text-placeholder4'>
-						<p>General Insurance</p>
+						<p>GMC</p>
 					</div>
 					<Link to='/GMC_ins1'><button className='next-button4'>Know more →</button></Link>
 				</div>

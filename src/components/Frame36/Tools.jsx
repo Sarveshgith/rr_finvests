@@ -5,7 +5,7 @@ import { Input } from '../ui/Input';
 import { Button } from '../ui/Button'; 
 import { Card, CardContent, CardHeader, CardTitle } from '../ui/Card';
 import { Smile, Meh, Frown, TrendingUp, TrendingDown } from 'lucide-react';
-
+import './Tools.css';
 const AnimatedSIPCalculator = () => {
     const [monthlyInvestment, setMonthlyInvestment] = useState(5000);
     const [investmentPeriod, setInvestmentPeriod] = useState(10);
@@ -74,11 +74,11 @@ const AnimatedSIPCalculator = () => {
                     }
                 `}</style>
                 <CardHeader>
-                    <CardTitle className="text-3xl font-bold text-center text-purple-700">Animated SIP Calculator</CardTitle>
+                    <CardTitle className="text-3xl font-bold text-center text-purple-700">SIP Calculator</CardTitle>
                 </CardHeader>
                 <CardContent className="p-6">
-                    <div className="space-y-6">
-                        <div className="text-center">
+                    <div className="space-x-6">
+                        <div className="text-center flex-1">
                             <label className="block mb-2 text-purple-700">Monthly Investment (₹)</label>
                             <Input
                                 type="number"
@@ -87,7 +87,7 @@ const AnimatedSIPCalculator = () => {
                                 className="w-full max-w-xs mx-auto border-purple-300 focus:border-purple-500"
                             />
                         </div>
-                        <div className="text-center">
+                        <div className="text-center flex-1">
                             <label className="block mb-2 text-purple-700">Investment Period (Years): {investmentPeriod}</label>
                             <Slider
                                 value={[investmentPeriod]}
@@ -97,7 +97,7 @@ const AnimatedSIPCalculator = () => {
                                 className="text-purple-500 mx-auto"
                             />
                         </div>
-                        <div className="text-center">
+                        <div className="text-center flex-1">
                             <label className="block mb-2 text-purple-700">Expected Return Rate (%): {expectedReturnRate}</label>
                             <Slider
                                 value={[expectedReturnRate]}
@@ -107,7 +107,11 @@ const AnimatedSIPCalculator = () => {
                                 className="text-purple-500 mx-auto"
                             />
                         </div>
-                        <Button onClick={calculateSIP} className="w-full bg-purple-600 hover:bg-purple-700">Calculate</Button>
+                        <div className="sipbutton">
+                        <Button onClick={calculateSIP} className="w-full bg-purple-600 hover:bg-purple-700 text-black-important" style={{ color: "black" }}>
+  Calculate
+</Button>
+                        </div>
                         <div className="text-center text-2xl font-bold mt-4 text-purple-700">
                             Total Value: ₹{totalValue.toFixed(2)}
                         </div>
@@ -123,7 +127,7 @@ const AnimatedSIPCalculator = () => {
                         </div>
                         <div className="flex items-center justify-center">
                             <div className="flex flex-col items-center justify-center space-y-2">
-                                <div className="pet-animation flex justify-center items-center">
+                                <div className="sipbutton pet-animation flex justify-center items-center">
                                     <PetEmoji />
                                 </div>
                                 <div className="text-lg font-semibold text-center">

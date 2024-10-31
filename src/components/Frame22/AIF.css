@@ -4,3 +4,47 @@
     font-style:normal;
     font-size: 40px;
 }
+.frame21-img1{
+    width: 900px;
+    position:relative;
+    display: flex;
+    justify-items: center;
+}
+.frame21-content2{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+@media (max-width:580px) {
+    .frame21-img1{
+        width: 300px;
+        margin:10px;
+        display: flex;
+        justify-items: center;
+    }
+
+}
+@media (max-width:450px) {
+    .frame22-content1 h1{
+        font-size: 30px;
+    }
+    .frame21-img1{
+        display: flex;
+        justify-items: center;
+        width: 400px;
+        margin:10px;
+      
+    }
+    .frame21-content2{
+
+        margin-top: 20px;
+        font-size: 20px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        
+    }
+
+}

@@ -11,13 +11,11 @@ const Corp_1 = () => {
     <div className='motor'>
        <Container> 
       <Row>
-      <h1 className='text-center motar-ins1-content4'>MOTOR INSURANCE</h1>
+      <h1 className='text-center motar-ins1-content4'>FIRE INSURANCE</h1>
         <Col sm="12" md="4" lg="4"><div className='motar-ins1-content1'><img src="fireins.jpg"/></div></Col>
         <Col sm="12" md="7" lg="8">
         <h1 className='text-center motar-ins1-content3'>FIRE INSURANCE</h1>
-        <p className='motar-ins1-content2 '>Auto insurance can help pay claims if you injure or damage someone else's property in a car accident, help pay for accident-related repairs on your vehicle, or repair or replace your vehicle if stolen, vandalised, or damaged by a natural disaster.
-        Instead of paying out of pocket for auto accidents and damage, people pay annual premiums to an auto insurance company. The company then pays all or most of the covered costs associated with an auto accident or other vehicle damage.
-        If you have a leased vehicle or borrowed money to buy a car, your lender or leasing dealership will likely require you to carry auto insurance. As with homeowners insurance, the lender may purchase insurance for you if necessary.</p>
+        <p className='motar-ins1-content2 '>Fire insurance provides essential financial protection against losses caused by fire, covering damages to both the structure and contents within a property, such as furniture, machinery, and inventory. Policies typically include coverage for incidents related to fire, lightning, and explosions, with options for extended coverage to protect against additional risks like floods or earthquakes. However, damages resulting from war, nuclear events, or negligence are usually excluded. In the event of a fire, policyholders must inform the insurance provider, supply evidence of the damage, and follow the claim process to receive compensation. Fire insurance reduces financial strain and offers peace of mind by covering repair or replacement expenses.</p>
         
         {/* <Link to='/Fire_ins2'><Button className='btn2'>Know more →</Button></Link> */}
         </Col>

@@ -11,10 +11,8 @@ const Corp_7 = () => {
       <Row>
         <Col sm="12" md="4" lg="4"><div className='motar-ins1-content1'><img src="generalinsurance.png"/></div></Col>
         <Col sm="12" md="7" lg="8">
-        <h1 className='text-center motar-ins1-content3'>GENERAL INSURANCES</h1>
-        <p className='motar-ins1-content2'>General insurance is a broad category of insurance coverage that protects individuals and businesses against financial losses from unforeseen events, excluding life insurance. It encompasses various types of policies, including auto insurance, homeowners insurance, travel insurance, and commercial insurance, providing protection against risks such as theft, damage, liability, and accidents.
-
-General insurance policies typically offer coverage for specific events or perils and can be customized based on individual needs. For example, auto insurance covers damages to vehicles and liability for injuries caused in accidents, while homeowners insurance protects against property damage and liability claims related to one's home. </p>
+        <h1 className='text-center motar-ins1-content3'>GENERAL MEDICAL INSURANCES</h1>
+        <p className='motar-ins1-content2'>Group health insurance policies typically cover a specific group of people, usually the employees of an organization. It is often provided as an employment benefit. The covered employees can also choose to enroll their family members, such as spouses, parents, and children, under the same policy. The coverage and cost-effectiveness of these plans depend on the specific plan chosen by the employer. A key benefit of group health insurance is instant coverage of pre-existing conditions, with no waiting periods. These plans also cover a broad spectrum of medical needs, including treatment for common illnesses, maternity benefits, and daycare treatment. Moreover, it also includes wellness benefits, among other valuable features. Unlike individual health insurance policies, which frequently impose non-negotiable waiting periods and may be linked to high premiums, employer-sponsored health insurance is viewed as a crucial and valuable benefit, not just a desirable perk.</p>
         {/*<Button className='btn2'>Explore →</Button>*/}
         </Col>
          </Row>

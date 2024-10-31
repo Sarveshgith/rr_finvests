@@ -84,14 +84,14 @@
 
 @media (max-width:480px) {
     .heading1{
-        font-size: 30px !important;
+        font-size: 25px !important;
     }
     .text1 {
         font-size: 16px !important;
         line-height: 2 !important;
     }
     .image1 {
-        width: 365px;
+        width: 350px;
         height: 350px !important;
     }
 }

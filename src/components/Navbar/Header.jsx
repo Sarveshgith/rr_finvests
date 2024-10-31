@@ -17,7 +17,7 @@ const Header = () => {
 					<Navbar.Collapse id='basic-navbar-nav'>
 						<Nav className='me-auto'>
 						<Nav.Link as ={Link} to="/">HOME</Nav.Link>
-            			<Nav.Link as={Link}to='/about'>ABOUT</Nav.Link>
+            			<Nav.Link href='#about'>ABOUT</Nav.Link>
            				 <Nav.Link as={Link} to='/tools'>TOOLS</Nav.Link>
           				</Nav>
 						
@@ -42,8 +42,12 @@ const Header = () => {
 				<h6 className=' header-content3 text-center'>
 					JOIN US TODAY AND LET YOUR MONEY WORK HARD AS YOU DO
 				</h6>
-				<Button variant='light' className='btn'>
-					Connect with Us
+				<Button
+  					variant="light"
+  					className="btn"
+  					onClick={() => (window.location.href = 'tel:+91 9543873330')}
+				>
+  				Connect with Us
 				</Button>
 			</div>
 		</div>

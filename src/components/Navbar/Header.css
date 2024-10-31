@@ -5,7 +5,6 @@
 .Header {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; 
 }
 .header-content1 {
 	margin-top: 9%;
@@ -74,7 +73,7 @@ a.navbar-brand {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: auto; /* Pushes the content to the bottom of the page */
+    margin-top: 45px; /* Pushes the content to the bottom of the page */
 }
 .btn {
 	background-color: #cfa601;
@@ -103,7 +102,6 @@ a.navbar-brand {
 
 @media (max-width: 480px) {
 	.Header{
-		min-height: 100vh;
 		display: flex;
 		flex-direction: column;
 	}

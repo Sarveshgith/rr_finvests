@@ -23,6 +23,97 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for smooth effect */
 }
 
+.bottom-middle .hover-text {
+    position: absolute; /* Position relative to the card */
+    top: 70%; /* Position it above the bottom of the parent */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust position for centering */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: #fff; /* Text color */
+    padding: 5px 10px; /* Some padding */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition for visibility */
+}
+.bottom-left .hover-text {
+    position: absolute; /* Position relative to the card */
+    top: 90%; /* Position it above the bottom of the parent */
+    left:30%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust position for centering */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: #fff; /* Text color */
+    padding: 5px 10px; /* Some padding */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition for visibility */
+}
+
+.bottom-right .hover-text {
+    position: absolute; /* Position relative to the card */
+    top: 90%; /* Position it above the bottom of the parent */
+    right: 25%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust position for centering */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: #fff; /* Text color */
+    padding: 5px 10px; /* Some padding */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition for visibility */
+}
+
+.top-left .hover-text {
+    position: absolute; /* Position relative to the card */
+    top: 10%; /* Position it above the bottom of the parent */
+    left: 29%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust position for centering */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: #fff; /* Text color */
+    padding: 5px 10px; /* Some padding */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition for visibility */
+}
+
+.top-right .hover-text {
+    position: absolute; /* Position relative to the card */
+    top: 10%; /* Position it above the bottom of the parent */
+    right: 15%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust position for centering */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: #fff; /* Text color */
+    padding: 5px 10px; /* Some padding */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition for visibility */
+}
+.top-middle .hover-text {
+    position: absolute; /* Position relative to the card */
+    top: 10%; /* Position it above the bottom of the parent */
+    right: 40%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust position for centering */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: #fff; /* Text color */
+    padding: 5px 10px; /* Some padding */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition for visibility */
+}
+
+.top-left:hover .hover-text,
+.top-middle:hover .hover-text,
+.top-right:hover .hover-text,
+.bottom-left:hover .hover-text,
+.bottom-middle:hover .hover-text,
+.bottom-right:hover .hover-text {
+    opacity: 1; /* Show text on hover */
+}
+
 .top-middle img:hover {
     transform: scale(1.1); /* Zoom in effect */
     box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
@@ -30,7 +121,7 @@
 .center {
     width: 200px;
     height: 160px;
-    background: linear-gradient(145deg, #f0f0f0, #cacaca); /* Glossy gradient */
+    background: linear-gradient(120deg, #fd851ce8, #cacaca); /* Glossy gradient */
     border-radius: 50px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2), -10px -10px 20px rgba(255, 255, 255, 0.7); /* Shadow for depth */
     position: absolute;
@@ -48,10 +139,12 @@
     box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.3), -15px -15px 25px rgba(255, 255, 255, 0.9); /* Enhanced shadow on hover */
 }
 
-.center h2 {
+.center h1 {
+    color:#fafafa;
+    font-family:"Raleway,sans-serif";
     margin: 0;
-    font-size: 24px;
-    color: #333;
+    font-size: 30px;
+
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Text shadow for emphasis */
 }
 .bottom-middle img,

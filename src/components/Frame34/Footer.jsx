@@ -29,9 +29,17 @@ export default function App() {
         <MDBCol className="footer-column">
           <h6 className="text-uppercase fw-bold">Contact</h6>
           <p><MDBIcon icon="home" className="mdb-icon" />Phase - I, Ground Floor, Spencer Plaza Mall, G-24, Anna Salai, Chennai, Tamil Nadu 600002</p>
-          <p><MDBIcon icon="envelope" className="mdb-icon" /> rrfinvest@gmail.com</p>
-          <p><MDBIcon icon="phone" className="mdb-icon" /> + 01 234 567 88</p>
-        </MDBCol>
+          <p>
+  <a href="mailto:rrfinvest@gmail.com" style={{ textDecoration: 'none', color: 'inherit' }}>
+    <MDBIcon icon="envelope" className="mdb-icon" />business@rrfinvests.com
+  </a>
+  </p>
+  <p>
+  <a href="tel:+0123456788" style={{ textDecoration: 'none', color: 'inherit' }}>
+    <MDBIcon icon="phone" className="mdb-icon" /> +91 9543873330
+  </a>
+</p>        
+</MDBCol>
       </div>
 
       {/* Footer Credit */}

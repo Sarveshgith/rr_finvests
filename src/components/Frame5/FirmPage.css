@@ -97,7 +97,7 @@
   
   @media (max-width: 480px) {
     .firm-page h1 {
-      font-size: 30px;
+      font-size: 25px;
       font-weight: 500;
     }
   
@@ -106,23 +106,31 @@
     }
   
     .firm-description p {
-     font-size: 16px;
-     line-height: 2;
+      font-size: 16px;
+      line-height: 2;
     }
   
+    .firm-stats {
+      display: flex;
+      flex-direction: column; /* Changes to vertical alignment */
+      align-items: center; /* Centers content within the container */
+    }
   
     .firm-stat {
-      flex-basis: 50%;
+      flex-basis: 100%; /* Each item takes full width in vertical alignment */
+      text-align: center; /* Center-align text */
+      padding: 1rem 0; /* Add spacing between items */
     }
   
     .firm-stat h2 {
-      font-size: 25px;
+      font-size: 22px; /* Adjust heading font size for mobile */
     }
   
     .firm-stat p {
-      font-size: 0.9rem;
+      font-size: 0.85rem; /* Slightly smaller font size for mobile */
     }
   }
+  
   
   
   

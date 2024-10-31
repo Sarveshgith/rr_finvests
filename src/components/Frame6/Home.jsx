@@ -14,14 +14,38 @@ const Home = () => {
         
         </Col>
         <Col lg={6} >
-        <div className='home-content1'>
-        <p >When RR Finvests was established, my vision was to create something different—a place where financial solutions are genuinely tailored, offering clients not only choices but also real value. I believe that financial management should empower you, making complex decisions simpler and your goals more achievable. Our commitment is to be more than just advisors; we're here to be partners in your journey, anticipating your needs and providing solutions that make a real difference. Thank you for letting us be a part of your story. Together, we'll make your financial aspirations a reality.</p>
-        <div className='home-content2' >
-            <p>Warm Regards,</p>
-            <p>Rakesh Jayaprakash</p>
-            <p>Founder & CEO</p>
-        </div>
-        </div>
+        <div className="home-content1">
+  <p style={{ 
+      fontWeight: 'bold', 
+      color: '#333', 
+      padding: '1rem', 
+      borderLeft: '5px solid #ff9800', 
+      position: 'relative',
+      fontSize: '1.1rem', 
+      lineHeight: '1.6' 
+    }}
+  >
+    <span style={{ 
+        fontSize: '2rem', 
+        verticalAlign: 'top', 
+        color: '#ff9800' 
+      }}
+    >“<br/></span>
+    When RR Finvests was established, my vision was to create something different—a place where financial solutions are genuinely tailored, offering clients not only choices but also real value. I believe that financial management should empower you, making complex decisions simpler and your goals more achievable. Our commitment is to be more than just advisors; we're here to be partners in your journey, anticipating your needs and providing solutions that make a real difference. Thank you for letting us be a part of your story. Together, we'll make your financial aspirations a reality.
+    <span style={{ 
+        fontSize: '2rem', 
+        verticalAlign: 'bottom', 
+        color: '#ff9800' 
+      }}
+    ><br/>”</span>
+  </p>
+  <div className="home-content2">
+    <p style={{ fontWeight: 'bold', marginTop: '1rem' }}>Warm Regards,</p>
+    <p style={{ fontWeight: 'bold' }}>Rakesh Jayaprakash</p>
+    <p style={{ fontWeight: 'bold' }}>Founder & CEO</p>
+  </div>
+</div>
+
         </Col>
       </Row>
     </Container>

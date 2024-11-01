@@ -3,7 +3,17 @@
     justify-items: center;
     margin-top: 30px;
 }
-
+.tools{
+    min-height: 75vh;
+}
     .text-black-important {
         color: black !important;
+      }
+
+      .p-6{
+        font-family: "Caudex", serif;
+      }
+
+      .input2{
+width: 180px;
       }

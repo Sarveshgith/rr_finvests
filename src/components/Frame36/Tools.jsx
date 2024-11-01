@@ -74,21 +74,21 @@ const AnimatedSIPCalculator = () => {
                     }
                 `}</style>
                 <CardHeader>
-                    <CardTitle className="text-3xl font-bold text-center text-purple-700">SIP Calculator</CardTitle>
+                    <CardTitle className="text-3xl font-bold text-center text-purple-700"><h1 className='title1'>SIP CALCULATOR</h1></CardTitle>
                 </CardHeader>
-                <CardContent className="p-6">
+                <CardContent className="p-6 tools">
                     <div className="space-x-6">
                         <div className="text-center flex-1">
-                            <label className="block mb-2 text-purple-700">Monthly Investment (₹)</label>
+                            <label className="block mb-2 text-purple-700">Monthly Investment (₹):</label>
                             <Input
                                 type="number"
                                 value={monthlyInvestment}
                                 onChange={(e) => setMonthlyInvestment(Number(e.target.value))}
-                                className="w-full max-w-xs mx-auto border-purple-300 focus:border-purple-500"
+                                className="w-full max-w-xs mx-auto border-purple-300 focus:border-purple-500  input2"
                             />
                         </div>
                         <div className="text-center flex-1">
-                            <label className="block mb-2 text-purple-700">Investment Period (Years): {investmentPeriod}</label>
+                            <label className="block mb-2 mt-3 text-purple-700">Investment Period (Years): {investmentPeriod}</label>
                             <Slider
                                 value={[investmentPeriod]}
                                 onValueChange={([value]) => setInvestmentPeriod(value)}
@@ -98,7 +98,7 @@ const AnimatedSIPCalculator = () => {
                             />
                         </div>
                         <div className="text-center flex-1">
-                            <label className="block mb-2 text-purple-700">Expected Return Rate (%): {expectedReturnRate}</label>
+                            <label className="block mb-2 mt-3 text-purple-700">Expected Return Rate (%): {expectedReturnRate}</label>
                             <Slider
                                 value={[expectedReturnRate]}
                                 onValueChange={([value]) => setExpectedReturnRate(value)}
@@ -108,7 +108,7 @@ const AnimatedSIPCalculator = () => {
                             />
                         </div>
                         <div className="sipbutton">
-                        <Button onClick={calculateSIP} className="w-full bg-purple-600 hover:bg-purple-700 text-black-important" style={{ color: "black" }}>
+                        <Button onClick={calculateSIP} className="btn2">
   Calculate
 </Button>
                         </div>

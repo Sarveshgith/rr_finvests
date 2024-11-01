@@ -76,7 +76,7 @@ a.navbar-brand {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 45px; /* Pushes the content to the bottom of the page */
+    margin-top: 78px; /* Pushes the content to the bottom of the page */
 }
 .btn {
 	background-color: #cfa601;

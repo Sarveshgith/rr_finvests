@@ -11,8 +11,10 @@ export default function App() {
         <MDBCol className="footer-column">
           <h6 className="text-uppercase fw-bold">
             <MDBIcon icon="gem" className="mdb-icon" />
-            RR FINVEST
+            RR FINVESTS
           </h6>
+          <p className="text-muted">Subscribe to get Latest News</p>
+          <p className="text-muted">and Insights from us!</p>
           <FooterEmailForm />
         </MDBCol>
 
@@ -30,12 +32,12 @@ export default function App() {
           <h6 className="text-uppercase fw-bold">Contact</h6>
           <p><MDBIcon icon="home" className="mdb-icon" />Phase - I, Ground Floor, Spencer Plaza Mall, G-24, Anna Salai, Chennai, Tamil Nadu 600002</p>
           <p>
-  <a href="mailto:rrfinvest@gmail.com" style={{ textDecoration: 'none', color: 'inherit' }}>
+  <a href="mailto:business@rrfinvests.com" style={{ textDecoration: 'none', color: 'inherit' }}>
     <MDBIcon icon="envelope" className="mdb-icon" />business@rrfinvests.com
   </a>
   </p>
   <p>
-  <a href="tel:+0123456788" style={{ textDecoration: 'none', color: 'inherit' }}>
+  <a href="tel:+919543873330" style={{ textDecoration: 'none', color: 'inherit' }}>
     <MDBIcon icon="phone" className="mdb-icon" /> +91 9543873330
   </a>
 </p>        

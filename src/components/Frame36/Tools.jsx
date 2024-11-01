@@ -79,7 +79,7 @@ const AnimatedSIPCalculator = () => {
                 <CardContent className="p-6 tools">
                     <div className="space-x-6">
                         <div className="text-center flex-1">
-                            <label className="block mb-2 text-purple-700">Monthly Investment (₹):</label>
+                            <label className="block mb-2 text-purple-700">Monthly Investment (₹): </label>
                             <Input
                                 type="number"
                                 value={monthlyInvestment}

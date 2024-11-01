@@ -20,7 +20,7 @@ const Header = () => {
             			<Nav.Link href='#about'>ABOUT</Nav.Link>
            				 <Nav.Link as={Link} to='/tools'>TOOLS</Nav.Link>
           				</Nav>
-						
+							
 						<Navbar.Brand href='#' className='hide2'>
 							RR FINVESTS
 						</Navbar.Brand>

@@ -69,14 +69,14 @@ a.navbar-brand {
 .header-content3 {
 	font-family: 'Caudex', serif;
 	font-size: 18px;
-	margin-top: 10.5%;
+	margin-top: 6%;
 }
 .header-content4 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 45px; /* Pushes the content to the bottom of the page */
+    margin-top: 78px; /* Pushes the content to the bottom of the page */
 }
 .btn {
 	background-color: #cfa601;

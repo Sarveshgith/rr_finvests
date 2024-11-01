@@ -4,14 +4,14 @@ import './CarInsQuote.css';
 const CarInsuranceQuote = () => {
 	return (
 		<div className='quote-container'>
-			<h1 className='heading2'>CAR INSURANCE - GET QUOTE</h1>
+			<h1 className='title1'>VEHICLE INSURANCE - GET QUOTE</h1>
 			<div className='quote-form'>
 				<form>
 					<div className='input-container'>
 						<label htmlFor='carNumber'>
 							<i className='fa fa-search'></i>
 						</label>
-						<input type='text' id='carNumber' placeholder='Enter Car Number' />
+						<input type='text' id='carNumber' placeholder='Enter Vechicle Number' />
 					</div>
 					<div className='input-container'>
 						<label htmlFor='email'></label>

@@ -39,7 +39,8 @@ export default function App() {
   </p>
   <p>
   <a href="tel:+919543873330" style={{ textDecoration: 'none', color: 'inherit' }}>
-     +91 9543873330
+    +91 9543873330
+
   </a>
 </p>        
 </MDBCol>

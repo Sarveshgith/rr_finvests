@@ -43,7 +43,7 @@ export default function App() {
       </div>
 
       {/* Footer Credit */}
-      <div className="footer-credit">@2025</div>
+      <div className="footer-credit">RR Finvests@2024</div>
     </div>
   );
 }

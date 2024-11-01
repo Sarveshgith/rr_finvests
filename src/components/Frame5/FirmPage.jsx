@@ -29,22 +29,22 @@ With a full spectrum of services—from PMS and AIFs to high-end insurance and s
 				</div>
 
 				<div className='firm-stat'>
-					<h2>{startAnimation && <CountUp end={10} duration={2} />}+</h2>
+					<h2>{startAnimation && <CountUp end={8} duration={2} />}+</h2>
 					<p>Years of Experience</p>
 				</div>
 
 				<div className='firm-stat'>
-					<h2>{startAnimation && <CountUp end={280} duration={2} />}+</h2>
-					<p>Employees</p>
+					<h2>{startAnimation && <CountUp end={400} duration={2} />}+</h2>
+					<p>Customers</p>
 				</div>
 
 				<div className='firm-stat'>
 					<h2>{startAnimation && <CountUp end={10} duration={2} />}+</h2>
-					<p>Offices Worldwide</p>
+					<p>Corporates Handled</p>
 				</div>
 
 				<div className='firm-stat'>
-					<h2>{startAnimation && <CountUp end={5} duration={2} />}+</h2>
+					<h2>{startAnimation && <CountUp end={25} duration={2} />}+</h2>
 					<p>Industry Awards</p>
 				</div>
 			</div>

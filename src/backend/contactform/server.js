@@ -10,9 +10,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // MongoDB connection
-mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
-  .then(() => console.log('MongoDB connected'))
-  .catch(err => console.log(err));
+
 
 // Define a schema and model for storing form submissions
 const ContactSchema = new mongoose.Schema({
@@ -40,12 +38,12 @@ app.post('/api/contact', async (req, res) => {
   try {
     // Store form data in MongoDB
     const contact = new Contact({ firstName, lastName, email, message });
-    await contact.save();
+ 
 
     // Send email
     const mailOptions = {
       from: process.env.EMAIL,
-      to: 'dharun12351@gmail.com',
+      to: 'business@rrfinvests.com',
       subject: 'New Contact Form Submission',
       text: `You have a new message from ${firstName} ${lastName} (${email}):\n\n${message}`
     };

@@ -27,6 +27,8 @@ const EconomicNews = () => {
   return (
     <div className="news-container " id="news">
       <h2>Top Economic News</h2>
+      
+      {/*
       {error ? (
         <p>{error}</p>
       ) : (
@@ -39,6 +41,7 @@ const EconomicNews = () => {
           </div>
         ))
       )}
+        */}
     </div>
   );
 };

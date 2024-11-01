@@ -47,10 +47,10 @@ const AnimatedSIPCalculator = () => {
 
     const PetEmoji = () => {
         switch (petMood) {
-            case 'excited': return <Smile className="w-16 h-16 text-green-500" />;
-            case 'happy': return <Smile className="w-16 h-16 text-yellow-500" />;
-            case 'neutral': return <Meh className="w-16 h-16 text-blue-500" />;
-            case 'sad': return <Frown className="w-16 h-16 text-red-500" />;
+            case 'excited': return <Smile className="w-50 h-50 text-green-500" />;
+            case 'happy': return <Smile className="w-24 h-24 text-yellow-500" />;
+            case 'neutral': return <Meh className="w-50 h-50 text-blue-500" />;
+            case 'sad': return <Frown className="w-50 h-50 text-red-500" />;
             default: return <Meh className="w-16 h-16 text-gray-500" />;
         }
     };

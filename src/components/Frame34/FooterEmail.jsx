@@ -18,7 +18,7 @@ const FooterEmailForm = () => {
 
     emailjs
       .send(
-        "YOUR_SERVICE_ID",       // Replace with your EmailJS service ID
+        "service_6erm3he",       // Replace with your EmailJS service ID
         "YOUR_TEMPLATE_ID",       // Replace with your EmailJS template ID
         templateParams,
         "YOUR_PUBLIC_KEY"         // Replace with your EmailJS public key

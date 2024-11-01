@@ -24,7 +24,7 @@ With a full spectrum of services—from PMS and AIFs to high-end insurance and s
 
 			<div className='firm-stats' ref={statsRef}>
 				<div className='firm-stat'>
-					<h2>{startAnimation && <CountUp end={34} duration={2} />}Cr +</h2>
+					<h2>{startAnimation && <CountUp end={40} duration={2} />}Cr +</h2>
 					<p>Assets Under Management</p>
 				</div>
 
@@ -35,12 +35,12 @@ With a full spectrum of services—from PMS and AIFs to high-end insurance and s
 
 				<div className='firm-stat'>
 					<h2>{startAnimation && <CountUp end={400} duration={2} />}+</h2>
-					<p>Customers</p>
+					<p>Happy Customers</p>
 				</div>
 
 				<div className='firm-stat'>
 					<h2>{startAnimation && <CountUp end={10} duration={2} />}+</h2>
-					<p>Corporates Handled</p>
+					<p>Corporates being handled</p>
 				</div>
 
 				<div className='firm-stat'>

@@ -21,6 +21,8 @@
 .contact-heading1{
     font-family: "Raleway", sans-serif;
     font-weight: 500;
+    padding-top:20px;
+    text-align: center;
     font-style:normal;
     font-size: 25px;
 }

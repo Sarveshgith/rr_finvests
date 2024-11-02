@@ -10,16 +10,16 @@ const FooterEmailForm = () => {
 
 	const sendEmail = (e) => {
 		e.preventDefault();
-
+		
 		const templateParams = {
-			user_email: email,
+			email: email,
 			message: message,
 		};
 
 		emailjs
 			.send(
 				'service_xyqjzjp', // Replace with your EmailJS service ID
-				'template_g883yoq', // Replace with your EmailJS template ID
+				'template_ecs5oah', // Replace with your EmailJS template ID
 				templateParams,
 				'XDZcE2EU-Liic8fwI' // Replace with your EmailJS public key
 			)

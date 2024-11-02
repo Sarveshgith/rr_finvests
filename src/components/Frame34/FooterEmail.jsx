@@ -16,21 +16,21 @@ const FooterEmailForm = () => {
 			message: message,
 		};
 
-    emailjs
-      .send(
-        "service_6erm3he",       // Replace with your EmailJS service ID
-        "YOUR_TEMPLATE_ID",       // Replace with your EmailJS template ID
-        templateParams,
-        "YOUR_PUBLIC_KEY"         // Replace with your EmailJS public key
-      )
-      .then(
-        () => setStatus("Message sent successfully!"),
-        (error) => setStatus("Failed to send message: " + error.text)
-      );
+		emailjs
+			.send(
+				'service_6erm3he', // Replace with your EmailJS service ID
+				'template_g883yoq', // Replace with your EmailJS template ID
+				templateParams,
+				'XDZcE2EU-Liic8fwI' // Replace with your EmailJS public key
+			)
+			.then(
+				() => setStatus('Message sent successfully!'),
+				(error) => setStatus('Failed to send message: ' + error.text)
+			);
 
-    setEmail("");
-    setMessage("");
-  };
+		setEmail('');
+		setMessage('');
+	};
 
 	return (
 		<div className='footer-email-form'>

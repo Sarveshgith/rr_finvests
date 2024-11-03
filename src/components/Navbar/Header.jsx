@@ -31,7 +31,7 @@ const Header = () => {
 					</Navbar.Collapse>
 				</Navbar>
 			</div>
-			<div>
+			<div className='header-content6'>
 			<div className='header-content5'>
 				<h2 className='text-center header-content1'>
 					MAKE INTELLIGENT INVESTMENTS

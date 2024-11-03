@@ -110,6 +110,7 @@ a.navbar-brand {
 	}
 	.header-content3 {
 		font-size: 16px;
+
 	}
 	.navbar-toggler.collapsed {
 		margin-left: 8%;
@@ -140,12 +141,14 @@ a.navbar-brand {
 		margin-left: 40px;
 	}
 	.header-content4{
-		margin-top: 27%;
+		margin-top: 33%;
 	}
 	.header-content5 {
 		margin-top: 40%;
 	}
-	
+	.header-content6{
+		height: 535px;
+	}
 }
 
 

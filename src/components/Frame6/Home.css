@@ -68,7 +68,7 @@
 @media (max-width:480px) {
     .home{
         position: relative;
-        min-height: 140vh;
+        min-height: 220vh;
         margin-bottom: 100px;
     }
     .home-img1{

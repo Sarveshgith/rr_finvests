@@ -102,4 +102,7 @@ h1 {
 	max-width: 1200px;
 	flex-wrap: wrap;
 }
+.title1{
+	font-size: 30px;
+}
 }

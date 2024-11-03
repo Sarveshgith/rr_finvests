@@ -26,9 +26,9 @@
     }
 
 }
-@media (max-width:450px) {
+@media (max-width:480px) {
     .frame22-content1 h1{
-        font-size: 30px;
+        font-size: 28px;
     }
     .frame21-img1{
         display: flex;
@@ -37,14 +37,6 @@
         margin:10px;
       
     }
-    .frame21-content2{
-
-        margin-top: 20px;
-        font-size: 20px;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        
-    }
+    
 
 }

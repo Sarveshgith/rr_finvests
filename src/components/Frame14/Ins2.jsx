@@ -16,7 +16,7 @@ const Ins2 = () => {
 With general liability insurance, businesses can cover legal defense costs, settlements, or judgments awarded to third parties, allowing them to focus on their core activities without the constant worry of unexpected liabilities..</p>
        {/* <Button className='btn2'>next→</Button>*/}
         </Col>
-        <Col sm="12" md="5" lg="3"><div className='health-ins1-content1'><img src="gli.jpg"/></div></Col>
+        <Col sm="12" md="5" lg="3"><div className='health-ins1-content1'><img src="gli.jpg" className='health-img'/></div></Col>
          </Row>
     </Container>
     

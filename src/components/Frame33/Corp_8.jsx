@@ -18,7 +18,7 @@ Contractor's all-risk insurance covers physical loss or damage to construction w
         
         {/*<Button className='btn2'>Explore →</Button>*/}
         </Col>
-        <Col sm="12" md="5" lg="3"><div className='health-ins1-content1'><img src="engineeringinsurance.png"/> </div></Col>
+        <Col sm="12" md="5" lg="3"><div className='health-ins1-content1'><img src="engineeringinsurance.png" className='health-img'/> </div></Col>
          </Row>
     </Container>
     </div>

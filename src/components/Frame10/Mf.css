@@ -8,7 +8,7 @@
     border-radius: 80px;
 }
 .mfimg{
-    margin-left:160px;
+    margin-left:19%;
     margin-bottom: 30px;
     max-width:900px;
     height:auto;
@@ -145,16 +145,19 @@
 }
 @media (max-width:480px) {
     .mfimg{
-        margin:20px;
-        margin-right: 20px;
+        margin:0;
+        margin-right: 5%;
+        margin-left: 5%;
         width:380px !important;
         height: auto !important;
     }
 
-    .Mf-content2{
+    .Mf-content2 p{
         margin-top:0%;
         margin-bottom: 8%;
-        font-size: 14px;
+        font-size: 16px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     .input1{
         width: 200px !important;
@@ -168,6 +171,9 @@
         margin-top: 40px !important;
         margin-left: 20% !important;
         width: 200px !important;
+    }
+    .Mf-content3{
+        font-size: 30px;
     }
 }
 @media (max-width:350px) {

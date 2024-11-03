@@ -1,16 +1,17 @@
-.health-ins1-content1 img{
-    height: 400px;
-    width: 400px;
-    margin-top: 65%;
-    margin-bottom: 15%;
-    border-radius: 60px;
-}
+
 .health-ins1-content3{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-style:normal;
     font-size: 40px;
     margin-top: 85px !important;
+}
+.health-img{
+    height: 400px;
+    width: 300px;
+    margin-top: 45%;
+    margin-bottom: 15%;
+    border-radius: 60px;
 }
 @media (max-width:993px){
     .motar-ins1-content1{
@@ -66,9 +67,19 @@
     .health-ins1-content1{
         height: 300px !important;
         width: 350px !important;
-        margin-top: 7%;
+        margin-top: 0;
         margin-bottom: 10%;
         margin-left: 5% !important;
+    }
+    .health-img{
+        height: 300px !important;
+        width: 350px !important;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .health-ins1-content3{
+        font-size: 30px;
+        margin-top: 40px !important;
     }
     
 }

@@ -9,6 +9,7 @@ const Corp_7 = () => {
     <div>
       <Container>
       <Row>
+      <h1 className='text-center motar-ins1-content4'>GENERAL MEDICAL COVERAGE</h1>
         <Col sm="12" md="4" lg="4"><div className='motar-ins1-content1'><img src="generalinsurance.png"/></div></Col>
         <Col sm="12" md="7" lg="8">
         <h1 className='text-center motar-ins1-content3'>GENERAL MEDICAL COVERAGE</h1>

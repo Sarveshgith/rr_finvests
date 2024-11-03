@@ -13,7 +13,7 @@ const MotarIns1 = () => {
       <Row>
       <h1 className='text-center motar-ins1-content4'>MOTOR INSURANCE</h1>
         <Col sm="12" md="4" lg="4"><div className='motar-ins1-content1'><img src="motorinsurance.png"/> </div></Col>
-        <Col sm="12" md="7" lg="8">
+        <Col sm="12" md="7" lg="8" >
         <h1 className='text-center motar-ins1-content3'>MOTOR INSURANCE</h1>
         <p className='motar-ins1-content2 '>Auto insurance can help pay claims if you injure or damage someone else's property in a car accident, help pay for accident-related repairs on your vehicle, or repair or replace your vehicle if stolen, vandalised, or damaged by a natural disaster.
         Instead of paying out of pocket for auto accidents and damage, people pay annual premiums to an auto insurance company. The company then pays all or most of the covered costs associated with an auto accident or other vehicle damage.

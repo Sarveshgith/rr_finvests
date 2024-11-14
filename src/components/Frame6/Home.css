@@ -68,6 +68,33 @@
 @media (max-width:480px) {
     .home{
         position: relative;
+        min-height: 160vh;
+        margin-bottom: 100px;
+    }
+    .home-img1{
+        
+        display: flex;
+        width: 340px;
+        height: 460px;
+        align-items: center;
+        margin-left: 20px;
+    }
+    .home-content1{
+        height: 270px;
+    }
+    .home-content1 p{
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 1px;
+    }
+    .home-content2{
+        margin-left: 40%;
+    }
+    
+}
+@media (max-width:430px) {
+    .home{
+        position: relative;
         min-height: 220vh;
         margin-bottom: 100px;
     }

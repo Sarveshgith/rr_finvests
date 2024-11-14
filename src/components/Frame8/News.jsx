@@ -12,17 +12,17 @@ const News = () => {
       <Row>
         <Col lg="4" sm="12">
         <div className='news-img'>
-            <img src="aircraft.jpg" alt="" className='news-img1' />
-            <p className='news-content1 text-center'>US elections: With 38% returns this year, US-focused Indian mutual funds offer better geographical diversification</p>
+            <img src="newsimage1.jpg" alt="" className='news-img1' />
+            <p className='news-content1 text-center'>India needs to improve return on time invested (ROTI) to transform into future, says Uday Kotak</p>
         </div>
         </Col>
         <Col lg="4" sm="12">
-        <div className='news-img'><img src="diwa.png" alt="" className='news-img1' />
-        <p className='news-content1 text-center'>Debt repayment tops India Inc’s use of QIP proceeds in 2024; capex second priority</p>
+        <div className='news-img'><img src="newsimage2.jpeg" alt="" className='news-img1' />
+        <p className='news-content1 text-center'>Trump’s proposed heavy tariffs on China to benefit India and the rest of the world</p>
         </div></Col>
         <Col lg="4" sm="12">
-        <div className='news-img'><img src="us.jpg" alt="" className='news-img1' />
-        <p className='news-content1 text-center'>Commodities from oil and gas to metals and grains dropped on Wednesday as the dollar rallied and victory for Republican Donald Trump in the US presidential election</p>
+        <div className='news-img'><img src="newsimage3.png" alt="" className='news-img1' />
+        <p className='news-content1 text-center'>Wholesale inflation scales 4-month high of 2.4% in Oct on simmering food prices</p>
         </div></Col>
       </Row>
     </div>

@@ -1,10 +1,11 @@
 import React from 'react';
 import './About.css';
-
+import { motion } from "motion/react"
 
 function App() {
 	return (
-		<div className='container1'>
+		<motion.div initial={{opacity:0, x:200}} transition={{duration:1}} whileInView={{opacity:1, x:0}} viewport={{once: true}} className='container1'>
+
 			<h1 className='heading1'>HOW INVESTMENTS ARE INTELLIGENT WITH US</h1>
 			<div className='content1'>
 				<div className='text1'>
@@ -19,7 +20,7 @@ function App() {
 					/>
 				</div>
 			</div>
-		</div>
+		</motion.div>
 	);
 }
 

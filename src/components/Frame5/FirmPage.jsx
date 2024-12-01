@@ -2,6 +2,7 @@ import { useState } from 'react';
 import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 import './FirmPage.css';
+import { motion } from "motion/react"
 
 const FirmPage = () => {
 	const [startAnimation, setStartAnimation] = useState(false);
@@ -14,7 +15,7 @@ const FirmPage = () => {
 	});
 
 	return (
-		<div className='firm-page' id='about'>
+		<motion.div  initial={{opacity:0, x:-200}} transition={{duration:1}} whileInView={{opacity:1, x:0}} viewport={{once: true}} className='firm-page' id='about'>
 			<h1 className='heading2'>THE FIRM</h1>
 	
 			<div className='firm-description'>
@@ -48,7 +49,7 @@ With a full spectrum of services—from PMS and AIFs to high-end insurance and s
 					<p>Industry Awards</p>
 				</div>
 			</div>
-		</div>
+		</motion.div>
 	);
 };
 

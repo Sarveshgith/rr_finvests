@@ -3,10 +3,11 @@ import './Home.css'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { motion } from "motion/react"
 
 const Home = () => {
   return (
-    <div className='home'>
+    <motion.div initial={{opacity:0, x:200}} transition={{duration:1.5}} whileInView={{opacity:1, x:0}} viewport={{once: true}} className='home'>
       <Container fluid="md">
       <Row>
         <Col lg={6} >
@@ -49,7 +50,7 @@ const Home = () => {
         </Col>
       </Row>
     </Container>
-    </div>
+    </motion.div>
   )
 }
 

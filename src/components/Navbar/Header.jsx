@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 import {Link}from 'react-router-dom';
+import { motion } from "motion/react"
 
 const Header = () => {
 	return (
@@ -31,7 +32,7 @@ const Header = () => {
 					</Navbar.Collapse>
 				</Navbar>
 			</div>
-			<div className='header-content6'>
+			<motion.div  initial={{opacity:0, y:100}} transition={{duration:1.5}} whileInView={{opacity:1, y:0}} viewport={{once: true}} className='header-content6'>
 			<div className='header-content5'>
 				<h2 className='text-center header-content1'>
 					MAKE INTELLIGENT INVESTMENTS
@@ -50,7 +51,7 @@ const Header = () => {
   				Connect with Us
 				</Button>
 			</div>
-		</div>
+		</motion.div>
 		</div>
 	);
 };

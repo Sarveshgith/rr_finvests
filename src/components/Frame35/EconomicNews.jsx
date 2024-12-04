@@ -33,15 +33,18 @@ const EconomicNews = () => {
         <p>{error}</p>
       ) : (
         news.map((item, index) => (
-          <div key={index} className="news-item">
-            <a href={item.link} target="_blank" rel="noopener noreferrer">
-              <h3>{item.title}</h3>
-            </a>
-            <p>{item.summary}</p>
-          </div>
+          <div>
+      {newsData.map((news, index) => (
+        <div key={index} className="news-item">
+          <img src={news.image} alt={news.title} />
+          <h3><a href={news.link} target="_blank" rel="noopener noreferrer">{news.title}</a></h3>
+          <p>{news.summary}</p>
+        </div>
+      ))}
+    </div>
         ))
       )}
-        */}
+      */ }  
     </div>
   );
 };

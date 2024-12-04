@@ -13,16 +13,16 @@ const News = () => {
         <Col lg="4" sm="12">
         <div className='news-img'>
             <img src="newsimage1.jpg" alt="" className='news-img1' />
-            <p className='news-content1 text-center'>India needs to improve return on time invested (ROTI) to transform into future, says Uday Kotak</p>
+            <p className='news-content1 text-center'>Stocks to watch on December 3: ITC, Pricol, TVS Motor, Swiggy, Torrent Power, Nazara Tech and more</p>
         </div>
         </Col>
         <Col lg="4" sm="12">
-        <div className='news-img'><img src="newsimage2.jpeg" alt="" className='news-img1' />
-        <p className='news-content1 text-center'>Trump’s proposed heavy tariffs on China to benefit India and the rest of the world</p>
+        <div className='news-img'><img src="newsimage2.jpg" alt="" className='news-img1' />
+        <p className='news-content1 text-center'>Elon Musk’s $56 billion Tesla pay package struck down again, Delaware Judge says board ‘improperly influenced…’</p>
         </div></Col>
         <Col lg="4" sm="12">
         <div className='news-img'><img src="newsimage3.png" alt="" className='news-img1' />
-        <p className='news-content1 text-center'>Wholesale inflation scales 4-month high of 2.4% in Oct on simmering food prices</p>
+        <p className='news-content1 text-center'>India's growth may dip below 7% for the first time in four years, economists say</p>
         </div></Col>
       </Row>
     </div>

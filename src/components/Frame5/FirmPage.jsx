@@ -15,8 +15,8 @@ const FirmPage = () => {
 	});
 
 	return (
-		<motion.div  initial={{opacity:0, x:-200}} transition={{duration:1}} whileInView={{opacity:1, x:0}} viewport={{once: true}} className='firm-page' id='about'>
-			<h1 className='heading2'>THE FIRM</h1>
+<motion.div  initial={{opacity:0, x:-200}} transition={{duration:1}} whileInView={{opacity:1, x:0}} viewport={{once: true}} className='firm-page' id='about'>			<h1 className='heading2'>THE FIRM</h1>
+
 	
 			<div className='firm-description'>
 			<p>We elevate wealth management to an art, offering discerning investors an exclusive, tailored experience. From elite investment solutions to bespoke insurance and portfolio management, we bring a level of service that matches your ambition and honors your vision.
@@ -49,7 +49,9 @@ With a full spectrum of services—from PMS and AIFs to high-end insurance and s
 					<p>Industry Awards</p>
 				</div>
 			</div>
-		</motion.div>
+ 
+			</motion.div>
+
 	);
 };
 

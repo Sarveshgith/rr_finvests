@@ -2,7 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+.container11{
+    margin-top:40px;
+    background-color: black;
+    padding:10px;
+}
 .container1 {
+   
     width: 90%;
     margin: 20px auto;
     padding: 0 !important;
@@ -12,6 +18,7 @@
 }
 
 .heading1 {
+    color:#fdfdfd;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 40px !important;
@@ -20,14 +27,30 @@
 }
 
 .content1 {
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     margin-top: 7%;
 }
+.explore{
+    justify-content: end;
+    color:#cfa601;
+    font-size: 18px !important;
+    font-family: 'Caudex', serif;
+
+}
+.explorebutton{
+    padding-left:15px;
+    padding-right:15px;
+    border-radius: 30px;
+    background-color: #cfa601;
+}
 
 .text1 {
+    color:#ededed;
+
     font-family: 'Caudex', serif;
     font-size: 18px !important;
     margin-left: 5%;
@@ -38,20 +61,58 @@
 }
 
 .image-placeholder1 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.image1 {
-    margin-top: 10px;
-    width: 430px;
-    height: 430px !important;
+    width: 4020px;
+    height: 400px !important;
     height: auto;
     background-color: #ccc;
     border-radius: 50px;
     object-fit: cover;
-}
+    position: relative;
+    overflow: hidden; /* Ensure no overflow */
+  }
+  .image-placeholder1 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0; /* All images hidden initially */
+    animation: rotateImages 12s infinite; /* Animation duration = 4 images * 3s each */
+  }
+  
+  .image-placeholder1 img:nth-child(1) {
+    animation-delay: 0s;
+  }
+  .image-placeholder1 img:nth-child(2) {
+    animation-delay: 3s;
+  }
+  .image-placeholder1 img:nth-child(3) {
+    animation-delay: 6s;
+  }
+  .image-placeholder1 img:nth-child(4) {
+    animation-delay: 9s;
+  }
+  
+  @keyframes rotateImages {
+    0% {
+      opacity: 0;
+    }
+    8% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 1;
+    }
+    33% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+
 
 /* Medium screens (tablets) */
 @media (min-width: 600px) {

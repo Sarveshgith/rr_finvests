@@ -33,7 +33,8 @@ const Header = () => {
 				</Navbar>
 			</div>
 			<motion.div  initial={{opacity:0, y:100}} transition={{duration:1.5}} whileInView={{opacity:1, y:0}} viewport={{once: true}} className='header-content6'>
-			<div className='header-content5'>
+					<div className='header-content5'>
+
 				<h2 className='text-center header-content1'>
 					MAKE INTELLIGENT INVESTMENTS
 				</h2>
@@ -51,7 +52,9 @@ const Header = () => {
   				Connect with Us
 				</Button>
 			</div>
-		</motion.div>
+			</motion.div>
+
+
 		</div>
 	);
 };

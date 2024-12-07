@@ -13,6 +13,7 @@
     border-radius: 50px;
 }
 .home-content1{
+    color:#ededed;
     margin-top: 15%; 
     font-size: 18px;
     line-height: 2.5;
@@ -24,6 +25,9 @@
 }
 .home-content2 p{
     margin: 0%;
+}
+.founder{
+    background-color: black;
 }
 
 @media (max-width:993px) {
@@ -119,3 +123,5 @@
     }
     
 }
+
+

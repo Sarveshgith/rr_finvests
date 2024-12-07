@@ -1,4 +1,4 @@
-import React from 'react';
+  import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 import './Footer.css';
 import FooterEmailForm from './FooterEmail';
@@ -14,8 +14,8 @@ export default function App() {
             <MDBIcon icon="gem" className="mdb-icon" />
             RR FINVESTS
           </h6>
-          <p className="text-muted">Subscribe to get Latest News</p>
-          <p className="text-muted">and Insights from us!</p>
+          <p className="textt-muted">Subscribe to get Latest News</p>
+          <p className="textt-muted">and Insights from us!</p>
           <FooterEmailForm />
         </MDBCol>
 

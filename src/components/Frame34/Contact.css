@@ -16,6 +16,8 @@
 	text-align: center;
 	margin-bottom: 20px;
     margin-top: 0;
+    color:#1a1a1a;
+
 }
 
 .contact-heading1{
@@ -25,10 +27,11 @@
     text-align: center;
     font-style:normal;
     font-size: 25px;
+    color:#f1f1f1;
 }
 .contact-form{
     margin-top: 3%;
-    background-color: gainsboro;
+    background-color: rgb(37, 37, 37);
     width: 700px;
     height: 640px;
     font-family: "Caudex", serif;
@@ -49,9 +52,10 @@ form{
     text-align: start !important;
 }
 
+
 .btn4{
     border-radius: 70px !important ;
-    background-color: black !important;
+    background-color: #cfa601 !important;
     color: white !important;
     width: 200px !important; 
     font-family: "Caudex", serif;
@@ -59,8 +63,8 @@ form{
     margin-left: 65% !important;
 }
 .btn4:hover{
-    background-color: gainsboro !important;
-    color: black !important;
+    background-color: rgb(20, 20, 20) !important;
+    color: rgba(255, 255, 255, 0.947) !important;
 }
 
 @media (max-width:480px) {

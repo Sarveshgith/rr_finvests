@@ -6,11 +6,13 @@ import Col from 'react-bootstrap/Col';
 import { motion } from "motion/react"
 import gsap from 'https://cdn.skypack.dev/gsap@3.12.0';
 import { ScrollTrigger } from 'https://cdn.skypack.dev/gsap@3.12.0/ScrollTrigger';
+
 const Home = () => {
 
   return (
     <div className='founder'>
     <motion.div initial={{opacity:0, x:200}} transition={{duration:1.5}} whileInView={{opacity:1, x:0}} viewport={{once: true}} className='home'>      <Container fluid="md">
+
       <Row>
         <Col lg={6} >
         <div className='home-img'> <img src="founder.jpg" className='home-img1' alt="" /></div>
@@ -53,7 +55,9 @@ const Home = () => {
       </Row>
     </Container>
     </motion.div>
+ 
     </div>
+
   )
 }
 

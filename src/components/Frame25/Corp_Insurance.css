@@ -1,16 +1,25 @@
+.insurance-container4{
+    background-color:#0f0303;
+    
+}
+.title1{
+    color: white;
+}
+
 
 .card4 {
     margin-top: 50px;
     height: auto;
     width: auto ; /* Set width for each card */
     border-radius: 10px; /* Round corners of the card */
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Initial shadow for depth */
+    box-shadow: 5px 5px 15px rgba(253, 253, 253, 0.3); /* Initial shadow for depth */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for smooth effect */
+    
 }
 
 .card4:hover {
     transform: translateY(-5px); /* Slight upward movement on hover */
-    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+    box-shadow: 10px 10px 25px rgba(255, 255, 255, 0.4); /* Enhanced shadow on hover */
 }
 
 .image-placeholder4 {
@@ -18,10 +27,9 @@
     height:200px ; /* Maintain aspect ratio */
 }
 
-
 .next-button4 {
-    background-color: #000000; /* Button color */
-    color: white; /* Button text color */
+    background-color: #ffffff; /* Button color */
+    color: rgb(0, 0, 0); /* Button text color */
     border: none; /* Remove border */
     border-radius: 5px; /* Round corners */
     cursor: pointer; /* Change cursor on hover */
@@ -31,3 +39,4 @@
 .next-button4:hover {
     background-color: hsl(35, 88%, 44%); /* Darken button on hover */
 }
+

@@ -56,9 +56,10 @@
 	cursor: pointer;
 }
 
+/**
 .next-button:hover {
 	
-}
+} */ 
 
 @media (max-width: 768px) {
 	.insurance-card {

@@ -1,0 +1,62 @@
+/* Moneyexc.css */
+
+.frame22-content1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin: 10px auto;
+    max-width: 100%;
+}
+
+.frame22-content1 h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.frame21-img1 {
+    display: block;
+    margin: 20px auto; 
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.frame22-content2 {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
+    font-family: "Caudex", serif;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 0 !important;
+}
+
+@media (max-width: 768px) {
+    .frame22-content1 {
+        padding: 30px 15px;
+    }
+
+    .frame22-content1 h1 {
+        font-size: 2rem;
+    }
+
+    .frame22-content2 {
+        font-size: 0.9rem;
+        padding: 0 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    .frame22-content1 h1 {
+        font-size: 1.5rem;
+    }
+
+    .frame22-content2 {
+        font-size: 0.8rem;
+    }
+}

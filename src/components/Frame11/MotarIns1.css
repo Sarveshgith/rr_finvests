@@ -14,6 +14,7 @@
     font-style:normal;
     font-size: 40px;
     margin-top: 10% !important;
+    color: white;
 }
 .motar-ins1-content2{
     margin-top: 8%;
@@ -27,14 +28,14 @@
 }
 .btn2{
     border-radius: 70px !important ;
-    background-color: black !important;
-    color: white !important;
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(0, 0, 0) !important;
     width: 200px !important; 
     font-family: "Caudex", serif;
 }
 .btn2:hover{
-    background-color: gainsboro !important;
-    color: black !important;
+    background-color: rgb(216, 163, 28) !important;
+    color: rgb(255, 255, 255) !important;
 }
 
 @media (max-width:993px){

@@ -26,7 +26,7 @@ const EconomicNews = () => {
 
   return (
     <div className="news-container " id="news">
-      <h2>Top Economic News</h2>
+      <h2>TOP ECONOMIC NEWS</h2>
       
       {/*
       {error ? (

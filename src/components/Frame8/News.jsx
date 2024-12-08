@@ -9,8 +9,8 @@ const News = () => {
   return (
     <>
      
-  <main class="main flow news">
-  <h1 class="headin2 main__heading text-center mt-5 mb-5 ">Top Economic News</h1>
+  <main class="main flow news" id='news'>
+  <h1 class="headin2 main__heading text-center mt-5 mb-5 ">TOP ECONOMIC NEWS</h1>
   <div class="main__cards cards">
     <div class="cards__inner">
       <div class="cards__card card">

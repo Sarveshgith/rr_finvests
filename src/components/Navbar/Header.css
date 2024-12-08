@@ -108,6 +108,11 @@ a.navbar-brand {
 	text-align: center;
 }
 
+.btn:hover{
+	background-color: black;
+    color: white;
+}
+
 @media (max-width: 993px) {
 	.header-content1 {
 		font-size: 30px;

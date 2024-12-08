@@ -76,7 +76,9 @@ body {
 .form2{
     text-align: start !important;
 }
-
+.footer-email-form form{
+    margin-left: 0;
+}
 .text-uppercase {
     font-size: 1.2rem; 
     margin-bottom: 1rem; 
@@ -89,7 +91,7 @@ body {
 
 .footer-credit {
     font-size: 16px; 
-    color: rgb(0, 0, 0); 
+    color: rgb(235, 235, 235); 
     margin-top: 15px; 
     text-align: center; 
 }

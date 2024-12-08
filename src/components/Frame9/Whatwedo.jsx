@@ -1,10 +1,11 @@
 import React from 'react';
 import './Whatwedo.css';
 import { Link } from 'react-router-dom';
+import { motion } from "motion/react"
 
 const Whatwedo = () => {
   return (
-    <div className='whole' id='Whatwedo'>
+    <motion.div className='whole' id='Whatwedo' initial={{opacity:0, y:200}} transition={{duration:1}} whileInView={{opacity:1, y:0}} viewport={{once: true}}>
       <div className='center text-center'>
         <h1>RR</h1>
         <h1>FINVESTS</h1>
@@ -76,7 +77,7 @@ const Whatwedo = () => {
           <div className="hover-text">Loans</div> {/* Hover text */}
         </div>
       </Link>
-    </div>
+    </motion.div>
   );
 }
 

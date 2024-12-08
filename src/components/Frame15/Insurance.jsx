@@ -1,13 +1,14 @@
 import React from 'react';
 import './Insurance.css';
 import { Link } from 'react-router-dom';
+import { motion } from "motion/react"
 const HealthInsurance = () => {
 	return (
 		<div className='insurance-container'>
 			<h1 className='title'> INSURANCES</h1>
 			<div className='insurance-content'>
 				{/* Card 1 */}
-				<div className='insurance-card'>
+				<motion.div className='insurance-card' initial={{opacity:0, x:-200}} transition={{duration:1}} whileInView={{opacity:1, x:0}} viewport={{once: true}}>
 					<Link to='/Corp_ins'> <img
 						src='corporateinsurance.png'
 						alt='Stock Image 1'
@@ -16,9 +17,9 @@ const HealthInsurance = () => {
 					<div className='insurance-details'>
 						<p>Corporate Insurances</p>
 					</div>
-				</div>
+				</motion.div>
 				{/* Card 2 */}
-				<div className='insurance-card'>
+				<motion.div className='insurance-card' initial={{opacity:0, x:200}} transition={{duration:1}} whileInView={{opacity:1, x:0}} viewport={{once: true}}>
 					<Link to='/Insurance'><img
 						src='retailin.png'
 						alt='Stock Image 2'
@@ -27,7 +28,7 @@ const HealthInsurance = () => {
 					<div className='insurance-details'>
 						<p>Retail Insurances</p>
 					</div>
-				</div>
+				</motion.div>
 			</div>
 		</div>
 	);

@@ -7,9 +7,9 @@
     margin-top: 85px !important;
 }
 .health-img{
-    height: 400px;
-    width: 300px;
-    margin-top: 45%;
+    height: 300px;
+    width: 350px !important;
+    margin-top: 50%;
     margin-bottom: 15%;
     border-radius: 60px;
 }

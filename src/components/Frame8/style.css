@@ -18,7 +18,6 @@ ul {
 .main {
   align-items: center;
   max-width: 95rem;
-  padding: 3em 1.5em;
 }
 
 
@@ -37,11 +36,10 @@ ul {
   --flow-space: 0.5em;
   --hsl: var(--hue), var(--saturation), var(--lightness);
   flex: 1 1 14rem;
-  padding: 1.5em 2em;
   display: grid;
   grid-template-rows: auto auto auto 1fr;
   align-items: start;
-  gap: 1.25em;
+  gap: 10px;
   color: #f2f2f2;
   background-color: #2a2a2a;
   border: 1px solid #eceff133;

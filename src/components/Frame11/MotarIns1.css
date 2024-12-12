@@ -8,6 +8,12 @@
     margin-bottom: 15%;
     border-radius: 60px;
 }
+.motar-ins1-content1 img{
+    width: 500px !important;
+    height: 350px !important;
+    margin-left: 10%;
+    border-radius: 40px !important;
+}
 .motar-ins1-content3{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -17,7 +23,7 @@
     color: white;
 }
 .motar-ins1-content2{
-    margin-top: 8%;
+    margin-top: 10%;
     font-family: "Caudex", serif;
     font-size: 18px;
     line-height: 2.5;
@@ -99,6 +105,7 @@
         font-style:normal;
         font-size: 30px;
         margin-top: 10% !important;
+        color: ;
        }
        .motar-ins1-content1{
         height: 300px !important;

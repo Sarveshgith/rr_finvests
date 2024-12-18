@@ -1,7 +1,6 @@
  
   /* Container and Row Styling */
   .container {
-    margin-top: 40px;
     background-color: black;
     padding: 0 15px;
     max-width: 100%;
@@ -37,12 +36,6 @@
     align-items: center;
   }
   
-  .health-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
   
   /* Column Adjustments */
   @media (max-width: 767px) {

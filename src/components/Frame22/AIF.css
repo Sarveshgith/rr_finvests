@@ -45,9 +45,9 @@
       
     }
     .frame22-content2{
-        font-size: 16px;
-        margin-left: 10%;
-        margin-right: 10%;
+        font-size: 16px !important;
+        margin-left: 0% !important;
+        margin-right: 0% !important;
     }
     
 

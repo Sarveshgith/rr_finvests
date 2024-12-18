@@ -3,8 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 .container11{
-    margin-top:40px;
-    background-color: black;
+    background-color:#100C08;
     padding:10px;
 }
 .container1 {
@@ -167,9 +166,6 @@
     }
     .explorebutton{
       margin-left: 27%;
-    }
-    .container11{
-      margin-top: 73px;
     }
     .image-placeholder1{
       width: 350px;

@@ -16,7 +16,7 @@ const InsuranceCard = () => {
 					<div className='text-placeholder4'>
 						<p>Motor Insurance</p>
 					</div>
-					<Link to='/MotorIns'><button className='next-button4'>Next →</button></Link>
+					<Link to='/MotorIns'><button className='next-button4'>Know More→</button></Link>
 				</div>
 
 				<div className='card4'>
@@ -28,7 +28,7 @@ const InsuranceCard = () => {
 					<div className='text-placeholder4'>
 						<p>Health Insurance</p>
 					</div>
-					<Link to='/HealthIns'><button className='next-button4'>Next →</button></Link>
+					<Link to='/HealthIns'><button className='next-button4'>Know More →</button></Link>
 				</div>
 
 				<div className='card4'>
@@ -40,7 +40,7 @@ const InsuranceCard = () => {
 					<div className='text-placeholder4'>
 						<p>Life Insurance</p>
 					</div>
-					<Link to='/Ins1'><button className='next-button4'>Next →</button></Link>
+					<Link to='/Ins1'><button className='next-button4'>Know More →</button></Link>
 				</div>
 
 				<div className='card4'>
@@ -52,7 +52,7 @@ const InsuranceCard = () => {
 					<div className='text-placeholder4'>
 						<p>General Liability </p>
 					</div>
-					<Link to='/Ins2'><button className='next-button4'>Next →</button></Link>
+					<Link to='/Ins2'><button className='next-button4'>Know More →</button></Link>
 				</div>
 			</div>
 		</div>

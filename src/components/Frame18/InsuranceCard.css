@@ -43,6 +43,7 @@ h1 {
 	align-items: center;
 	justify-content: space-between;
 	height: 550px;
+	background-color: white;
 }
 
 .image-placeholder4 {
@@ -66,8 +67,8 @@ h1 {
 }
 
 .next-button4 {
-	background-color: black;
-    color: white;
+	background-color: black !important;
+    color: white !important;
 	border: none;
 	padding: 10px 20px;
 	border-radius: 20px;
@@ -77,7 +78,7 @@ h1 {
 }
 
 .next-button4:hover {
-	background-color: gainsboro;
+	background-color: #cfa601 !important;
 	color: black;
 }
 

@@ -3,7 +3,7 @@ import express from "express";
 import cors from "cors";
 const app = express();
 
-const newsapi = new NewsAPI('32546ef66d1e4e5ea88f1774de963ed8'); // Replace with your NewsAPI key
+const newsapi = new NewsAPI(process.env.NEWS_API_KEY); // Replace with your NewsAPI key
 
 // Enable CORS for all routes
 app.use(cors());
@@ -30,7 +30,7 @@ app.get('/', async (_, res) => {
 });
 
 // Start the server
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });

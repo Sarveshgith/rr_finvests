@@ -11,8 +11,15 @@ const Home = () => {
 
   return (
     <div className='founder'>
+      
     <motion.div initial={{opacity:0, x:200}} transition={{duration:1.5}} whileInView={{opacity:1, x:0}} viewport={{once: true}} className='home'>      <Container fluid="md">
-
+    <div class="blob-c">
+    <div class="shape-blob"></div>
+    <div class="shape-blob one"></div>
+    <div class="shape-blob two"></div>
+    <div class="shape-blob five"></div>
+    <div class="shape-blob six"></div>
+  </div>
       <Row>
         <Col lg={6} >
         <div className='home-img'> <img src="founder.jpg" className='home-img1' alt="" /></div>
@@ -26,8 +33,6 @@ const Home = () => {
       padding: '1rem', 
       borderLeft: '5px solid #cfa601', 
       position: 'relative',
-      fontSize: '1.1rem', 
-      lineHeight: '1.6' 
     }}
   >
     <span style={{ 
@@ -46,17 +51,21 @@ const Home = () => {
   </p>
   <div className="home-content2">
     <p style={{ fontWeight: 'bold', marginTop: '1rem' }}>Warm Regards,</p>
-    <p style={{ fontWeight: 'bold' }}>Rakesh Jayaprakash</p>
+    <p className='foundername' style={{ fontWeight: 'bold' }}>Rakesh Jayaprakash</p>
     <p style={{ fontWeight: 'bold' }}>Founder & CEO</p>
+    
   </div>
+  
 </div>
 
         </Col>
       </Row>
     </Container>
+    
     </motion.div>
- 
+    
     </div>
+    
 
   )
 }

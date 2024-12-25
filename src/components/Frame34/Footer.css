@@ -31,7 +31,10 @@ body {
     border-radius: 10px; 
     font-family: 'Caudex', serif;
 }
-
+.btn:hover{
+    transform:scale(1.05);
+    color:#1a1a1a;
+}
 .footer-title {
     font-size: 1.5rem; 
     font-weight: 700; 
@@ -49,9 +52,15 @@ body {
 }
 .footer-column h6{
     font-family:'Raleway',sans-serif;
+    background: linear-gradient(91.17deg, #F2994A, #F2C94C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
 }
 .footer-email-form {
-    background-color: rgb(228, 228, 228); 
+    background-color:#faf7f515;
+    backdrop-filter: blur(20px); /* Adds the glassy effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari compatibility */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Optional border for a frosted look */
     font-family: 'Caudex', serif;
     border-radius: 10px; 
     padding: 15px;
@@ -64,13 +73,16 @@ body {
 .footer-email-form textarea {
   font-family: 'Caudex', serif;
     width: 100%; 
+    background-color: transparent;
     padding: 10px; 
     margin-bottom: 10px; 
     border-radius: 4px; 
     border: 1px solid #ccc; 
     font-size: 16px; 
+    color:#ccc;
 }
 .form2::placeholder{
+    background-color: transparent;
     text-align: start !important;
 }
 .form2{
@@ -90,8 +102,10 @@ body {
 }
 
 .footer-credit {
+    background: linear-gradient(91.17deg, #F2994A, #F2C94C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
     font-size: 16px; 
-    color: rgb(235, 235, 235); 
     margin-top: 15px; 
     text-align: center; 
 }

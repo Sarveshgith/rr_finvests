@@ -7,74 +7,70 @@ const Whatwedo = () => {
   return (
     <motion.div className='whole' id='Whatwedo' initial={{opacity:0, y:200}} transition={{duration:1}} whileInView={{opacity:1, y:0}} viewport={{once: true}}>
       <div className='center text-center'>
-        <h1>RR</h1>
-        <h1>FINVESTS</h1>
       </div>
       
-      {/* Card Links */}
       <Link to='/Main_ins1'>
         <div className='top-left'>
           <img
-            src='insurance.jpg'
-            alt=''
+            src='wwd6.png'
+            alt='insurance'
             className='image-placeholder4'
           />
-          <div className="hover-text">Insurance</div> {/* Hover text */}
+          <div className="hover-text">Insurance</div> 
         </div>
       </Link>
 
       <Link to='/Mutualfunds'>
         <div className='top-middle'>
           <img
-            src='mutualfunds.png'
-            alt=''
-            className='image-placeholder4'
+            src='wwd1.png'
+            alt='mutualfunds'
           />
-          <div className="hover-text">Mutual Funds</div> {/* Hover text */}
+          <div className="hover-text">Mutual Funds</div> 
         </div>
       </Link>
 
       <Link to='/PMS'>
         <div className='top-right'>
           <img
-            src='portfolio.png'
-            alt=''
+            src='wwd2.png'
+            alt='portfolio'
             className='image-placeholder4'
           />
-          <div className="hover-text">Portfolio Management</div> {/* Hover text */}
+          <div className="hover-text">Portfolio Management</div> 
         </div>
       </Link>
 
       <Link to='/AIF'>
         <div className='bottom-left'>
           <img
-            src='alternatein.jpg'
-            alt=''
+            src='wwd4.png'
+            alt='alternatefunds'
             className='image-placeholder4'
           />
-          <div className="hover-text">AIF</div> {/* Hover text */}
+          <div className="hover-text">AIF</div> 
         </div>
       </Link>
 
       <Link to='/Moneyexc'>
         <div className='bottom-middle'>
           <img
-            src='moneyexh.png'
-            alt=''
+            src='wwd3.png'
+            alt='moneyexchange'
             className='image-placeholder4'
           />
-          <div className="hover-text">Money Exchange</div> {/* Hover text */}
+          <div className="hover-text">Money Exchange</div> 
         </div>
       </Link>
 
       <Link to='/Loans'>
         <div className='bottom-right'>
           <img
-            src='loan.png'
+            src='wwd5.png'
             alt=''
             className='image-placeholder4'
           />
-          <div className="hover-text">Loans</div> {/* Hover text */}
+          <div className="hover-text">Loans</div> 
         </div>
       </Link>
     </motion.div>

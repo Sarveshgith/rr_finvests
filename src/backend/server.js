@@ -1,35 +1,36 @@
+import NewsAPI from "newsapi";
 import express from "express";
-import axios from "axios";
-
+import cors from "cors";
 const app = express();
 
-app.get("/api/economic-news", async (req, res) => {
+const newsapi = new NewsAPI('32546ef66d1e4e5ea88f1774de963ed8'); // Replace with your NewsAPI key
+
+// Enable CORS for all routes
+app.use(cors());
+
+// Define a route to fetch news
+app.get('/', async (_, res) => {
   try {
-    const { data } = await axios.get("https://economictimes.indiatimes.com/news/economy");
-    const $ = cheerio.load(data);
-    const newsData = [];
-
-    $(".eachStory").each((index, element) => {
-      const title = $(element).find("h3 a").text().trim();
-      const link = "https://economictimes.indiatimes.com" + $(element).find("h3 a").attr("href");
-      const summary = $(element).find(".summary").text().trim();
-      const image = $(element).find("img").attr("data-src") || $(element).find("img").attr("src"); // Handle both `data-src` and `src` attributes
-
-      if (title && link && image) {
-        newsData.push({ title, link, summary, image });
-      }
+    const responses = await newsapi.v2.topHeadlines({
+      category:'business',
+      language: 'en',
     });
+    console.log('NewsAPI response:', responses);
 
-    const topNewsData = newsData.slice(0, 5);
-
-    console.log("Top News Data: ", topNewsData);
-
-    res.json(topNewsData);
+    if (responses && responses.articles) {
+      res.json(responses.articles);
+    } else {
+      console.error('No sources found in the response');
+      res.status(500).json({ error: 'No sources found' });
+    }
   } catch (error) {
-    console.error("Error fetching news:", error);
-    res.status(500).json({ message: "Error fetching news" });
+    console.error('Error fetching news:', error.message);
+    res.status(500).json({ error: 'Failed to fetch news' });
   }
 });
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+// Start the server
+const PORT = 5000;
+app.listen(PORT, () => {
+  console.log(`Server running on http://localhost:${PORT}`);
+});

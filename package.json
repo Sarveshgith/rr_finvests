@@ -39,7 +39,8 @@
     "recharts": "^2.13.0",
     "styled-components": "^6.1.13",
     "swiper": "^11.1.15",
-    "vite-project": "file:"
+    "vite-project": "file:",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",

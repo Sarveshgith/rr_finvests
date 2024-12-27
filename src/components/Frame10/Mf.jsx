@@ -5,28 +5,34 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import { useNavigate } from 'react-router-dom';
 
 const Mf = () => {
+  const navigate = useNavigate();
+    const handleLoginClick = () => {
+      navigate('/userlogin');
+    };
   return (
     <div className='over'>
     <h1 className='text-center Mf-content3 '>MUTUAL FUNDS</h1>
-    <div className="mfimg1">
-    <img src="mf.png"className='mfimg'></img>
-    </div>
-    {/*
+  
+    {
     <div className='Mf-content'>
         <div className='Mf-content1' >
             <h1 className='text-center heading3'>CUSTOMER LOGIN</h1>
-        <Row className='justify-content-md-center'>
-        <Col lg="3" sm="12" md="4"><Form.Control type="text" placeholder="PAN (required)" className='input1' /></Col>
-        <Col lg="3" sm="12" md="4"><Form.Control type="text" placeholder="Mobile Number (required)" className='input1' /></Col>
-        </Row>
-            <Button variant="dark" className='btn1'> Login</Button>
-        </div>
+            <Button variant="dark" className='btn1' onClick={handleLoginClick}>
+      Login
+    </Button>       
+     </div>
     </div>
-    */}
+    }
+    <div className="mfimg1">
+    <img src="mf.png"className='mfimg'></img>
+    </div>
     <div className='Mf-content2'>
+   
       <Row className='justify-content-md-center'>
+      
       <Col lg="12">
         <p className='text-center'>Mutual funds are ideal for investors who either lack large sums for investment, or for those who neither have the inclination nor the time to research the market, yet want to grow their wealth. The money collected in mutual funds is invested by professional fund managers in line with the scheme’s stated objective. In return, the fund house charges a small fee which is deducted from the investment. The fees charged by mutual funds are regulated and are subject to certain limits specified by the Securities and Exchange Board of India (SEBI). </p>
         <p className='text-center'>India has one of the highest savings rate globally. This penchant for wealth creation makes it necessary for Indian investors to look beyond the traditionally favoured bank FDs and gold towards mutual funds. However, lack of awareness has made mutual funds a less preferred investment avenue.

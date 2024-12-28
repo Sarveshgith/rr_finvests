@@ -1,5 +1,11 @@
 .contact{
+    background-image:url('contactbg.jpg');
+    background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center; 
+	width: 100%; 
     min-height: 110vh;
+    
 }
 .map{
     width: 650px;
@@ -9,14 +15,18 @@
     overflow: hidden;
 }
 .contact-heading{
+    background: linear-gradient(91.17deg, #F2994A, #F2C94C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
     font-family:'Raleway',sans-serif;
 	font-weight: 700;
 	font-size: 25x;
 	font-style: normal;
 	text-align: center;
 	margin-bottom: 20px;
-    margin-top: 0;
-    color:#1a1a1a;
+    margin-top: 0px;
+    padding-top: 20px;
+    color:#f9f9f9;
 
 }
 
@@ -27,22 +37,31 @@
     text-align: center;
     font-style:normal;
     font-size: 25px;
-    color:#f1f1f1;
+    color:#323131;
 }
 .contact-form{
     margin-top: 3%;
-    background-color: rgb(37, 37, 37);
+    background-color: rgba(37, 37, 37, 0.396);
     width: 700px;
     height: 640px;
     font-family: "Caudex", serif;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    opacity: 70%;
+    backdrop-filter: blur(10px); /* Adds the glassy effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari compatibility */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Optional border for a frosted look */
+
+}
+.form-label{
+    color:#3f3f3f;
 }
 
 form{
     margin-left: 20px;
 }
 .form1{
+
     width: 650px !important;
 }
 .form1::placeholder{
@@ -57,14 +76,106 @@ form{
     border-radius: 70px !important ;
     background-color: #cfa601 !important;
     color: white !important;
-    width: 200px !important; 
+    width: 200px;
     font-family: "Caudex", serif;
     height: 40px;
-    margin-left: 65% !important;
+    margin-left: 65%;
+    margin-top:30px;
 }
 .btn4:hover{
     background-color: rgb(20, 20, 20) !important;
-    color: rgba(255, 255, 255, 0.947) !important;
+    color: rgba(58, 58, 58, 0.947) !important;
+    transform: scale(1.05);
+}
+.row{
+    margin-right: 0px;
+}
+@media (max-width:480px) {
+    .contact-heading{
+        font-family:'Raleway',sans-serif;
+        font-weight: 500;
+        font-size: 25px;
+        font-style: normal;
+        text-align: center;
+        margin: 15px;
+        margin-top: 0;
+    }
+
+ .map{
+    width: 350px;
+    height: 300px;
+    margin: 30px;
+ }
+ .map iframe{
+    width: 390px;
+    height: 300px;
+ }
+ .contact-form{
+    width: 380px;
+    height: 600px;
+    margin-left: 15px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+ }
+ .form1{
+    width: 350px !important;
+} 
+.btn4{
+    margin-left: 20% !important;
+}
+.contact-heading1{
+    text-align: center;
+}
+.row{
+    margin-right: 0px;
+ }
+}@media (max-width:1100px) {
+    .contact-heading{
+        font-family:'Raleway',sans-serif;
+        font-weight: 500;
+        font-size: 40px;
+        font-style: normal;
+        text-align: center;
+        margin: 15px;
+        margin-top: 0;
+    }
+
+ .map{
+    width:450px;
+    height: 550px;
+    margin: 30px;
+ }
+ .map iframe{
+    width: 500px;
+    height: 500px;
+ }
+ .contact-form{
+    width: 90%;
+    height: 600px;
+    margin-left: 15px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+ }
+ .form1{
+    width: 90% !important;
+} 
+.btn4{
+    margin-left: 20% !important;
+}
+.contact-heading1{
+    text-align: center;
+}
+.row{
+    margin-right: 0px;
+ }
+}
+@media (max-width:790px) {
+
+    .contact-form{
+        margin-left:30px;
+        margin-bottom: 20px;
+    }
+
 }
 
 @media (max-width:480px) {
@@ -98,6 +209,93 @@ form{
     width: 350px !important;
 } 
 .btn4{
+    margin-left: 20% !important;
+}
+.contact-heading1{
+    text-align: center;
+}
+.row{
+    margin-right: 0px;
+ }
+}
+@media (max-width:380px) {
+    .contact-heading{
+        font-family:'Raleway',sans-serif;
+        font-weight: 500;
+        font-size: 25px;
+        font-style: normal;
+        text-align: center;
+        margin: 15px;
+        margin-top: 0;
+    }
+
+ .map{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+ }
+ .map iframe{
+    width: 300px;
+    height: 300px;
+ }
+ .contact-form{
+    width: 320px;
+    height: 600px;
+    margin-left: 15px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+ }
+ .form1{
+    width: 250px !important;
+} 
+.btn4{
+    margin-left: 10% !important;
+}
+.contact-heading1{
+    text-align: center;
+}
+.row{
+    margin-right: 0px;
+ }
+}
+@media (max-width:350px) {
+    .contact-heading{
+        font-family:'Raleway',sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        font-style: normal;
+        text-align: center;
+        margin: 15px;
+        margin-top: 0;
+    }
+
+ .map{
+    width: 300px;
+    height: 300px;
+    margin-right: 0px;
+    padding-right: 0px;
+    margin-left: 20px;
+ }
+ .map iframe{
+    width: 250px;
+    height: 300px;
+ }
+ .contact-form{
+    width: 260px;
+    height: 550px;
+    margin-left: 25px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+ }
+ .row{
+    margin-right: 0px;
+ }
+ .form1{
+    width: 220px !important;
+} 
+.btn4{
+    width:130px;
+    margin-top:20px;
     margin-left: 20% !important;
 }
 .contact-heading1{

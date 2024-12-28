@@ -52,7 +52,7 @@ const Contact = () => {
 		<div className='contact'>
 			<h1 className='contact-heading'>FOR FURTHER QUERIES</h1>
 			<Row>
-				<Col lg='6'>
+				<Col >
 					<motion.div initial={{opacity:0, x:-200}} transition={{duration:1}} whileInView={{opacity:1, x:0}} viewport={{once: true}} className='map'>
 						<iframe
 							src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.595393297874!2d80.25872747463835!3d13.061406687262295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526707ca7b3ea3%3A0xed7f3109bee70e4f!2sSpencer%20Plaza!5e0!3m2!1sen!2sin!4v1730231249818!5m2!1sen!2sin'
@@ -64,7 +64,7 @@ const Contact = () => {
 						></iframe>
 					</motion.div>
 				</Col>
-				<Col lg='6'>
+				<Col>
 					<motion.div className='contact-form' initial={{opacity:0, x:200}} transition={{duration:1}} whileInView={{opacity:1, x:0}} viewport={{once: true}}>
 						<Form noValidate validated={validated} onSubmit={handleSubmit}>
 							<h2 className='contact-heading1'>CONTACT US</h2>
@@ -129,7 +129,7 @@ const Contact = () => {
 									Please provide a message.
 								</Form.Control.Feedback>
 							</Form.Group>
-							<Button className='btn4' type='submit'>
+							<Button className='btn4 ' type='submit'>
 								Submit
 							</Button>
 						</Form>
@@ -141,3 +141,4 @@ const Contact = () => {
 };
 
 export default Contact;
+

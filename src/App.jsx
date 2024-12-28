@@ -30,7 +30,8 @@ import Corp_ins6 from './pages/Corp_ins6/Corp_ins6';
 import Corp_ins7 from './pages/Corp_ins7/Corp_ins7';
 import Corp_ins8 from './pages/Corp_ins8/Corp_ins8';
 import Tools from './pages/Tools/Tools';
-
+import Portfolio from './pages/Portfolio_display/Portfolio';
+import Userlogin from './pages/Portfolio_display/Userlogin';
 const App = () => {
 	return (
 		<div className='app'>
@@ -64,6 +65,8 @@ const App = () => {
 				<Route path='/GMC_ins1' element={<Corp_ins7 />} />
 				<Route path='/Engineering_ins1' element={<Corp_ins8 />} />
 				<Route path='/tools' element={<Tools />}/> 
+				<Route path='/portfolio' element={<Portfolio />}/>
+				<Route path='/userlogin' element={<Userlogin />}/>
 
             </Routes>
 		</div>

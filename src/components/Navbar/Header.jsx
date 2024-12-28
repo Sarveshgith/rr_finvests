@@ -38,7 +38,7 @@ const Header = () => {
 				<div className='header-content5'>
 
 				<h2 className='text-center header-content1'>
-					MAKE INTELLIGENT INVESTMENTS
+					MAKE <span className='intelligent'>INTELLIGENT</span> INVESTMENTS
 				</h2>
 				<h2 className='text-center header-content2'>WITH US</h2>
 			   </div>
@@ -48,7 +48,7 @@ const Header = () => {
 				</h6>
 				<Button
   					variant="light"
-  					className="btn"
+  					className="btn12"
   					onClick={() => (window.location.href = 'tel:+91 9543873330')}
 				>
   				Connect with Us

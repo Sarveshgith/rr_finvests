@@ -9,6 +9,9 @@
   }
   
   .firm-page h1 {
+    background: linear-gradient(91.17deg, #F2994A, #F2C94C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
     font-size: 2.5rem;
     font-weight: 1500;
     margin-bottom: 10px;
@@ -53,6 +56,9 @@
   }
   
   .firm-stat h2 {
+    background: linear-gradient(91.17deg, #F2994A, #F2C94C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
     font-size: 3rem;
     font-weight: bold;
     color: #333;
@@ -60,6 +66,7 @@
   }
   
   .firm-stat p {
+    font-weight:bolder;
     font-size: 1.2rem;
     color: #666;
     margin: 0;

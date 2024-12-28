@@ -1,5 +1,5 @@
-import React from 'react'
-import Corp_1 from '../../components/Frame26/corp_1'
+import React from 'react';
+import Corp_1 from '../../components/Frame26/Corp_1';
 
 
 const Corp_ins1 = () => {

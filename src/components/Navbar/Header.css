@@ -15,6 +15,7 @@
 }
 .me-auto{
 	background-color:#3c3c3c;
+	opacity: 80%;
 	border-radius: 20px;
 	padding-right: 20px;
 	margin: 15px;
@@ -27,6 +28,8 @@
 	margin-left: 40px;
 }
 .ms-auto {
+	opacity: 80%;
+
 	background-color:#3c3c3c;
 	border-radius: 20px;
 	margin-right: 15px;
@@ -50,6 +53,10 @@
 .hide2 {
 	font-family: 'Noto', serif;
 }
+.intelligent:hover{
+	color:#E9B439;
+
+}
 
 .raleway .ms-auto a {
 	font-family: 'Raleway', sans-serif;
@@ -64,9 +71,8 @@ a.navbar-brand {
 }
 .navbar-brand {
 	padding-top: var(--bs-navbar-brand-padding-y);
-
 	font-size: var(--bs-navbar-brand-font-size);
-	color: var(--bs-navbar-brand-color);
+	color:#4D4C4C;
 	text-decoration: none;
 	white-space: nowrap;
 }
@@ -87,23 +93,29 @@ a.navbar-brand {
 .navbar-nav{
 	--bs-nav-link-hover-color:#cfa601;
 }
+.navbar {
+    background-color: transparent !important;
+    border: none; 
+    box-shadow: none; 
+}
+
+
 
 .header-content3 {
 	font-family: 'Caudex', serif;
 	font-size: 18px;
 	margin-top: 6%;
-	color: #555;
+	color:#2c2c2c;
 }
 .header-content4 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 78px; /* Pushes the content to the bottom of the page */
+    margin-top: 78px; 
 }
-.btn {
+.btn12 {
 	background-color: #cfa601;
-	margin: 0 !important;
 	margin-top: 1% !important;
 	color: rgb(255, 255, 255) !important;
 	width: 150px;
@@ -112,34 +124,70 @@ a.navbar-brand {
 	font-size: 15px;
 	border-radius: 25px;
 	text-align: center;
+	box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.2), inset -3px -3px 6px rgba(255, 255, 255, 0.7); /* Inner pillow on hover */
+    background: linear-gradient(145deg, #cfa601, #d1b750);
+    transition: all 0.3s ease;
+	margin-left :0% !important;;
 }
 
-/*.glass-wrapper{
-  color: white;
-  text-align: center;
-  font-size: 48px;
-  font-weight: bold;
-  border-radius: 15px;
-  padding: 40px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  margin: 50px auto;
-  width: fit-content;
-  height: 500px;
-}*/
-
-.btn:hover{
-	background-color: black;
-    color: white;
+.header-content6 {
+    position: relative;
+    width: 100vw;
+    height: 650px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
-.header-content6{
-	background: radial-gradient(circle at bottom right, rgba(255, 223, 0, 0.8), rgba(255, 223, 0, 0.1), rgba(255, 255, 255, 1));
-	height: 650px;
+
+.glass-wrapper {
+    padding: 40px;
+    width: 100%;
+    text-align:left;
+}
+
+.header-content1, 
+.header-content2, 
+.header-content3 {
+	color: #4D4C4C;
+    text-shadow: none;
+}
+
+.btn12:hover {
+	box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.2), inset -3px -3px 6px rgba(255, 255, 255, 0.7); /* Inner pillow on hover */
+    background: linear-gradient(145deg, #e8bd0e, #eacd5d);   
+	color: #fff;
+    transform: scale(1.05);
+}
+
+.Header{
+	background-image: url('vecteezy_abstract-modern-hexagon-background-white-and-grey-honey_.jpg');
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center; 
+	width: 100%; 
 }
 
 @media (max-width: 993px) {
+	.ms-auto{
+		background-color: transparent !important;
+		border-radius: 0;
+		margin: 0;
+	}
+	.ms-auto a {
+		margin-left: 18px;
+		color:#3c3c3c;
+	}
+	.me-auto{
+		background-color:transparent !important;
+		border-radius: 0;
+		margin: 0;
+
+	}
+	.me-auto a {
+		color:#3c3c3c;
+				margin-left: 18px;
+	}
 	.header-content1 {
 		font-size: 30px;
 	}
@@ -149,21 +197,38 @@ a.navbar-brand {
 	.header-content3 {
 		font-size: 20px;
 	}
+	.hide1 {
+		display: block;
+		font-family: 'Noto', serif;
+		margin-left: 10%;
+	}
+	.hide2 {
+		display: none;
+	}
+	.btn12 {
+		border-color: black !important;
+		margin: 0 !important;
+		margin-top: 2% !important;
+		color: black !important;
+		width: 190px;
+		height: 30px;
+		font-size: 9px;
+	}
 
 }
 
 @media (max-width: 480px) {
 	.ms-auto{
-		background-color: rgb(255, 255, 255);
+		background-color: transparent !important;
 		border-radius: 0;
 		margin: 0;
 	}
 	.ms-auto a {
 		margin-left: 18px;
 		color:#3c3c3c;
-	}
+		}
 	.me-auto{
-		background-color: rgb(255, 255, 255);
+		background-color:transparent !important;
 		border-radius: 0;
 		margin: 0;
 
@@ -188,7 +253,7 @@ a.navbar-brand {
 		margin-left: 8%;
 		margin-bottom: 0 !important;
 	}
-	.btn {
+	.btn12 {
 		border-color: black !important;
 		margin: 0 !important;
 		margin-top: 2% !important;

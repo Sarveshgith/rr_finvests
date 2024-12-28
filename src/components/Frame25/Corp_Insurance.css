@@ -23,6 +23,7 @@
 }
 
 .image-placeholder4 {
+    background-color: transparent;
     width: 200px; /* Ensure image fills the card width */
     height:200px ; /* Maintain aspect ratio */
 }

@@ -1,0 +1,136 @@
+
+.container2
+{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url('mf.png');
+    background-position: relative;
+    background-repeat: none;
+    justify-content: space-between;
+    margin: 20px;
+    border-radius: 19px;
+}
+.container2 .imgBx
+{
+    position: relative;
+    display: flex;
+    background-size:initial;    
+    background-position: relative;
+    background-repeat: none;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    transition: 0.3s linear;
+    border-radius: 15px 0 0 15px;
+}
+.container2 .imgBx::before
+{
+    content: 'Mutual Funds';
+    position: absolute;
+    top: 0;
+    left: 24px;
+    color: #403f3f;
+    opacity: 0.2;
+    font-size: 6em;
+    font-weight: 800;
+}
+
+.container2 .imgBx img{
+    position: relative;
+    transform: rotate(-30deg);
+    transition: .9s linear;
+}
+.container2 .details
+{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5); /* Translucent black background */
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 40px;
+    backdrop-filter: blur(10px); /* Glossy effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}
+.container2 .details h2{
+    margin: 0;
+    padding: 0;
+    font-size: 2.4em;
+    line-height: 1em;
+    background: linear-gradient(91.17deg, #F2994A, #F2C94C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.container2 .details h2 span
+{
+    font-size: 0.4em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #f3f2f2;
+}
+.container2 .details p
+{
+    max-width: 85%;
+    margin-left: 10%;
+    margin-top: 5%;
+    color: #dfdfdf;
+    font-size: 15px;
+    text-align: justify;
+    margin-bottom: 36px;
+}
+.container2 .details h3{
+    margin: 0;
+    padding: 0;
+    font-size: 2.5em;
+    color: #212121;
+    float: left;
+}
+
+.container2 .details .btn
+{
+   margin-left: 0%;
+}
+
+.product-colors span
+{
+    width: 26px;
+    height: 26px;
+    top: 7px;
+    margin-right: 12px;
+    left: 10px;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.black
+{
+    background: #000;
+    transition: all 0.3s ease-in-out;
+}
+.red
+{
+    background: #d5212e;
+    transition: all 0.3s ease-in-out;
+}
+.orange
+{
+    background: #f18557;
+    transition: all 0.3s ease-in-out;
+}
+.product-colors .active:after
+{
+    content: "";
+    width: 36px;
+    height: 36px;
+    border: 2px solid #000;
+    position: absolute;
+    border-radius: 50%;
+    box-sizing: border-box;
+    left: -5px;
+    top: -5px;
+}

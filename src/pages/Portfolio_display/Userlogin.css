@@ -2,53 +2,19 @@
 	--gradient: linear-gradient( 135deg, #72EDF2 10%, #5151E5 100%);
 }
 
-.container {
+.containerd {
+  background-image: url('dashboardbg.jpg');
 	border-radius: 25px;
 	-webkit-box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.2);
 	        box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.2);
-	background-color: #222831;
-	color: #ffffff;
+          color: #ffffff;
 	height:100vh;
-    width:95%;
-    }
-/* Login page styles */
-.login-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px;
-  }
-  
-  .login-form {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  input {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  button {
-    padding: 10px 20px;
-    background-color: #4caf50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #45a049;
-  }
-  
-  .error {
-    color: red;
-    margin-top: 10px;
-  }
+    width:100%;
+    backdrop-filter: blur(10px); /* Glossy effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}
+/* dashboard styles */
+
   
 .weather-side {
     padding:10px;
@@ -66,10 +32,11 @@
 	        transform: translateZ(0) scale(1.02) perspective(1000px);
 	float: left;
     border-right: #ccc 2px solid;
-    background-color: #ccc;
+    background-color: rgba(248, 247, 244, 0.5); /* Translucent background */
+    backdrop-filter: blur(10px); /* Glossy effect */
 }
 
-.container{
+.containerd{
     padding:0px;
 }
 .weather-gradient {
@@ -92,6 +59,11 @@
     position: absolute;
     top: 30%;
 
+}
+.card-front,.h2{
+  font-family: 'Raleway', sans-serif;
+  padding-top: 10px;
+  color:#c4c3ca;
 }
 .welcome {
     font-family:'Raleway', sans-serif;
@@ -119,9 +91,10 @@
     font-family:'Raleway', sans-serif;
     font-size:20px;
 	margin: 8px;
-    background-color: #222831;
+    background-color: #da7d0396;
     border-radius: 15px;
     text-align: left;
+    backdrop-filter: blur(10px);
     padding:10px;
     width: 280px;
 }
@@ -136,7 +109,9 @@
     margin: 8px;
 
 }
-
+.form-group ,.btn{
+  margin-left: 10px;
+}
 
 .date-day {
 	display: block;
@@ -364,18 +339,56 @@
 
 
 
+/*loginpage*/
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.containerl{
+  width:100%;
+}
 
-.section{
+.login-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.sectionl{
     position: relative;
-    width: 100%;
     display: block;
     background-color: transparent;
-    border-radius: 20px;
+    border-radius: 50px;
+    padding:20px;
     backdrop-filter: blur(55px);
   }
-  .full-height{
-    min-height: 100vh;
-  }
+ 
   [type="checkbox"]:checked,
   [type="checkbox"]:not(:checked){
     position: absolute;
@@ -420,13 +433,13 @@
   
   .card-3d-wrap {
     position: relative;
-    width: 440px;
+    width: 540px;
     max-width: 100%;
     height: 400px;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     perspective: 800px;
-    margin-top: 60px;
+    margin-top: 0px;
   }
   .card-3d-wrapper {
     width: 100%;
@@ -456,6 +469,9 @@
     -moz-backface-visibility: hidden;
     -o-backface-visibility: hidden;
     backface-visibility: hidden;
+  }
+  .card-front,.h2{
+
   }
   .card-back {
     transform: rotateY(180deg);
@@ -576,6 +592,7 @@
     box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
   }
   h6 span{
+    font-family: 'Raleway', sans-serif;
     padding: 0 20px;
     text-transform: uppercase;
     font-weight: 700;

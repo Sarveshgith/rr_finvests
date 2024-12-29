@@ -28,6 +28,7 @@ const Header = () => {
 						<Nav className='ms-auto'>
 						<Nav.Link href='#news' >NEWS & INSIGHTS</Nav.Link>
 						<Nav.Link as={Link}to='/Whatwedo'>WHAT WE DO</Nav.Link>
+					
 						</Nav>
 					</Navbar.Collapse>
 				</Navbar>

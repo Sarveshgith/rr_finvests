@@ -3,7 +3,7 @@ import express from "express";
 import cors from "cors";
 const app = express();
 
-const newsapi = new NewsAPI('32546ef66d1e4e5ea88f1774de963ed8'); // Replace with your NewsAPI key process.env.NEWS_API_KEY
+const newsapi = new NewsAPI('process.env.NEWS_API_KEY'); // Replace with your NewsAPI key  32546ef66d1e4e5ea88f1774de963ed8
 
 // Enable CORS for all routes
 app.use(cors());

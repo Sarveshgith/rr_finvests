@@ -8,7 +8,7 @@ const Ins1 = () => {
   return (
     <>
      <div className='motor'>
-    <Container>
+     <div className='life-content'>
       <Row>
       <h1 className='text-center motar-ins1-content4'>LIFE INSURANCES</h1>
         <Col sm="12" md="4" lg="4"><div className='motar-ins1-content1'><img src="lifeinsur.png"/></div></Col>
@@ -18,7 +18,7 @@ const Ins1 = () => {
         {/*<Button className='btn2'>next→</Button>*/}
         </Col>
          </Row>
-    </Container>
+         </div>
     </div>
     </>
   )

@@ -1,0 +1,11 @@
+.life-content{
+    background-color:#252525;
+    height: 100vh;
+}
+
+@media (max-width:480px) {
+    .life-content{
+        height: 180vh;
+    }
+   
+}

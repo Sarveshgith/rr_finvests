@@ -8,6 +8,10 @@
     margin-bottom: 15%;
     border-radius: 60px;
 }
+.motor-content{
+    background-color:#252525;
+    height: 100vh;
+}
 .motar-ins1-content1 img{
     width: 500px !important;
     height: 350px !important;
@@ -27,7 +31,7 @@
     font-family: "Caudex", serif;
     font-size: 18px;
     line-height: 2.5;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 .motar-ins1-content4{
     display: none;
@@ -38,6 +42,7 @@
     color: rgb(0, 0, 0) !important;
     width: 200px !important; 
     font-family: "Caudex", serif;
+    margin-left: 40%;
 }
 .btn2:hover{
     background-color: rgb(216, 163, 28) !important;
@@ -93,7 +98,10 @@
 }
 @media (max-width:480px) {
     .motor{
-        min-height: 190vh;
+        min-height: 180vh;
+    }
+    .motor-content{
+        height: 180vh;
     }
     .motar-ins1-content3{
         display: none;
@@ -105,7 +113,7 @@
         font-style:normal;
         font-size: 30px;
         margin-top: 10% !important;
-        color: ;
+        color:white ;
        }
        .motar-ins1-content1{
         height: 300px !important;
@@ -121,15 +129,21 @@
         line-height: 2 !important;
         letter-spacing: 1px;
         margin: 0;
-        margin-left: 0 !important;
+        margin-left: 10px !important;
+        margin-bottom: 20px !important;
         height: 550px;
         
     }
     .btn2{
         position: relative;
         top: 0%;
-        margin-left: 0% !important;
+        margin-left: 27% !important;
         height: 40px;
         font-size: 14px !important;
+    }
+    .motar-ins1-content1 img{
+        width: 350px !important;
+        height: 300px !important;
+        margin-left: 20px;
     }
 }

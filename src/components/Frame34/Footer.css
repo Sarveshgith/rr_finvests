@@ -64,7 +64,7 @@ body {
     font-family: 'Caudex', serif;
     border-radius: 10px; 
     padding: 15px;
-    width: 400px; 
+    width: 300px; 
     margin: 10px 0; 
     font-family: 'Caudex', serif;
 }
@@ -84,6 +84,7 @@ body {
 .form2::placeholder{
     background-color: transparent;
     text-align: start !important;
+    color: white;
 }
 .form2{
     text-align: start !important;

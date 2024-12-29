@@ -9,7 +9,7 @@ const Corp_1 = () => {
   return (
     <>
     <div className='motor'>
-       <Container> 
+    <div className='motor-content'>
       <Row>
       <h1 className='text-center motar-ins1-content4'>FIRE INSURANCE</h1>
         <Col sm="12" md="4" lg="4"><div className='motar-ins1-content1'><img src="fireins.jpg"/></div></Col>
@@ -20,8 +20,7 @@ const Corp_1 = () => {
         {/* <Link to='/Fire_ins2'><Button className='btn2'>Know more →</Button></Link> */}
         </Col>
          </Row>
-    </Container>
-    
+    </div>
     </div>
     </>
   )

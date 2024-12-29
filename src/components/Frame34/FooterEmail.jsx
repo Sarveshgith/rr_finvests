@@ -48,6 +48,7 @@ const FooterEmailForm = () => {
 					value={message}
 					onChange={(e) => setMessage(e.target.value)}
 					required
+					className='form2'
 				/>
 				<button type='submit' className=' btn'>
 					Send

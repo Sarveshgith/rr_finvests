@@ -27,7 +27,7 @@ function App() {
       			</p>
       		<div className="explore">
        			 <Link to='/Whatwedo'>
-          	<button className="explorebutton1 ">Explore →</button>
+          	<button className="explorebutton1 text-center ">Explore →</button>
         	</Link>
       </div>
     </div>

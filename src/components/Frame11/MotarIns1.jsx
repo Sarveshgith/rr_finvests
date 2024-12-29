@@ -9,7 +9,7 @@ const MotarIns1 = () => {
   return (
     <>
     <div className='motor'>
-    <Container>
+      <div className='motor-content'>
       <Row>
       <h1 className='text-center motar-ins1-content4'>MOTOR INSURANCE</h1>
         <Col sm="12" md="4" lg="4"><div className='motar-ins1-content1'><img src="motorinsurance.png"/> </div></Col>
@@ -21,7 +21,7 @@ const MotarIns1 = () => {
         <Link to='/CarIns1'><Button className='btn2'>Explore</Button></Link>
         </Col>
          </Row>
-    </Container>
+         </div>
     </div>
     </>
   )

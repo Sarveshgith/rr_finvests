@@ -258,7 +258,7 @@ a.navbar-brand {
 		margin: 0 !important;
 		margin-top: 2% !important;
 		color: black !important;
-		width: 120px;
+		width: 120px !important;
 		height: 30px;
 		font-size: 10px;
 	}
@@ -278,7 +278,7 @@ a.navbar-brand {
 	}
 	.header-content6{
 		height: 610px;
-	}
+	} 
 }
 
 

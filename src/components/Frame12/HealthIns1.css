@@ -17,7 +17,6 @@
     display: none;
 }
 .health-content{
-    background-color:#252525;
     height: 100vh;
 }
 @media (max-width:993px){

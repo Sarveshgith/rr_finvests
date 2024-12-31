@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Userlogin.css"; // Add styles here or inline them
-
+import axios from "axios";
 const mockUserData = [
   {
     id: 1,
@@ -24,24 +24,54 @@ const mockUserData = [
 ];
 
 const Userlogin = () => {
-  const [mobile, setMobile] = useState("");
-  const [panCard, setPanCard] = useState("");
-  const [error, setError] = useState("");
+  const [mobile, setMobile] = useState('');
+  const [panCard, setPanCard] = useState('');
+  const [user, setUser] = useState(null);
   const navigate = useNavigate();
 
-  // Handle login
-  const handleLogin = () => {
-    const authenticatedUser = mockUserData.find(
-      (u) => u.mobile === mobile && u.panCard === panCard
-    );
-
-    if (authenticatedUser) {
-      setError("");
-      navigate(`/dashboard/${authenticatedUser.role}/${authenticatedUser.username}`, { state: { user: authenticatedUser } });
-    } else {
-      setError("Invalid mobile number or PAN card number.");
+  const [error, setError] = useState('');
+  const loginUser = async (mobile, panCard) => {
+    try {
+      const response = await axios.post('http://34.100.131.9:5000/api/users/login', {
+        mobile: mobile,
+        pan: panCard,
+      });
+      const token = response.data.token;
+      localStorage.setItem('token', token);
+      return token;
+    } catch (error) {
+    window.alert("Invalid Credentials.Please Check again!");
+      console.error('Login error:', error);
+      throw error;
     }
   };
+  const fetchUserData = async () => {
+    try {
+      const token = localStorage.getItem('token');
+      if (!token) return;
+      const response = await axios.get('http://34.100.131.9:5000/api/users/user', {
+        headers: { Authorization: `Bearer ${token}` },
+      });
+      console.log('User data:', response.data);
+      setUser(response.data);
+      navigate(`/dashboard/${response.data.role}/${response.data.name}`, { state: { user: response.data } });
+
+    } catch (error) {
+      console.error('Fetching user data failed:', error);
+    }
+  };
+  const handleLogin = async () => {
+    try {
+      const token = await loginUser(mobile, panCard);
+      if (token) {
+        localStorage.setItem('token', token);
+        fetchUserData();
+      }
+    } catch (error) {
+      console.error('Login failed:', error);
+    }
+  };
+
 
   return (
     <div className="login-page">

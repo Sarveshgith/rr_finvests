@@ -13,6 +13,8 @@
     backdrop-filter: blur(10px); /* Glossy effect */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
 }
+.admin-container{
+}
 /* dashboard styles */
 
   
@@ -612,4 +614,24 @@ button:hover {
       height: 26px;
       width: auto;
       display: block;
+  }
+  .admin-container{
+    font-family: 'Caudex', serif;
+    text-align: center;
+    font-size:20px;
+    background-image: url('https://www.vecteezy.com/vector-art/6033971-abstract-modern-white-and-grey-background-texture');
+
+  }
+  .admin-container>p{
+    font-family: 'Caudex', serif;
+    text-align: center;
+    font-size:30px;
+  }
+  .admin-container>h1{
+    font-family:'Raleway', sans-serif;
+    text-align: center;
+    font-size:50px;
+    background: linear-gradient(91.17deg, #F2994A, #F2C94C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
   }

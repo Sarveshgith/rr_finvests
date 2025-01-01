@@ -11,7 +11,7 @@ const News = () => {
   const [news, setNews] = useState([]);
   const fetchNews = async () => {
     try {
-      const response = await fetch('http://localhost:5000'); // Fetch from backend https://rr-finvests-2.onrender.com
+      const response = await fetch('https://rr-finvests-2.onrender.com'); // Fetch from backend https://rr-finvests-2.onrender.com
       const data = await response.json();
       console.log(data);
       const formattedNews = data

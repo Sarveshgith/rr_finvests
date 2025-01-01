@@ -56,8 +56,8 @@ const AnimatedSIPCalculator = () => {
     };
 
     return (
-        <div className="flex items-center justify-center min-h-screen bg-gray-100"> {/* Full-height parent container */}
-            <Card className="w-full max-w-3xl bg-gradient-to-br from-purple-100 to-pink-100 shadow-lg rounded-lg overflow-hidden">
+        <div className="flex items-center justify-center min-h-screen bg-gray-100 "> {/* Full-height parent container */}
+            <Card className="w-full max-w-3xl bg-gradient-to-br from-purple-100 to-pink-100 shadow-lg rounded-lg overflow-hidden sip-div">
                 <style jsx>{`
                     @keyframes bounce {
                         0%, 100% { transform: translateY(0); }
@@ -74,7 +74,7 @@ const AnimatedSIPCalculator = () => {
                     }
                 `}</style>
                 <CardHeader>
-                    <CardTitle className="text-3xl font-bold text-center text-purple-700"><h1 className='title1'>SIP CALCULATOR</h1></CardTitle>
+                    <CardTitle className="text-3xl font-bold text-center text-purple-700"><h1 className='sip-title'>SIP CALCULATOR</h1></CardTitle>
                 </CardHeader>
                 <CardContent className="p-6 tools">
                     <div className="space-x-6">

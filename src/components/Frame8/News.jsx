@@ -40,7 +40,7 @@ const News = () => {
     <main className="news" id="news">
       <div className="mt-5 mb-5">
         <h1 className="headin2 main__heading">TOP ECONOMIC NEWS</h1>
-        <button className="explorebutton btn mt-3" onClick={handleButtonClick}>Know more →</button>
+        <button className="explorebutton3 btn mt-3" onClick={handleButtonClick}>Know more →</button>
       </div>
       <div className="swiper">
         <Swiper

@@ -24,7 +24,7 @@ const mockUserData = [
   },
 ];
 
-const Userlogin = () => {
+const Userlogin = ({setShowlogin}) => {
   const [mobile, setMobile] = useState('');
   const [panCard, setPanCard] = useState('');
   const [user, setUser] = useState(null);
@@ -41,7 +41,7 @@ const Userlogin = () => {
       localStorage.setItem('token', token);
       return token;
     } catch (error) {
-    window.alert("Invalid Credentials.Please Check again!");
+      window.alert("Invalid Credentials.Please Check again!");
       console.error('Login error:', error);
       throw error;
     }
@@ -49,12 +49,15 @@ const Userlogin = () => {
   const fetchUserData = async () => {
     try {
       const token = localStorage.getItem('token');
-      if (!token) return;
+      if (!token) throw new Error('Token is missing');
 
- 
+
       const response = await axios.get('http://34.100.131.9:5000/api/users/user', {
         headers: { Authorization: `Bearer ${token}` },
       });
+      console.log('Fetched user data:', response.data);
+      if (!response.data) throw new Error('Invalid user data');
+
       console.log('User data:', response.data);
       setUser(response.data);
       navigate(`/dashboard/${response.data.role}/${response.data.name}`, { state: { user: response.data } });
@@ -69,6 +72,7 @@ const Userlogin = () => {
       const token = await loginUser(mobile, panCard);
       if (token) {
         localStorage.setItem('token', token);
+        console.log("Logged in successfully")
         fetchUserData();
       }
     } catch (error) {
@@ -78,56 +82,71 @@ const Userlogin = () => {
 
 
   return (
-    <div className="login-page">
-      <div className="sectionl">
-        <div className="containerl">
-          <div className="row full-height justify-content-center">
-            <div className="col-12 text-center align-self-center py-5">
-              <label htmlFor="reg-log"></label>
-              <div className="card-3d-wrap mx-auto">
-                <div className="card-front">
-                  <h2>LOG-IN</h2>
-                  <div className="center-wrap">
-                    <div className="section text-center">
-                      <div className="form-group">
-                        <input
-                          type="text"
-                          name="mobilenumber"
-                          className="form-style"
-                          placeholder="Mobile number"
-                          value={mobile}
-                          onChange={(e) => setMobile(e.target.value)}
-                          id="logemail"
-                          autoComplete="off"
-                        />
-                        <i className="input-icon uil uil-at"></i>
+    <>
+      <div className='login-popup'>
+        <form className='login-popup-container'>
+          <div className="login-popup-inputs">
+            <div className="login-page">
+
+              <div className="containerl">
+                <div className="row full-height justify-content-center">
+
+                  <label htmlFor="reg-log"></label>
+                  <div className="card-3d-wrap mx-auto">
+                    <div className="card-front">
+                      <div className="login-popup-title">
+                        <h2>LOG IN</h2>
+                        <img onClick={() => setShowlogin(false)} src="cross_icon.png" alt="" />
                       </div>
-                      <div className="form-group mt-2">
-                        <input
-                          type="text"
-                          name="pannumber"
-                          className="form-style"
-                          placeholder="PAN Number"
-                          value={panCard}
-                          onChange={(e) => setPanCard(e.target.value)}
-                          id="pan"
-                          autoComplete="off"
-                        />
-                        <i className="input-icon uil uil-lock-alt"></i>
+
+                      <div className="center-wrap">
+                        <div className="section text-center">
+                          <div className="form-group">
+                            <input
+                              type="text"
+                              name="mobilenumber"
+                              className="form-style"
+                              placeholder="Mobile number"
+                              value={mobile}
+                              onChange={(e) => setMobile(e.target.value)}
+                              id="logemail"
+                              autoComplete="off"
+                            />
+                            <i className="input-icon uil uil-at"></i>
+                          </div>
+                          <div className="form-group mt-2">
+                            <input
+                              type="text"
+                              name="pannumber"
+                              className="form-style"
+                              placeholder="PAN Number"
+                              value={panCard}
+                              onChange={(e) => setPanCard(e.target.value)}
+                              id="pan"
+                              autoComplete="off"
+                            />
+                            <i className="input-icon uil uil-lock-alt"></i>
+                          </div>
+                          <button type="button" className="btn" onClick={handleLogin}>Login</button>
+                          {error && <p className="error">{error}</p>}
+                        </div>
                       </div>
-                      <button className="btn" onClick={handleLogin}>Login</button>
-                      {error && <p className="error">{error}</p>}
                     </div>
                   </div>
+
+
                 </div>
               </div>
 
- 
             </div>
           </div>
-        </div>
+
+
+
+        </form>
       </div>
-    </div>
+
+    </>
   );
 
 };

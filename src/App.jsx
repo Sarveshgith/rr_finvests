@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Main from './pages/Main/Main';
 import About from './components/Frame2/About';
@@ -34,7 +34,10 @@ import Portfolio from './pages/Portfolio_display/Portfolio';
 import Userlogin from './pages/Portfolio_display/Userlogin';
 import Dashboard from './pages/Portfolio_display/Dashboard';
 const App = () => {
+	const [showlogin,setShowlogin] =useState(false)
 	return (
+		<>
+		
 		<div className='app'>
 			<Routes >
 				<Route path='/' element={<Main />} />
@@ -71,6 +74,7 @@ const App = () => {
 
             </Routes>
 		</div>
+</>
 	);
 };
   

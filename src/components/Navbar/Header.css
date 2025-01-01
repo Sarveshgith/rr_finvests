@@ -42,10 +42,10 @@
 	margin-left: 30px;
 }
 .nav-link.active{
-	color:#ededed;
+	color:#ededed !important;
 }
 .nav-link.active:hover{
-	color: #cfa601;
+	color: #cfa601 !important;
 }
 .hide1 {
 	display: none;

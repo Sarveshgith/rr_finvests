@@ -20,6 +20,7 @@ const mockUserData = [
     portfolio: 70000,
     initialInvestment: 60000,
     role: "admin",
+
   },
 ];
 
@@ -49,6 +50,8 @@ const Userlogin = () => {
     try {
       const token = localStorage.getItem('token');
       if (!token) return;
+
+ 
       const response = await axios.get('http://34.100.131.9:5000/api/users/user', {
         headers: { Authorization: `Bearer ${token}` },
       });
@@ -60,6 +63,7 @@ const Userlogin = () => {
       console.error('Fetching user data failed:', error);
     }
   };
+
   const handleLogin = async () => {
     try {
       const token = await loginUser(mobile, panCard);
@@ -117,12 +121,15 @@ const Userlogin = () => {
                   </div>
                 </div>
               </div>
+
+ 
             </div>
           </div>
         </div>
       </div>
     </div>
   );
+
 };
 
 export default Userlogin;

@@ -29,7 +29,10 @@
     font-family: "Raleway", sans-serif;
 
 }
-
+.loginimage{
+    width:300px;
+    height: 300px;
+}
 .mfimg {
     width: 900px;
     height: 400px;
@@ -37,6 +40,16 @@
    
 }
 .Mf-content{
+    background-color:#faf7f515;
+    margin:30px;
+    padding:5px;
+    border-radius: 40px;
+    box-shadow: 10px 4px 6px rgba(224, 223, 223, 0.452), 0 1px 3px rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(20px); /* Adds the glassy effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari compatibility */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Optional border for a frosted look */
+}
+.Mf-content1{
     background-color:#faf7f515;
     margin:30px;
     padding:5px;

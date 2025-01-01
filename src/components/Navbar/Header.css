@@ -129,6 +129,16 @@ a.navbar-brand {
     transition: all 0.3s ease;
 	margin-left :0% !important;;
 }
+.login{
+	background-color: #cfa601;
+	border-radius: 20px;
+	color:#ededed;
+	font-family: 'Noto', serif;
+	margin-right: 15px;
+	border-radius: 20px;
+	margin-right: 15px;
+	margin: 15px;
+}
 
 .header-content6 {
     position: relative;

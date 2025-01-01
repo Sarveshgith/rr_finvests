@@ -2,27 +2,22 @@ import NewsAPI from "newsapi";
 import express from "express";
 import cors from "cors";
 const app = express();
-
-const newsapi = new NewsAPI('32546ef66d1e4e5ea88f1774de963ed8'); // Replace with your NewsAPI key process.env.NEWS_API_KEY
-
-// Enable CORS for all routes
+import axios from "axios";
 app.use(cors());
 
-// Define a route to fetch news
+
 app.get('/', async (_, res) => {
   try {
-    const responses = await  newsapi.v2.everything({
-      q:'investments',
-      pageSize:8,
-      language: 'en',
-    });
-    console.log('NewsAPI response:', responses);
+    console.log("inside");
+    const url = `https://gnews.io/api/v4/search?q=investments&lang=en&max=10&apikey=${process.env.NEWS_API_KEY}`;
+    const response = await axios.get(url);
+    console.log('GNews API response:', response.data);
 
-    if (responses && responses.articles) {
-      res.json(responses.articles);
+    if (response.data && response.data.articles) {
+      res.json(response.data.articles);
     } else {
-      console.error('No sources found in the response');
-      res.status(500).json({ error: 'No sources found' });
+      console.error('No articles found in the response');
+      res.status(500).json({ error: 'No articles found' });
     }
   } catch (error) {
     console.error('Error fetching news:', error.message);
@@ -30,7 +25,6 @@ app.get('/', async (_, res) => {
   }
 });
 
-// Start the server
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);

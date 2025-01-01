@@ -6,43 +6,21 @@ import 'swiper/css/navigation';
 import { Pagination, Navigation,Autoplay } from 'swiper/modules';
 import './News.css';
 
-const staticNewsContent = [
-  {
-    title: "Stocks to Watch",
-    description:
-      "Stocks to watch on December 3: ITC, Pricol, TVS Motor, Swiggy, Torrent Power, Nazara Tech, and more.",
-    link: "https://example.com/stocks",
-    image: "newsimage1.jpg", // Replace with an actual image URL or path
-  },
-  {
-    title: "Elon Musk's Pay Package",
-    description:
-      "Elon Musk’s $56 billion Tesla pay package struck down again, Delaware Judge says board ‘improperly influenced…’",
-    link: "https://example.com/elon",
-    image: "newsimage2.jpg", // Replace with an actual image URL or path
-  },
-  {
-    title: "India's Growth Dip",
-    description:
-      "India's growth may dip below 7% for the first time in four years, economists say.",
-    link: "https://example.com/india-growth",
-    image: "newsimage3.png", // Replace with an actual image URL or path
-  },
-];
 
 const News = () => {
   const [news, setNews] = useState([]);
   const fetchNews = async () => {
     try {
-      const response = await fetch('http://localhost:5000'); // Fetch from backend https://rr-finvests-2.onrender.com
+      const response = await fetch('https://rr-finvests-2.onrender.com'); // Fetch from backend https://rr-finvests-2.onrender.com
       const data = await response.json();
+      console.log(data);
       const formattedNews = data
-        .filter(articles => articles.title && articles.description && articles.url && articles.urlToImage) // Filter out articles with null parameters
+        .filter(articles => articles.title && articles.description && articles.url && articles.image)
         .map((articles) => ({
           title: articles.title,
           description: articles.description,
           link: articles.url,
-          image: articles.urlToImage,
+          image: articles.image,
         }));
       setNews(formattedNews);
     } catch (error) {
@@ -54,24 +32,28 @@ const News = () => {
     fetchNews();
   }, []);
 
+  const handleButtonClick = () => {
+    window.location.href = 'https://economictimes.indiatimes.com/';
+  };
+
   return (
     <main className="news" id="news">
-     <div className="mt-5 mb-5">
- 			 <h1 className="headin2 main__heading">TOP ECONOMIC NEWS</h1>
-			  <button className="explorebutton btn mt-3">Know more →</button>
-			</div>
+      <div className="mt-5 mb-5">
+        <h1 className="headin2 main__heading">TOP ECONOMIC NEWS</h1>
+        <button className="explorebutton btn mt-3" onClick={handleButtonClick}>Know more →</button>
+      </div>
       <div className="swiper">
         <Swiper
           pagination={{ clickable: true }}
           navigation={true}
-		  modules={[Pagination, Navigation, Autoplay]}
+          modules={[Pagination, Navigation, Autoplay]}
           spaceBetween={30}
           slidesPerView={1}
-		  autoplay={{
-			delay: 5000, 
-			disableOnInteraction: false,
-		  }}>
-          {news.map((item, index) => (
+          autoplay={{
+            delay: 5000,
+            disableOnInteraction: false,
+          }}>
+          {news.length > 0 ? news.map((item, index) => (
             <SwiperSlide key={index}>
               <div className="news-slide card">
                 <img src={item.image} alt={item.title} />
@@ -81,7 +63,11 @@ const News = () => {
                 </a>
               </div>
             </SwiperSlide>
-          ))}
+          )) : (
+            <div className="news-slide card">
+              <p className='card-content news-content1 text-center'>Error occured while fetching news. Please retry after sometime</p>
+            </div>
+          )}
         </Swiper>
       </div>
     </main>

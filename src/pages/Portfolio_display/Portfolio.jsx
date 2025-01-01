@@ -1,4 +1,7 @@
-import { useEffect, useState } from 'react';
+
+import React, { useEffect, useState } from 'react';
+
+
 import './Portfolio.css';
 import * as XLSX from 'xlsx';
 import axios from 'axios';
@@ -7,19 +10,16 @@ const Portfolio = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
   const [userData, setUserData] = useState([]);
-
   const [file, setFile] = useState(null);
 
   const handleFileChange = (event) => {
     setFile(event.target.files[0]);
   };
-
   const handleUpload = async () => {
     if (!file) {
       alert('Please select a file to upload');
       return;
     }
-
     const formData = new FormData();
     formData.append('file', file);
     const token = localStorage.getItem('token');
@@ -46,11 +46,9 @@ const Portfolio = () => {
     setUserData(response.data);
     setIsLoading(false);
   };
-
   useEffect(() => {
     fetchUsersData();
   });
-
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
@@ -71,11 +69,11 @@ const Portfolio = () => {
       <div className='file-upload-container'>
         <h2>Upload User Data</h2>
         <input type='file' onChange={handleFileChange} />
-        <button onClick={handleUpload}>Upload</button>
-      </div>
-      <div className='card-container'>
+        <button onClick={handleUpload}>Upload</button>      </div>
+        <div className='card-container'>
         {userData.map((user, index) => (
-          <div className='user-card' key={index}>
+            <div className='user-card' key={index}>
+
             <h2 className='user-name'>{user.name}</h2>
             <p>
               <strong>Mobile:</strong> {user.mobile_no}
@@ -91,7 +89,7 @@ const Portfolio = () => {
             </p>
           </div>
         ))}
-      </div>
+             </div>
     </div>
   );
 };

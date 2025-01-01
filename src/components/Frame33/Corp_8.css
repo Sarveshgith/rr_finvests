@@ -1,4 +1,4 @@
- 
+
   /* Container and Row Styling */
   .container {
     background-color: black;
@@ -11,7 +11,7 @@
     font-family: "Raleway", sans-serif;
     font-size: 36px;
     font-weight: bold;
-    color: #ffffff;
+    color: #333232;
     text-align: center;
     margin-left: 10%;
     margin-right: 5%;
@@ -21,7 +21,7 @@
   .motar-ins1-content2 {
     font-family: "Caudex", serif;
     font-size: 18px;
-    color: #ffffff;
+    color: #323131;
     line-height: 1.6;
     text-align: center;
     margin-bottom: 50px;

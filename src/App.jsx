@@ -33,46 +33,46 @@ import Tools from './pages/Tools/Tools';
 import Portfolio from './pages/Portfolio_display/Portfolio';
 import Userlogin from './pages/Portfolio_display/Userlogin';
 import Dashboard from './pages/Portfolio_display/Dashboard';
-const App = () => {
-	return (
-		<div className='app'>
-			<Routes >
-				<Route path='/' element={<Main />} />
-				<Route path='/about' element={<About />} />
-				<Route path='/news' element={<News />} />
-				<Route path='/Whatwedo' element={<WhatWeDo />} />
-				<Route path='/Mutualfunds' element={<Mutualfunds />} />
-				<Route path='/Main_ins1' element={<Main_ins1 />} />
-				<Route path='/Insurance' element={<Insurances />} />
-				<Route path='/MotorIns' element={<MotorInsurance />} />
-				<Route path='/MotorIns1' element={<MotorIns1 />} />
-				<Route path='/CarIns' element={<CarIns />} />
-				<Route path='/CarIns1' element={<CarIns1 />} />
-				<Route path='/HealthIns' element={<HealthIns />} />
-				<Route path='/HealthIns1' element={<Corp_ins6 />} />
-				<Route path='/Ins1' element={<Insurance1 />} />
-				<Route path='/Ins2' element={<Insurance2 />} />
-				<Route path='/PMS' element={<Pms />} />
-				<Route path='/AIF' element={<Aif />} />
-				<Route path='/Moneyexc' element={<Money_exch />} />
-				<Route path='/Loans' element={<Loan_s />} />
-				<Route path='/Corp_ins' element={<Corp_ins />} />
-				<Route path='/Fire_ins1' element={<Corp_ins1 />} />
-				<Route path='/Fire_ins2' element={<Corp_ins2 />} />
-				<Route path='/Fire_ins3' element={<Corp_ins3 />} />
-				<Route path='/Fire_ins4' element={<Corp_ins4 />} />
-				<Route path='/Marine_ins1' element={<Corp_ins5 />} />
-				<Route path='/Marine_ins2' element={<Corp_ins6 />} />
-				<Route path='/GMC_ins1' element={<Corp_ins7 />} />
-				<Route path='/Engineering_ins1' element={<Corp_ins8 />} />
-				<Route path='/tools' element={<Tools />}/> 
-				<Route path='/portfolio' element={<Portfolio />}/>
-				<Route path='/dashboard/:role/:username' element={<Dashboard />} />
 
-            </Routes>
-		</div>
-	);
+const App = () => {
+  return (
+    <div className='app'>
+      <Routes>
+        <Route path='/' element={<Main />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/news' element={<News />} />
+        <Route path='/Whatwedo' element={<WhatWeDo />} />
+        <Route path='/Mutualfunds' element={<Mutualfunds />} />
+        <Route path='/Main_ins1' element={<Main_ins1 />} />
+        <Route path='/Insurance' element={<Insurances />} />
+        <Route path='/MotorIns' element={<MotorInsurance />} />
+        <Route path='/MotorIns1' element={<MotorIns1 />} />
+        <Route path='/CarIns' element={<CarIns />} />
+        <Route path='/CarIns1' element={<CarIns1 />} />
+        <Route path='/HealthIns' element={<HealthIns />} />
+        <Route path='/HealthIns1' element={<Corp_ins6 />} />
+        <Route path='/Ins1' element={<Insurance1 />} />
+        <Route path='/Ins2' element={<Insurance2 />} />
+        <Route path='/PMS' element={<Pms />} />
+        <Route path='/AIF' element={<Aif />} />
+        <Route path='/Moneyexc' element={<Money_exch />} />
+        <Route path='/Loans' element={<Loan_s />} />
+        <Route path='/Corp_ins' element={<Corp_ins />} />
+        <Route path='/Fire_ins1' element={<Corp_ins1 />} />
+        <Route path='/Fire_ins2' element={<Corp_ins2 />} />
+        <Route path='/Fire_ins3' element={<Corp_ins3 />} />
+        <Route path='/Fire_ins4' element={<Corp_ins4 />} />
+        <Route path='/Marine_ins1' element={<Corp_ins5 />} />
+        <Route path='/Marine_ins2' element={<Corp_ins6 />} />
+        <Route path='/GMC_ins1' element={<Corp_ins7 />} />
+        <Route path='/Engineering_ins1' element={<Corp_ins8 />} />
+        <Route path='/tools' element={<Tools />} />
+        <Route path='/portfolio' element={<Portfolio />} />
+        <Route path='/dashboard/:role/:username' element={<Dashboard />} />
+        <Route path='/userlogin' element={<Userlogin />} />
+      </Routes>
+    </div>
+  );
 };
-  
 
 export default App;

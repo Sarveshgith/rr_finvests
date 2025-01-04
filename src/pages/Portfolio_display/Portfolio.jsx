@@ -1,6 +1,4 @@
-
 import React, { useEffect, useState } from 'react';
-
 
 import './Portfolio.css';
 import * as XLSX from 'xlsx';
@@ -24,7 +22,7 @@ const Portfolio = () => {
     formData.append('file', file);
     const token = localStorage.getItem('token');
     try {
-      const response = await axios.post('http://34.100.131.9:5000/api/users/upload', formData, {
+      const response = await axios.post('https://rrfinvests.sarveswaran.tech/api/users/upload', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
           Authorization: `Bearer ${token}`,
@@ -38,7 +36,7 @@ const Portfolio = () => {
 
   const token = localStorage.getItem('token');
   const fetchUsersData = async () => {
-    const response = await axios.get('http://34.100.131.9:5000/api/users', {
+    const response = await axios.get('https://rrfinvests.sarveswaran.tech/api/users', {
       headers: {
         Authorization: `Bearer ${token}`,
       },
@@ -69,11 +67,11 @@ const Portfolio = () => {
       <div className='file-upload-container'>
         <h2>Upload User Data</h2>
         <input type='file' onChange={handleFileChange} />
-        <button onClick={handleUpload}>Upload</button>      </div>
-        <div className='card-container'>
+        <button onClick={handleUpload}>Upload</button>{' '}
+      </div>
+      <div className='card-container'>
         {userData.map((user, index) => (
-            <div className='user-card' key={index}>
-
+          <div className='user-card' key={index}>
             <h2 className='user-name'>{user.name}</h2>
             <p>
               <strong>Mobile:</strong> {user.mobile_no}
@@ -89,7 +87,7 @@ const Portfolio = () => {
             </p>
           </div>
         ))}
-             </div>
+      </div>
     </div>
   );
 };

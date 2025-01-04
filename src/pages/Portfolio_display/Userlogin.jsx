@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Userlogin.css'; // Add styles here or inline them
 import axios from 'axios';
@@ -23,16 +23,15 @@ const mockUserData = [
   },
 ];
 
-const Userlogin = ({setShowlogin}) => {
+const Userlogin = ({ setShowlogin }) => {
   const [mobile, setMobile] = useState('');
   const [panCard, setPanCard] = useState('');
   const [user, setUser] = useState(null);
   const navigate = useNavigate();
   const [otp, setOtp] = useState('');
-
   const [error, setError] = useState('');
+  const [generatedOtp, setGeneratedOtp] = useState(null);
 
-  const randNum = Math.floor(1000 + Math.random() * 9000);
   const loginUser = async (mobile, panCard) => {
     try {
       const response = await axios.post('https://rrfinvests.sarveswaran.tech/api/users/login', {
@@ -56,11 +55,12 @@ const Userlogin = ({setShowlogin}) => {
       const response = await axios.get('https://rrfinvests.sarveswaran.tech/api/users/user', {
         headers: { Authorization: `Bearer ${token}` },
       });
-      console.log('Fetched user data:', response.data);
+      //console.log('Fetched user data:', response.data);
       if (!response.data) throw new Error('Invalid user data');
 
-      console.log('User data:', response.data);
+      //console.log('User data:', response.data.mobile_no);
       setUser(response.data);
+
       if (response.data.role == 'USER') {
         sendOTP();
       } else {
@@ -73,7 +73,7 @@ const Userlogin = ({setShowlogin}) => {
 
   const handleOTP = async () => {
     try {
-      if (otp == randNum) {
+      if (parseInt(otp) === generatedOtp) {
         navigate(`/dashboard/${user.role}/${user.name}`, { state: { user } });
       } else {
         setError('Invalid OTP');
@@ -85,9 +85,11 @@ const Userlogin = ({setShowlogin}) => {
 
   const sendOTP = async () => {
     try {
+      const newOtp = Math.floor(1000 + Math.random() * 9000);
+      setGeneratedOtp(newOtp);
       const response = await axios.post('https://rrfinvests.sarveswaran.tech/send_msg', {
-        number: user.mobile_no.toString(),
-        msg: randNum.toString(),
+        number: mobile.toString(),
+        msg: newOtp.toString(),
       });
     } catch (error) {
       console.error('OTP sending failed:', error);
@@ -99,7 +101,7 @@ const Userlogin = ({setShowlogin}) => {
       const token = await loginUser(mobile, panCard);
       if (token) {
         localStorage.setItem('token', token);
-        console.log("Logged in successfully")
+        console.log('Logged in successfully');
         fetchUserData();
       }
     } catch (error) {
@@ -175,8 +177,7 @@ const Userlogin = ({setShowlogin}) => {
           </div>
         </div>
       </div>
-
-    </>
+    </div>
   );
 };
 

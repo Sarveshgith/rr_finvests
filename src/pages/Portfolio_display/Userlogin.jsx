@@ -23,7 +23,7 @@ const mockUserData = [
   },
 ];
 
-const Userlogin = () => {
+const Userlogin = ({setShowlogin}) => {
   const [mobile, setMobile] = useState('');
   const [panCard, setPanCard] = useState('');
   const [user, setUser] = useState(null);
@@ -51,11 +51,14 @@ const Userlogin = () => {
   const fetchUserData = async () => {
     try {
       const token = localStorage.getItem('token');
-      if (!token) return;
+      if (!token) throw new Error('Token is missing');
 
       const response = await axios.get('https://rrfinvests.sarveswaran.tech/api/users/user', {
         headers: { Authorization: `Bearer ${token}` },
       });
+      console.log('Fetched user data:', response.data);
+      if (!response.data) throw new Error('Invalid user data');
+
       console.log('User data:', response.data);
       setUser(response.data);
       if (response.data.role == 'USER') {
@@ -96,6 +99,7 @@ const Userlogin = () => {
       const token = await loginUser(mobile, panCard);
       if (token) {
         localStorage.setItem('token', token);
+        console.log("Logged in successfully")
         fetchUserData();
       }
     } catch (error) {
@@ -171,7 +175,8 @@ const Userlogin = () => {
           </div>
         </div>
       </div>
-    </div>
+
+    </>
   );
 };
 

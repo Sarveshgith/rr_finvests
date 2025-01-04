@@ -63,7 +63,7 @@ const Portfolio = () => {
 
   return (
     <div className='portfolio-container'>
-      <h1 className='portfolio-heading'>User Portfolio</h1>
+      <h1 className='portfolio-heading'>USER PORTFOLIO</h1>
       <div className='file-upload-container'>
         <h2>Upload User Data</h2>
         <input type='file' onChange={handleFileChange} />

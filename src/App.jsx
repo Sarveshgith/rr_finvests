@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Main from './pages/Main/Main';
 import About from './components/Frame2/About';

@@ -98,7 +98,7 @@
     text-align: left;
     backdrop-filter: blur(10px);
     padding:10px;
-    width: 280px;
+    width: 250px;
 }
 .pan {
     font-family:'Raleway', sans-serif;
@@ -634,4 +634,40 @@ button:hover {
     background: linear-gradient(91.17deg, #F2994A, #F2C94C);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
+    margin-top: 40px;
+  }
+
+  @media (max-width:770px) {
+    .weather-gradient{
+      width: 40%;
+    }
+    .weather-side{
+      width: 40%;
+    }
+    .mobilenumber,.pan{
+      width: 140px;
+      height: 90px;
+    }
+    .mobilenumber,.pan p{
+      font-size: 15px;
+    }
+    .today-info-container{
+      flex-direction: column;
+      gap: 20px;
+    }
+    .today-info1,.today-info2{
+      height: 100px !important;
+      width: 180px !important;
+    }
+    .title,.value{
+      font-size: 20px !important;
+    }
+    .info-side{
+      padding: 0;
+      padding-top: 30px;
+    }
+    .admin-container h1{
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
   }

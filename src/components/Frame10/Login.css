@@ -36,6 +36,7 @@
     justify-content: space-between;
     align-items: center;
     font-family: 'Noto', serif;
+    margin-bottom: 40px;
 }
 .login-popup-title h2{
     margin-left: 30px;

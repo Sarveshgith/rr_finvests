@@ -161,6 +161,7 @@ a.navbar-brand {
 .header-content3 {
 	color: #4D4C4C;
     text-shadow: none;
+
 }
 
 .btn12:hover {
@@ -289,6 +290,14 @@ a.navbar-brand {
 	.header-content6{
 		height: 610px;
 	} 
+	.header-content1{
+		margin-bottom: 10px;
+		
+	}
+	.header-content2{
+		
+	}
+	
 }
 
 

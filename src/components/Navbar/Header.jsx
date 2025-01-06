@@ -38,7 +38,7 @@ const Header = () => {
 
 				<div className='header-content5'>
 
-				<h2 className='text-center header-content1'>
+				<h2 className='header-content1'>
 					MAKE <span className='intelligent'>INTELLIGENT</span> INVESTMENTS
 				</h2>
 				<h2 className='text-center header-content2'>WITH US</h2>

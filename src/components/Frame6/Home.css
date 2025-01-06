@@ -125,7 +125,7 @@
 @media (max-width:480px) {
     .home{
         position: relative;
-        min-height: 140vh;
+        min-height: 140vh !important;
         margin-bottom: 100px;
     }
     .home-img1{
@@ -152,7 +152,7 @@
 @media (max-width:430px) {
     .home{
         position: relative;
-        min-height: 190vh;
+        min-height: 190vh !important;
         margin-bottom: 100px;
     }
     .home-img1{
@@ -178,7 +178,7 @@
 }
 @media (max-width:380px) {
     .home{
-        height:70%;
+       height: 190vh !important;
         position: relative;
         margin-bottom:20%;
     }

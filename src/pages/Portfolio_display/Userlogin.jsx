@@ -71,7 +71,8 @@ const Userlogin = ({ setShowlogin }) => {
     }
   };
 
-  const handleOTP = async () => {
+  const handleOTP = async (e) => {
+    e.preventDefault();
     try {
       if (parseInt(otp) === generatedOtp) {
         navigate(`/dashboard/${user.role}/${user.name}`, { state: { user } });
@@ -96,7 +97,8 @@ const Userlogin = ({ setShowlogin }) => {
     }
   };
 
-  const handleLogin = async () => {
+  const handleLogin = async (e) => {
+    e.preventDefault();
     try {
       const token = await loginUser(mobile, panCard);
       if (token) {
@@ -110,74 +112,82 @@ const Userlogin = ({ setShowlogin }) => {
   };
 
   return (
-    <div className='login-page'>
-      <div className='sectionl'>
-        <div className='containerl'>
-          <div className='row full-height justify-content-center'>
-            <div className='col-12 text-center align-self-center py-5'>
-              <label htmlFor='reg-log'></label>
-              <div className='card-3d-wrap mx-auto'>
-                <div className='card-front'>
-                  <h2>LOG-IN</h2>
-                  <div className='center-wrap'>
-                    <div className='section text-center'>
-                      <div className='form-group'>
-                        <input
-                          type='text'
-                          name='mobilenumber'
-                          className='form-style'
-                          placeholder='Mobile number'
-                          value={mobile}
-                          onChange={(e) => setMobile(e.target.value)}
-                          id='logemail'
-                          autoComplete='off'
-                        />
-                        <i className='input-icon uil uil-at'></i>
+    <>
+     <div className='login-popup'>
+        <form className='login-popup-container'>
+          <div className="login-popup-inputs">
+            <div className="login-page">
+              <div className="containerl">
+                <div className="row full-height justify-content-center">
+                  <label htmlFor="reg-log"></label>
+                  <div className="card-3d-wrap mx-auto">
+                    <div className="card-front">
+                      <div className="login-popup-title">
+                        <h2>LOG IN</h2>
+                        <img onClick={() => setShowlogin(false)} src="cross_icon.png" alt="" />
                       </div>
-                      <div className='form-group mt-2'>
-                        <input
-                          type='text'
-                          name='pannumber'
-                          className='form-style'
-                          placeholder='PAN Number'
-                          value={panCard}
-                          onChange={(e) => setPanCard(e.target.value)}
-                          id='pan'
-                          autoComplete='off'
-                        />
-                        <i className='input-icon uil uil-lock-alt'></i>
-                      </div>
-                      {user && user.role == 'USER' && (
-                        <div className='form-group mt-2'>
-                          <input
-                            type='text'
-                            name='otp'
-                            className='form-style'
-                            placeholder='Enter OTP'
-                            id='otp'
-                            value={otp}
-                            onChange={(e) => setOtp(e.target.value)}
-                            autoComplete='off'
-                          />
-                          <i className='input-icon uil uil-lock-alt'></i>
+                      <div className="center-wrap">
+                        <div className="section text-center">
+                          <div className="form-group">
+                            <input
+                              type="text"
+                              name="mobilenumber"
+                              className="form-style"
+                              placeholder="Mobile number"
+                              value={mobile}
+                              onChange={(e) => setMobile(e.target.value)}
+                              id="logemail"
+                              autoComplete="off"
+                            />
+                            <i className="input-icon uil uil-at"></i>
+                          </div>
+                          <div className="form-group mt-2">
+                            <input
+                              type="text"
+                              name="pannumber"
+                              className="form-style"
+                              placeholder="PAN Number"
+                              value={panCard}
+                              onChange={(e) => setPanCard(e.target.value)}
+                              id="pan"
+                              autoComplete="off"
+                            />
+                            <i className="input-icon uil uil-lock-alt"></i>
+                          </div>
+
+                          {user && user.role == 'USER' && (
+                            <div className='form-group mt-2'>
+                              <input
+                                type='text'
+                                name='otp'
+                                className='form-style'
+                                placeholder='Enter OTP'
+                                id='otp'
+                                value={otp}
+                                onChange={(e) => setOtp(e.target.value)}
+                                autoComplete='off'
+                              />
+                              <i className='input-icon uil uil-lock-alt'></i>
+                            </div>
+                          )}
+                          <div className='flex flex-col'>
+                            <button className='btn' onClick={user ? handleOTP : handleLogin}>
+                              {user ? 'Verify OTP' : 'Login'}
+                            </button>
+                            {user && <p>OTP is sent to your registered mobile number</p>}
+                          </div>
+                          {error && <p className="error">{error}</p>}
                         </div>
-                      )}
-                      <div className='flex flex-col'>
-                        <button className='btn' onClick={user ? handleOTP : handleLogin}>
-                          {user ? 'Verify OTP' : 'Login'}
-                        </button>
-                        {user && 'OTP is sent to your registered mobile number'}
                       </div>
-                      {error && <p className='error'>{error}</p>}
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </form>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -130,10 +130,8 @@
     box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
 }
 .center {
-    background-image: url('Group2.png');
-    background-size: cover; 
-	background-repeat: no-repeat;
-	background-position: center; 
+   background-color: #cfa601; 
+    
 	width: 100%; 
     width: 200px;
     height: 160px;
@@ -148,6 +146,13 @@
     box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.2), inset -3px -3px 6px rgba(255, 255, 255, 0.7); /* Inner pillow on hover */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for smooth effect */
 }
+.center-text {
+    font-size: 35px; /* Adjust font size as needed */
+    font-weight: bold; /* Bold text */
+    color: #ffffff; /* White text color */
+    text-align: center; /* Center-align text */
+    font-family: "Caudex", serif;
+  }
 
 .center:hover {
     transform: scale(1.05); /* Zoom in effect */
@@ -464,6 +469,13 @@
         left: 34%;
         top: 5%;
     }
+    .center-text {
+        font-size: 25px; /* Adjust font size as needed */
+        font-weight: bold; /* Bold text */
+        color: #ffffff; /* White text color */
+        text-align: center; /* Center-align text */
+        font-family: "Caudex", serif;
+      }
     
 }
 @media (max-width:350px) {

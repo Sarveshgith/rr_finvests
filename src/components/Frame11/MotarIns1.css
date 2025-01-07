@@ -71,7 +71,7 @@
         height: 380px;
     }
     .btn2{
-        margin-left: 30% !important;
+        margin-left: 25% !important;
         margin-top: 0 !important;
     }
     
@@ -105,7 +105,6 @@
         font-style:normal;
         font-size: 30px;
         margin-top: 10% !important;
-        color:aliceblue ;
        }
        .motar-ins1-content1{
         height: 300px !important;
@@ -128,8 +127,13 @@
     .btn2{
         position: relative;
         top: 0%;
-        margin-left: 0% !important;
         height: 40px;
         font-size: 14px !important;
+    }
+    .motar-ins1-content1 img{
+        width: 350px !important;
+        height: 300px !important;
+        margin: 0;
+        border-radius: 40px !important;
     }
 }

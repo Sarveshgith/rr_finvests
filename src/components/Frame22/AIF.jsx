@@ -4,7 +4,7 @@ import { motion } from "motion/react"
 
 const AIF = () => {
   return (
-    <div >
+    <div className='frame21-content3' >
       <motion.div className="frame22-content1 " initial={{opacity:0, y:200}} transition={{duration:1}} whileInView={{opacity:1, y:0}} viewport={{once: true}}>
         <h1 className='text-center'>ALTERNATIVE INVESTMENT FUND</h1>
         <img src="aif.jpg" alt="" className='frame21-img1' />

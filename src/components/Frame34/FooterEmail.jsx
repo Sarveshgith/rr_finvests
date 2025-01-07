@@ -50,7 +50,7 @@ const FooterEmailForm = () => {
 					required
 					className='form2'
 				/>
-				<button type='submit' className=' btn'>
+				<button type='submit' className=' btn '>
 					Send
 				</button>
 			</form>

@@ -131,3 +131,12 @@ body {
         width: 90%; 
     }
 }
+
+@media (max-width:480px) {
+    .footer-column{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
